@@ -6,6 +6,7 @@ style:
 math: mathjax
 paginate: "true"
 footer: Week 4 | Ngozi Harrison | Cluster 10A
+transition: slide
 ---
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
