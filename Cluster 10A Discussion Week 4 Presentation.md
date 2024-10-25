@@ -153,7 +153,7 @@ Split into pairs, choose a term, and find answers to the following questions
 ![](images/Pasted%20image%2020241021110621.png)
 
 ---
-![bg right](../../../../../Files/Pasted%20image%2020241022082017.png)
+![bg right](images/Pasted%20image%2020241022082017.png)
 # R
 - A programming language for statistical computing and data visualization
 - Robust statistics, packages, and tools
@@ -176,7 +176,5 @@ Split into pairs, choose a term, and find answers to the following questions
 - Open the data.census.gov page and look up your home address
 - What data ==does== the census contain about your zip code? 
 - What kinds of questions can you answer with this data 
-
---- 
 
 
