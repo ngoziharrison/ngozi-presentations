@@ -40,12 +40,7 @@ PhD Student, Information Studies
 # **Data history** $\to$ Data Analysis
 
 ---
-<style scoped> 
-h1 {
-font-size: 300%;
-
-}
-</style>
+<!-- _class: title-invert -->
 # The Avalanche of Numbers and Biopower
 
 ---
@@ -174,7 +169,7 @@ Split into pairs, choose a term, and find answers to the following questions
 
 # **Activity** Analyzing Census Data 
 - Open the data.census.gov page and look up your home address
-- What data ==does== the census contain about your zip code? 
+- What data does the census contain about your zip code? 
 - What kinds of questions can you answer with this data 
 
 
