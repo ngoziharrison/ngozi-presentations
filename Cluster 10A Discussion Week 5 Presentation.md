@@ -37,7 +37,7 @@ If you would like to resubmit your keyword essay, let me know via email and make
 
 ---
 # W.E.B. Du Bois 
-![bg left](../Pasted%20image%2020241029100215.png)
+![bg left](images/Pasted%20image%2020241029100215.png)
 
 - Father of American Sociology
 - Sociologist, Philosopher, Pan African organizer, Civil Rights Activist, Science fiction writer
