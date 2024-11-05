@@ -143,12 +143,13 @@ We'll will go around the room and share back
 # DuBois, Data Portraits, and Ways of Seeing
 - Data analysis and visulization is fundamentally an interpretive act
 - DuBois and his team show the power of visualization by combining the abstraction and visual elemnts with 
-- Visualization brings together the storytelling, aesthetics, and the politics of representation to create an opportunity to 
-- Through abstraction, visualization flattens and simplifies to highlight an aspect of reality to convey some information about sociological phenomenon
+- Visualization brings together the storytelling, aesthetics, and the politics of representation 
 
 ---
 >the rendering of information in a visual format to help communicate data while also generating new patterns and knowledge through the act of visualization itself. 
 – Whitney Battle-Baptiste and Britt Rusert
+
+Through abstraction, visualization flattens and simplifies to highlight an aspect of reality to convey some information about sociological phenomenon
 
 ---
 # Analysis and Visualization
