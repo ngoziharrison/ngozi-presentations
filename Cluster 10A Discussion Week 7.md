@@ -51,7 +51,7 @@ PhD Student, Information Studies
 # Activity: Principals of Data Justice
 
 Split into groups of 3. Imagine you are a team of researchers, activists, and data scientists working on a data justice project. Pick a justice issue relevant to metro LA
-- Develop 3 principals of data justice that would guide your work
+- Develop 3 principals of data justice that would guide your workzn
 
 ---
 
