@@ -20,6 +20,11 @@ Ngozi Harrison
 ngozih@g.ucla.edu
 PhD Student, Information Studies
 
+---
+# Today
+- Discuss upcoming assignments
+- Work on database analysis exercise
+- Practice techniques for peer review
 
 ---
 <!-- _class: title-invert -->
@@ -27,52 +32,62 @@ PhD Student, Information Studies
 
 
 ---
-Key takeaways
+# Highlights
+- Great work
+- strong analysis and visualizations
+- Can see the improvement in the clarity and structure of writing
+
+---
+# General Feedback
+- Be mindful of the difference between correlation and causation
+- Be sure to reflect on your own assumptions that inform your research questions and analysis
+- Continue to improve structure, clarity, and flow at a global level in your work
 
 
 ---
-![](https://lh7-rt.googleusercontent.com/slidesz/AGV_vUcSg63z3O_m9v-fLMZnmkGU9W_X5bRj9YRFosiaP7iDfp6dZ47NgFzovUnmMU1hnoQAb4icIGTvTTO8G0EfM9tPHCs97X4nryWhZLpieMLU4ZIbswF-nSs-YkGbSt9m072tC_I9juS5--rrl-WxyBSdGbwEb9I=s2048?key=SRmbQY4tXz-hQfwQkCB8pw)
-
----
-# Reflecting on the Data Portraits project
-- What challenges did you face?
-- How did your survey design or data collection effect your results?
-- What kinds of challenges do you think could come up when working on a data justice project?
-
-
----
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lBwz-Jag1ZE?si=ChHkWVpvnxupr3a6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-# Discussion
-- How does surveillance connect to issues of data justice?
--  What role do documents play in shaping and reinforcing identity
-
-
----
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AEze0_5S2Ow?si=_6peFqV-dDGX1eCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+# Data history $\to$ Data Analysis$\to$**Dataset Analysis**
 
 ---
 
-# Activity: Principals of Data Justice
+# Database Analysis Exercise
 
-Split into groups of 3. Imagine you are a team of researchers, activists, and data scientists working on a data justice project. Pick a justice issue relevant to metro LA
-- Develop 3 principals of data justice that would guide your workzn
+![bg right](../Pasted%20image%2020241119074348.png)
 
----
 
-# Guide to Editing 
-- Writing isn't linear
-- Editing is a process of critically reflecting on your own writing
+<!--Walk through the colab notebook-->
 
 ---
-# Local vs Global Revision
-- Local revision focuses on changes to individual words and sentences
-- Global revision considers structure, evidence, clarity, flow, and mechanics
+# Conducting your data analysis
+- For your data analysis you can use [Colab](https://colab.research.google.com/drive/1F3BZl7_aeuhDrDE6Tuw_MEJnGjiSx6OQ?usp=sharing), [spreadsheet](https://docs.google.com/spreadsheets/d/1TWZu8p7hPSNYv5okJ-dW957zEoxWUkru/edit?gid=768077120#gid=768077120), or [rowboat](https://rowboat.xyz/f/t5s67ixk)
+---
+Need to look at the data and interpret to make arguments but also analyze the dataset itself as an object that has a history and politics
 
 ---
-# AXES Highlighting
+# Questions to consider when analyzing data sets
+- Describe the dataset?
+- Where did this data come from? 
+- Who collected the data and why? What was the method?
+- What does this data purport to represent?
+- What conclusions can be drawn from the data? What are the limitations? 
+- What are the unaddressed assumptions or gaps?
+
 
 ---
-# Preparing for the Final Essay
-Bring your thesis topic, ideas, and outline to section next week
+# Database Analysis Exercise Working Time (40 min min)
+
+
+
+---
+# Data Analysis Essay
+- Rubric TBA
+- Write your rough draft over thanksgiving break and be ready for peer review
+- Rough draft = Intro paragraph + 1-2 body paragraphs + outline
+- Going into peer review and my feedback, think about what you want feedback on
+- Can use sources from inside the class or outside
+
+
+---
+# Peer Review Activity (20 min)
+- Find the latest article from one of the Data, Justice, and Society professors
+- Read the introduction paragraph
+- Fill out the provided form and discuss with your group
