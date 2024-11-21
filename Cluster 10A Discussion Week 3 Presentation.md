@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: 
+theme: ucla
 class: invert
 style: ". columns {  columns: 2; } h 1,  h1, p, li { text-align: left;} p { font-weight: lighter;} /*li {color: #e0def4 ;}*/"
 math: mathjax
