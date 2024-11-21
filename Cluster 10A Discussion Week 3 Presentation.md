@@ -28,7 +28,7 @@ Fall 2024
 
 ---
 
-![](../../../../../Files/Pasted%20image%2020241014114540.png)
+![](images/Pasted%20image%2020241014114540.png)
 
 
 ---
