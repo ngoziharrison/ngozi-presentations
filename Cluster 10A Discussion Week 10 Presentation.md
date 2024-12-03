@@ -5,7 +5,7 @@ class: invert
 style: 
 math: mathjax
 paginate: "true"
-footer: Week 9 | Ngozi Harrison | Cluster 10 A
+footer: Week 10 | Ngozi Harrison | Cluster 10 A
 transition: slide
 ---
 <script type="module">
@@ -13,7 +13,7 @@ transition: slide
   mermaid. initialize ({ startOnLoad: true, theme: 'dark' });
 </script>
 
-# Data, Justice, and Society - Week 9
+# Data, Justice, and Society - Week 10
 
 
 Ngozi Harrison 
