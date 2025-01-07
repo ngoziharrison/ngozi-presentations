@@ -24,7 +24,7 @@ PhD Student, Information Studies
 - Introductions
 - Reflect on the Fall quarter
 - Read and Discuss Recent FTC 
-- Watch and Discuss
+- Watch and Discuss Facebook annoucement
 - Overview of Week 1 Readings
 - Reading together
 
@@ -64,7 +64,7 @@ My research focuses on examining the mathematical, conceptual, and logical found
 ---
 # Discussion Questions
 - What AI harms does this article describe?
-- Why do you think they posted this?
+- Why do you think the FTC posted this?
 - What do you believe are the biggest challenges regarding AI?
 
 
