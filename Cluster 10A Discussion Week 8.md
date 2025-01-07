@@ -51,7 +51,7 @@ PhD Student, Information Studies
 
 # Database Analysis Exercise
 
-![bg right](../Pasted%20image%2020241119074348.png)
+![bg right](../Files/Pasted%20image%2020241119074348.png)
 
 
 <!--Walk through the colab notebook-->

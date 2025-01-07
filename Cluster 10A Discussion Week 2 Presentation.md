@@ -170,11 +170,7 @@ Formalized by C.S. Pierce in the 19 th century, abductive reasoning seeks a plau
 Statistics when combined with Data can be used for it's **descriptive** or **predictive** purposes
 
 ---
-# **Activity** Reading Together
 
-- Download the data politics reading and load into Zotero
-- read the abstract and first 2 pages
-- make three annotations
 
 ---
 # Keyword Assignment
