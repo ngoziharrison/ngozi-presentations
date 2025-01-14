@@ -54,12 +54,12 @@ The Techno-dystopia of Blade Runner reveals a lot about the anxieties surroundin
 ---
 # Activity Analyzing Blade Runner
 
-### Break up into groups and choose a lens to analyze the movie with
+### Break into groups and choose a lens to analyze the movie
 - Gender, Labor, Philosophical, Environmental, Ethical, Race
 ### Questions
 - Name three key themes you see in the movie related to your lens of analysis
 - Choose one scene that encapsulates the key issues of the film.
-- What is techno dystopianism in Blade Runner saying about the present? What might be the effects of techno dystopianism in the here and now?
+- What is the techno dystopianism in Blade Runner saying about the present? What might be the effects of techno dystopianism in the here and now?
 
 ---
 # Tech Utopia vs Tech Dystopia
@@ -115,7 +115,7 @@ Blade Runner's LA is an example of a techno-dystopia
 ---
 # Beliefs Inform Practices
 
-It is important for us to examine the values and beliefs that inform the people who hold power and develop technologies because technology is not a values free enterprise. Decisions are made about priorities, 
+It is important for us to examine the values and beliefs that inform the people who hold power and develop technologies,  technology is not a values free enterprise.
 
 
 ---
@@ -134,6 +134,12 @@ Gebru and Torres argue we should resituate our understanding of various technolo
 
 This is David Starr Jordan, first president of Stanford University and Eugenicist
 
+
+---
+# Eugenics and California
+
+In the early 20th century California was an important center for eugenicist thought. In addition to Stanford University, **The Human Betterment Foundation** was founded in 1928. Psychologist Lewis Terman was a member and created the **IQ test** in 1916. 
+
 ---
 # Eugenics is the science of human racial improvement through controlled reproduction
 
@@ -144,7 +150,9 @@ This is David Starr Jordan, first president of Stanford University and Eugenicis
 # Two kinds of Eugenics
 
 ### Positive Eugenics 
+Refers to the goal of increasing positive/desirable traits and the overall quality of the human stock. Examples include fitness competitions, telling white people to have more babies, encouraging high IQ people to reproduce
 ### Negative Eugenics
+Refers to attempting to reduce less desirable traits in humans. Outlawing miscegenation, limiting immigration, sterilization
 
 
 ---
@@ -175,26 +183,20 @@ A movement that could be seen as the twin sibling of Rationalism. Whereas Ration
 
 Accelerationism is the idea that we must accelerate society, technology, or conflict in order to bring about social change. Many different varieties of accelerationism both left wing, right wing, and variants that don't cleanly fit in the left right binary. Many accelerationists build their arguments on their readings of Baudrillard and Deleuze and Guattari.
 
-In this context we are mostly talking about the accelerationism movement, ideology, and political philosophy developed by Philosopher Nick Land. Nick Land was previously affiliated with the Cybernetic Culture Research Unit of whom Mark Fisher was also a member. A key source for Nick Land's accelerationist thought is his 2017 essay "A Quick-and-Dirty Introduction to Accelerationism". Nick Land has gradually become more right wing and esoteric, coined the term the dark enlightenment. Other thinkers have taken up his ideas and applied them to AI and argue we need to accelerate the race for AI God to bring about the singularity.
+---
+# Accelerationism and AGI
+In this context we are mostly talking about the accelerationism movement, ideology, and political philosophy developed by Philosopher Nick Land. Nick Land was previously affiliated with the Cybernetic Culture Research Unit of whom Mark Fisher was also a member. A key source for Nick Land's accelerationist thought is his 2017 essay "A Quick-and-Dirty Introduction to Accelerationism". Nick Land has gradually become more right wing and esoteric, coined the term the dark enlightenment. Other thinkers have taken up his ideas and applied them to AI and argue we need to accelerate the race for AGI to bring about the singularity.
 
 
 ---
  # e/acc
 
-e/acc is the combination of effective altruism (an outgrowth of utilitarianism that emerged from Stanford) and accelerationism. Idea that we must pursue technological progress at all costs.
+e/acc stands for effective accelerationism is the combination of effective altruism (an outgrowth of utilitarianism that emerged from Stanford) and accelerationism. Idea that we must pursue technological progress at all costs.
 
 ---
 # Discussion Questions
 - Have you encountered any of these movements on the internet or IRL?
 - How do you think we should approach understanding technology and data specifically?
-
-
----
-# My Argument about doomerism and utopia
-
-I am less interested in the particular visions of utopia and dystopia then what those narratives mean for the here and now. How are they being used?
-
-I argue that both doomerism and utopia actually mystify techno-social relations and allow for those in power (i.e. the tech industry) to push their own agendas under the guise of saving humanity
 
 
 ---
