@@ -27,7 +27,7 @@ PhD Student, Information Studies
 
 
 ---
-![bg left](../Pasted%20image%2020250113123445.png)
+![bg left](images/Pasted%20image%2020250113123445.png)
 
 # BLADE RUNNER
 
@@ -98,7 +98,7 @@ Blade Runner's LA is an example of a techno-dystopia
 
 ---
 
-![](../Pasted%20image%2020250113135706.png)
+![](images/Pasted%20image%2020250113135706.png)
 (boyd and Crawford 663)
 
 ---
@@ -123,27 +123,27 @@ It is important for us to examine the values and beliefs that inform the people 
 
 # TESCREAL IDEOLOGIES
 
-Gebru and Torres argue we should resituate our understanding of various technologies emerging ideologies within the long  history of eugenics thought. They also seeks to break up the binary of the doomer/accelerationist paradigm around AGI.
+Gebru and Torres argue we should resituate our understanding of various technologies emerging ideologies within the long  history of eugenic thought. They also seeks to break up the binary of the doomer/accelerationist paradigm around AGI.
 
 **T**ranshumanism **E**xtropianism **S**ingularitarianism **C**osmism **R**ationalism **E**ffective **A**ltruism **L**ongtermism
 
 ---
 ## Stanford University and the History of Eugenics
 
-![bg left](../Pasted%20image%2020250113132926.png)
+![bg left](images/Pasted%20image%2020250113132926.png)
 
 This is David Starr Jordan, first president of Stanford University and Eugenicist
 
 ---
 # Eugenics is the science of human racial improvement through controlled reproduction
 
-![bg right 100%](../Pasted%20image%2020250113132741.png)
+![bg right 100%](images/Pasted%20image%2020250113132741.png)
  [Stanford Eugenics History Project](https://www.stanfordeugenics.com/)
 
 ---
 # Two kinds of Eugenics
 
-### Positive Eugenics
+### Positive Eugenics 
 ### Negative Eugenics
 
 
@@ -159,7 +159,7 @@ Technology often appears to be apoltical and objective, however, last quarter we
 An ideology that emerged from the LessWrong website, founded by Eliezer Yudkowsky in 2009. Rationalists focus on “improving human reasoning and decision making,” and many members believe that advanced AI is “a very big deal for the future of humanity”
 (Gebru and Torres)
 
-![bg right 75%](../Pasted%20image%2020250113133336.png)
+![bg right 75%](images/Pasted%20image%2020250113133336.png)
 
 
 
@@ -207,9 +207,9 @@ I argue that both doomerism and utopia actually mystify techno-social relations 
 ---
 <span class = 'columns'>
 
-![](../Pasted%20image%2020250113154926.png)
+![](images/Pasted%20image%2020250113154926.png)
 
-![](../Pasted%20image%2020250113155000.png)
+![](images/Pasted%20image%2020250113155000.png)
 
 </span>
 
