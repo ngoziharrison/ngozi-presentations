@@ -23,7 +23,6 @@ PhD Student, Information Studies
 # Today
 - Watch Timnit Gebru and Emile Torres Talk (30min)
 - Overview of Readings
-- Zoom Break (10min)
 - Blade Runner Analysis and Discussion
 - Data Politics Essay Q&A
 
