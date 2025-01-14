@@ -190,6 +190,8 @@ e/acc stands for effective accelerationism is the combination of effective altru
 - What kinds of concerns and challenges does Big Data bring?
 - What role do you think data and AI should play in the scientific process?
 
+---
+
 
 ![bg left](images/Pasted%20image%2020250113123445.png)
 
