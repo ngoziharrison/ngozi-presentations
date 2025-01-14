@@ -21,45 +21,14 @@ PhD Student, Information Studies
 
 ---
 # Today
-- Blade Runner Analysis and Discussion
+- Watch Timnit Gebru and Emile Torres Talk (30min)
 - Overview of Readings
+- Zoom Break (10min)
+- Blade Runner Analysis and Discussion
 - Data Politics Essay Q&A
 
-
 ---
-![bg left](images/Pasted%20image%2020250113123445.png)
-
-# BLADE RUNNER
-
-Based on 1968 Philip K. Dick novel *Do Androids Dream of Electric Sheep*
-Released in 1982
-Set in 2019
-
----
-
-> All I can say is that the world in BLADE RUNNER is where I really live. That is where I think I am anyway. This world will now be a world that every member of the audience will inhabit. It will not be my private world. It is now a world where anyone who will go into the theatre and sit down and watch that film will be caught up and the world is so overpowering that it is going to be very hard for people to come out of it and adjust back to what we normally encounter
-– Philip K. Dick quoted in The Official Collector’s Edition Blade Runner Souvenir Magazine 
-
----
-# Blade Runner's Techno-Dystopia
-
-The Techno-dystopia of Blade Runner reveals a lot about the anxieties surrounding technology, globalization, and society in the 1980s
-- Fear of China an Japan Techno-Orientalism
-- Environmental Degredation and Post Nuclear collapse
-- Police State and Crime
-- Housing Shortage
-- Humanoid Androids
-
-
----
-# Activity Analyzing Blade Runner
-
-### Break into groups and choose a lens to analyze the movie
-- Gender, Labor, Philosophical, Environmental, Ethical, Race
-### Questions
-- Name three key themes you see in the movie related to your lens of analysis
-- Choose one scene that encapsulates the key issues of the film.
-- What is the techno dystopianism in Blade Runner saying about the present? What might be the effects of techno dystopianism in the here and now?
+<iframe width="1100" height="615" src="https://www.youtube.com/embed/-bKrMk0RSwY?si=mLmJdoKwtcBsXVch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 # Tech Utopia vs Tech Dystopia
@@ -222,6 +191,40 @@ e/acc stands for effective accelerationism is the combination of effective altru
 - What kinds of concerns and challenges does Big Data bring?
 - What role do you think data and AI should play in the scientific process?
 
+
+![bg left](images/Pasted%20image%2020250113123445.png)
+
+# BLADE RUNNER
+
+Based on 1968 Philip K. Dick novel *Do Androids Dream of Electric Sheep*
+Released in 1982
+Set in 2019
+
+---
+
+> All I can say is that the world in BLADE RUNNER is where I really live. That is where I think I am anyway. This world will now be a world that every member of the audience will inhabit. It will not be my private world. It is now a world where anyone who will go into the theatre and sit down and watch that film will be caught up and the world is so overpowering that it is going to be very hard for people to come out of it and adjust back to what we normally encounter
+– Philip K. Dick quoted in The Official Collector’s Edition Blade Runner Souvenir Magazine 
+
+---
+# Blade Runner's Techno-Dystopia
+
+The Techno-dystopia of Blade Runner reveals a lot about the anxieties surrounding technology, globalization, and society in the 1980s
+- Fear of China an Japan Techno-Orientalism
+- Environmental Degredation and Post Nuclear collapse
+- Police State and Crime
+- Housing Shortage
+- Humanoid Androids
+
+
+---
+# Activity Analyzing Blade Runner
+
+### Break into groups and choose a lens to analyze the movie
+- Gender, Labor, Philosophical, Environmental, Ethical, Race
+### Questions
+- Name three key themes you see in the movie related to your lens of analysis
+- Choose one scene that encapsulates the key issues of the film.
+- What is the techno dystopianism in Blade Runner saying about the present? What might be the effects of techno dystopianism in the here and now?
 
 
 ---
