@@ -30,7 +30,7 @@ PhD Student, Information Studies
 <iframe width="1100" height="615" src="https://www.youtube.com/embed/-bKrMk0RSwY?si=mLmJdoKwtcBsXVch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
-![](../Pasted%20image%2020250114102728.jpg)
+![](images/Pasted%20image%2020250114102728.jpg)
 
 ---
 # Tech Utopia vs Tech Dystopia
