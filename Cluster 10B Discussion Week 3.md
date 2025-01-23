@@ -44,8 +44,7 @@ PhD Student, Information Studies
 # **Activity** Reading Together (individual)
 
 - Download this weeks readings and load into Zotero
-- read the abstract and first page (15min)
-- make three annotations/notes
+- read the abstract  (15min)
 
 ---
 # **Activity** Reading Together (group)
