@@ -46,10 +46,5 @@ PhD Student, Information Studies
 - Don't just take the claims of companies at face value, apply the critical lens we've used in class to think through some of the claims and ask why the companies are making them. Who benefits?
 
 ---
-# Read and reflect
-- Read [We All Live in the Firestorm: Infinite Crisis and the LA Wildfires](https://thetechbubble.substack.com/p/we-all-live-in-the-firestorm-infinite?utm_campaign=post&utm_medium=web) by Jathan Sadowski
-- Reflection Questions
-	- What crisis do you think are important to address 10 years? How are these crisis interrelated?
-	- How is insurance related to data and data collection?
 
 
