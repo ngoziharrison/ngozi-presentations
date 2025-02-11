@@ -50,7 +50,7 @@ PhD Student, Information Studies
 ---
 
 # Coded Bias
-![bg right 90%](../Pasted%20image%2020250211075520-1.png)
+![bg right 90%](images/Pasted%20image%2020250211075520-1.png)
 
 - Features the work of Dr. Joy Buolamwini
 - Also features with Safiya Noble, Zeynep Tufecki, Deb Raji, Timnit Gebru, Cathy O'Neil
@@ -81,7 +81,7 @@ PhD Student, Information Studies
 - Was a revolutionary in the War for Algerian Independence
 - Key thinker on race, philosophy, psychoanalysis, and Black Thought
 
-![bg left](../Pasted%20image%2020250210204853-1.png)
+![bg left](images/Pasted%20image%2020250210204853-1.png)
 
 ---
 # What is the gaze?
@@ -93,7 +93,7 @@ The gaze is the other that sees you. The gaze is what we use to describe the awa
 Dr. Buolamwini uses the coded gaze to refer to the algorithmic biases that lead to social exclusion and discriminatory practices 
 
 ---
-![](../Pasted%20image%2020250210205853-1.png)
+![](images/Pasted%20image%2020250210205853-1.png)
 
 ---
 # Power Asymmetry
