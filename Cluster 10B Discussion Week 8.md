@@ -40,6 +40,8 @@ PhD Student, Information Studies
 - Good
     - A lot of growth in terms of good thesis statements. Strong, descriptive, with good context and focused
     - A lot of improvement in writing ability, voice, and confidence in your ideas
+---
+
 - Room for growth
     - Introducing quotes and citations, using sources. Want to see deeper engagement with sources and readings. Also when introducing quotes need to make sure you tie it back to the argument and clearly show the reader how this connects to the main point you are trying to make. 
     - Practice common introductory phrases for quotes and sources, and look at our readings for examples of introducing citations
