@@ -30,6 +30,7 @@ PhD Student, Information Studies
 - UC Workers Unions AFSCME 3299 and UPTE-CWA to STRIKE Feb 26-28
 - [President of Argentina Meme Coin](https://www.web3isgoinggreat.com/?id=milei-memecoin-promotion)
 - [ANTIQUA ET NOVA: Note on the Relationship Between Artificial Intelligence and Human Intelligence](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html)  released by Vatican 
+- [Young Coders Are Using AI for Everything, Giving "Blank Stares" When Asked How Programs Actually Work](https://futurism.com/young-coders-ai-cant-program)
 
 
 ---
