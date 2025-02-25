@@ -16,6 +16,7 @@ PhD Student, Information Studies
 
 ---
 # What we will work on today
+- Review Notes from Monday's Lecture
 - Discuss News and Current Events
 - Missing Data Assignment Discussion
 - Feedback on Search Essay
