@@ -14,7 +14,7 @@ math: mathjax
 
 Ngozi Harrison
 IS 298B Prof Cindy Nguyen
-PhD Student, Information Studies | Winter '25 3
+PhD Student, Information Studies | Winter '25
 
 ---
 # Overview
@@ -37,7 +37,7 @@ Under the technocultural framework of CTDA, technology is examined by treating c
 # Two Components of Paper
 <div class = "container">
 <div class = "col">Methodology
-<p>The first half of this paper will provide an overview of the theoretical framework and prior work that informs my project. </p>
+<p>The first half of this paper will provide an overview of the theoretical framework and prior work that informs my project. Primarily this means understanding the computational system as a complex interplay of artifact, practices, and beliefs  in terms of decolonial and Black computational thought</p>
 </div>
 <div class = "col">
 Proposed Study
@@ -48,6 +48,8 @@ Proposed Study
 ---
 # Formalizing the Discourses
 Algorithmic culture is constituted by a multiplicity of discourses and practices however I argue for a taxonomy of four discourses: 
+
+make the connections between the discourses and genealogy explicit
 
 | Discourse           | Method of investigation                                        | Mode of Discourse                                    |
 | ------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
