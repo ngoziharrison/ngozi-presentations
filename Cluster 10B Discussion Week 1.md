@@ -35,7 +35,7 @@ from Oakland, CA
 **Previously** Creative Effectiveness Lead @ Google
 **Areas of Interest** Critical AI Studies, Logic, Formal Reasoning and Computation, Race and Digital Justice, Knowledge Organization, Critical information studies
 
-My research focuses on examining the mathematical, conceptual, and logical foundations of information systems and computation and developing decolonized approaches to computation and information
+My research focuses on examining the mathematical, conceptual, and logical foundations of information systems and computation and developing decolonized approaches to mathematics, computation, and information
 
 ---
 # Introductions
