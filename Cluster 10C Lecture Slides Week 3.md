@@ -5,12 +5,12 @@ class: invert
 style: 
 math: mathjax
 paginate: "true"
-footer: Week 2 | Ngozi Harrison | Cluster 10C
+footer: Week 3 | Ngozi Harrison | Cluster 10C
 transition: slide
 ---
 
 
-# The Long History of Computational Reason and Algorithmic Culture
+# The Long History of Computational Reason and Algorithmic Culture - Week 3
 
 Spring 2025
 Ngozi Harrison 
@@ -33,12 +33,47 @@ PhD Student, Information Studies
 
 ![bg right w: 80%](Pasted%20image%2020250411091227.png)
 
----
-](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025?ab=HP-hero-latest-2)
 
 ---
 
-# Discussion Gen AI Policies
+
+Often in seminar classes, the majority of your note-taking happens before class while you read. During class, you develop new ideas and build connections. Then, your notes and the new ideas you've developed come together in your writing assignments and reflections.
+
+---
+# The term Artificial Intelligence was coined in 1956 by John McCarthy and a team of collaborators
+
+
+![bg right](Pasted%20image%2020250411092019.png)
+
+---
+![](Pasted%20image%2020250418071509.png)
+
+---
+# Meet the Author Diane Forsythe 
+- Anthropologist working in the field of Science and Technology Studies (STS)
+- Known for leading research in early AI and informatics, and gender in Computer Engineering
+- Earned Bachelors in Anthropology from Swarthmore College and PhD in Cultural Anthropology from Cornell University in 1974
+
+---
+# What Are Expert Systems?
+Expert systems is an approach within the field of AI that seeks to build computer systems that could perform as a human expert would. 
+
+
+---
+# Building Expert Systems
+As Forsythe describes, building an expert system involves three steps:
+
+1. Collecting information from one or more human informants and/or from documentary sources; 
+2. Ordering that information into procedures (such as rules and constraints) relevant to the operations that the prospective system is intended to perform
+3. Designing or adapting a computer program to apply these rules and constraints in performing the designated operations. (Forsythe, 1993, p. 451)
+
+---
+
+# **Activity** Reading Together (group)
+
+---
+# Writing Workshop
+## Zotero and Research Strategies
 
 ---
 # My Personal Research Process
@@ -48,60 +83,13 @@ PhD Student, Information Studies
 - Britannica and Various Encyclopedias 
 - Google Scholar, JSTOR, UCLA Library, and journals I frequent
 - Keyword Volumes
+- Check Previous Syllabi and Readings
 
 ---
-
-Often in seminar classes, the majority of your note-taking happens before class while you read. During class, you develop new ideas and build connections. Then, your notes and the new ideas you've developed come together in your writing assignments and reflections.
-
----
-# **Activity** Reading Together (group)
-Break into groups of 2
-come up with:
-- 3 big ideas from the reading
-- 2 connections to other readings
-- 1 discussion question
-- Post to discussion board
-
-After 15 min we will share back with the class
+# Example Keyword Presentation Linear Algebra
 
 ---
-# The term Artificial Intelligence was coined in 1956 by John McCarthy and a team of collaborators
-Today we will focus on the history before this moment
-
-![bg right](Pasted%20image%2020250411092019.png)
+# Activity Annotated Bibliography
 
 ---
-# Prehistory of Computational Reason
-
-Prehistory of computational reason describes the many theories, methods, and experiments at creating mechanical and symbolic technologies for automating human reasoning capabilities
-
----
-Within the many attempts at automating reasoning, there are several recurring concepts
-- Abstraction
-- Formalization
-- Classification
-- Data
-- Algorithms
-- Learning
-
----
-![](Pasted%20image%2020250411091827.png)
-
----
-# Meet the Author Meredith Whitaker
-- President of the Signal Foundation
-- Chief Advisor and co-founder of the AI Now Institute
-- Previously worked at Google for 13 years and was a core organizer of the 2018 Google Walkouts
-- Currently working on a dissertation
-![bg right:33% w:300](Pasted%20image%2020250411082356.png)
-
----
-
-![](Pasted%20image%2020250411082856.png)
-
----
-# Meet the Author Rodrigo Ochigame
-- Assistant professor in the Institute of Cultural Anthropology and Development Sociology at Leiden University.
-- Research examines unorthodox models of computational rationality, such as nonclassical logics from Brazil, nonbinary Turing machines from India, and frameworks of information science from Cuba.
-- Ochigame received a BA from the University of California, Berkeley, and a PhD from the Massachusetts Institute of Technology (MIT).
-![bg right:33% w:300](Pasted%20image%2020250411083216.png)
+# Watch 3Blue1Brown Video
