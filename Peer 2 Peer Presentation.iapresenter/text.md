@@ -319,6 +319,7 @@ There are three paradigmatic ways of introducing linear algebra which we can cla
 
 ---
 # Thank You
+
 	Bluesky: @kingnegritude.bsky.social
 	Twitter and IG: @kingnegritude
 	Linkedin: linkedin.com/in/ngozi-harrison
