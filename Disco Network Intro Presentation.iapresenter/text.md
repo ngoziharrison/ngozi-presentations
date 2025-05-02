@@ -14,6 +14,8 @@ Ray has asked for each of you to prepare a quick presentation to introduce to th
 	**Areas of Interest** Critical AI Studies, Critical Data Studies, ML Fairness and Ethics, Mathematics, Critical Information Studies, Black Computational Thought
 	**Research Interests**
 	My research is focused on the social aspects of mathematical knowledge, particularly the mathematical and computational methods behind AI, algorithms, and information systems
+My research interests are Critical Data Studies, Critical AI Studies, Data Justice, and the Social aspects of mathematical knowledge
+My interests lie at the various intersections between technology, information, mathematics, and justice
 
 My research focuses on examining the mathematical, conceptual, and logical foundations of information systems 	and developing decolonized and justice-oriented approaches to data, AI/ML, and information systems
 

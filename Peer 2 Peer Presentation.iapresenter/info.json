@@ -1,0 +1,15 @@
+{
+  "creatorIdentifier" : "net.ia.presenter",
+  "net.ia.presenter" : {
+    "appearance" : "light",
+    "footerleading" : "",
+    "footertrailing" : "slideNumber",
+    "lightbackgroundcolor" : "Transparent",
+    "localFileIdentifier" : "0E92664F-21B7-4A4B-B403-DAA9EF9F056E",
+    "preset" : "Default",
+    "template" : "san francisco"
+  },
+  "transient" : false,
+  "type" : "net.daringfireball.markdown",
+  "version" : 2
+}
