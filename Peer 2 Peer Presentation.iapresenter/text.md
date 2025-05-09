@@ -62,7 +62,7 @@ $\text{blackness} + \text{mathematics} + \text{information}$
 
 
 ---
-	In thinking about Black Computational Thought I am thinking alongside the work of Ramon Amaro, Sylvia Wynter, Eduoard Glissant, Fred Moten, Kattherine McKittrick, Huey P. Newton, Charles W. Mills, Oscar Gandy Jr., Denise Ferreira da Silva, Calvin Warren, Andre Brock, Frantz Fanon, Simone Browne, Ruha Benjamin, Ron Eglash, ... 
+	In thinking about Black Computational Thought I am thinking alongside the work of Safiya Noble, Timnit Gebru, Ramon Amaro, Sylvia Wynter, Eduoard Glissant, Fred Moten, Kattherine McKittrick, Huey P. Newton, Charles W. Mills, Oscar Gandy Jr., Denise Ferreira da Silva, Calvin Warren, Andre Brock, Frantz Fanon, Simone Browne, Ruha Benjamin, Ron Eglash, ... 
 
 
 ---
@@ -92,6 +92,7 @@ A non-comprehensive list of different meanings of the word logic
 /assets/Clipboard 5.png
 size: contain
 
+Created a system of logic based upon african epistemologies. He argues that the domination of western classical logic is a form of cognitive empire
 
 /assets/Clipboard 3.png
 size: contain
@@ -114,6 +115,8 @@ This logic
 
 ###	Formal logic $\leftrightarrow$ Social Logic
 
+In theorizing formal logic and social logic it's important for us to think about the relationship between the two formal logics cocretize and enact social logics and social logics are both enacted by and restricted by the affordances of formal logics
+
 ---
 	##### Provocation
 ### How might we design logics which expand beyond the bounds of western reason and rationality?
@@ -132,12 +135,15 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 ```
-
+$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144$
 
 
 /assets/spiral 3.png
 size: contain
 
+When I first learned about recursion in school it was through the classic fibonnacci algorithm and it was taught as what Gillepsie calls algorithm as trick or a trick of the trade. This is a tool that you can pull out of your toolbox to accomplish specific tasks. 
+Godel's recursive functions is an equivalent model of computation to turings machine
+The spiral as analogy both for the mode of dialectical thought but also recursion
 
 ---
 ### Recursion and African Fractals
@@ -233,7 +239,7 @@ y: top
 
 The film the matrix depicts a all encompasing dystopia which everyday it feels like we are getting closer to. For example I don't know if you all saw Mark Zuckerbergs recent inteview but he says that essentially Facebook wants to provide more people with AI friends to help with the loneliness epidemic
 
-Next to the film we have the critical work by patricia hill collins where she introduces the matrix of domination. Matrix thinking provides a paradigm for us to understand the many dimensions of of how one might experience domination. Particularly focues on Black women 
+Next to the film we have the critical work by patricia hill collins where she introduces the matrix of domination. Matrix thinking provides a paradigm for us to understand the many dimensions of of how one might experience domination or oppression. Particularly focues on Black women 
 
 
 talk about the calvin warren talk about Blackness and Mathematics and his idea of straddling
@@ -300,6 +306,9 @@ There are three paradigmatic ways of introducing linear algebra which we can cla
 
 
 ---
+### Critical Tecnical Practice is a term developed by Phil Agre to describe a way of approaching technological work
+
+---
 	> A critical technical practice will, at least for the foreseeable future, require a split identity -- one foot planted in the craft work of design and the other foot planted in the reflexive work of critique. 
 	
 ---
@@ -314,7 +323,7 @@ There are three paradigmatic ways of introducing linear algebra which we can cla
 	While doing this work, we must also examine the foundations of our methods, hidden epistemologies, and resist reducing social issues to purely technical problems
 ---
 ##### Provocation
-### What does care look like as a technical practice?
+### What does care look like as a critical technical practice?
 
 
 ---
