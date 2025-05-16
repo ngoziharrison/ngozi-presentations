@@ -36,7 +36,7 @@ PhD Student, Information Studies
 
 ---
 # History of Fairness
-- As we learned in the first half of the quarter, algorithms have a long history, so too does the concept of fairness
+- As we learned in the first half of the quarter, algorithms have a long history, so too does the concept of fairnes
 - Often fairness is considered as a judicial and political concept
 
 ---

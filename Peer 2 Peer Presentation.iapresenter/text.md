@@ -2,7 +2,7 @@
 # Toward Black Computational Thought and Critical Technical Practice
 	Ngozi Harrison
 
-As you can see, regular text paragraphs are *not* visible to your audience. This is by design. Body text is your script. Only you can see it. As you can see later, it will be present in the teleprompter when you present. 
+
 
 
 ---
@@ -68,7 +68,6 @@ $\text{blackness} + \text{mathematics} + \text{information}$
 ---
 ## Logic
 
-Putting a lot of text on a slide and reading it out to the audience is the #1 presentation killer. Don't do it. Use headlines or headlines with kickers instead. (Kickers are smaller text above a headline, in this case the word "Easy"). 
 
 
 ---
@@ -109,7 +108,7 @@ size: contain
 
 In a paper called  Digital detritus: 'Error' and the logic of opacity in social media content moderation Roberts talks about the operating logic of opacity that guides social media platforms and content moderation
 
-This logic 
+
 
 ---
 
@@ -123,7 +122,7 @@ In theorizing formal logic and social logic it's important for us to think about
 ---
 ## Recursion
 
-Headlines are shown by default. If you want to display body text on the slide, put a tab in front of the text. You can also use tabs before body text or other headings to create kickers.
+
 
 
 ---
@@ -168,7 +167,7 @@ size: contain
 /assets/Sankofa_bird_symbol.svg.png
 size: contain
 
-Sankofa (pronounced SAHN-koh-fah) is a word in the Twi language of Ghana meaning “to retrieve" (literally "go back and get"; san - to return; ko - to go; fa - to fetch, to seek and take) and also refers to the Bono Adinkra symbol represented either with a stylized heart shape or by a bird with its head turned backwards while its feet face forward carrying a precious egg in its mouth. Sankofa is often associated with the proverb, “Se wo were fi na wosankofa a yenkyi," which translates as: "It is not wrong to go back for that which you have forgotten."[1][2] 
+
 
 Not just a recovery but looking to pasts, alternatives, and contigent futures that are both transformative and repairative
 “In closing, I want to be clear: Black Computational Thought is not just a historic  
@@ -176,17 +175,13 @@ recovery of the fact that Black people have done some shit with numbers. It is a
 epistemic confrontation with the logics of computation situated elsewhere and  
 challenges the very nature of what we consider computation to be and to have been. It  
 is an argument for forms of computing embedded in technologies of living,[28] connected to care work, to fullness,  
-to difference, and to shared practices of risky meaning making.” ([Morrison, 2022](zotero://select/library/items/4URBXAM7)) ([snapshot](zotero://open-pdf/library/items/GHX7L5GA?sel=%23p35&annotation=YP2E2NFI))
+to difference, and to shared practices of risky meaning making.” ([Morrison, 2022)
 
 ---
 ##### Provocation
 ### How does recursion affect our understanding of the relationship between temporality and computation?
 
-But no rule without exception! If you want to discuss a paragraph of Shakespeare in literature class, add a tab (⇥) in front of it. 
 
-Use text as your script and choose visible elements carefully. Remember: less is more.
-
-Here's another bad habit:
 
 
 ---
