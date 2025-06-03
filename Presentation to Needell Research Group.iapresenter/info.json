@@ -1,0 +1,21 @@
+{
+  "creatorIdentifier" : "net.ia.presenter",
+  "net.ia.presenter" : {
+    "appearance" : "light",
+    "bodyfont" : "Helvetica",
+    "darkbackgroundcolor" : "#2d2d2d",
+    "darkbodytextcolor" : "#2d2d2d",
+    "darktitletextcolor" : "#000000",
+    "footerleading" : "date",
+    "footertrailing" : "slideNumber",
+    "headerleading" : "logo",
+    "headertrailing" : "Ngozi Harrison",
+    "lightbackgroundcolor" : "#fbffff",
+    "localFileIdentifier" : "DEEB1AE7-9B95-479D-9003-DCF0EB86D380",
+    "logo" : "\/assets\/Screenshot 2025-06-02 at 7.39.03 AM.png",
+    "titlefont" : "Helvetica Neue"
+  },
+  "transient" : false,
+  "type" : "net.daringfireball.markdown",
+  "version" : 2
+}

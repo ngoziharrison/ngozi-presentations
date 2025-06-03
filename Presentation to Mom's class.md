@@ -131,7 +131,7 @@ Increasingly there are new tools marketed toward students and researchers to mak
 Due to some of the accuracy, and ethical/social concerns with AI systems I advocate for careful consideration and use of AI tools within research practice. 
 Current ways I use AI tools:
 - Finding research articles and sources
-- Editing and grammer
+- Editing and grammar
 - Brainstorming and outlining
 - Writing emails
 

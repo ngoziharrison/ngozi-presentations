@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
+<link rel="stylesheet" href="engine/main.css">
+<link rel="stylesheet" href="theme/sanfrancisco.css">
+<link rel="stylesheet" href="engine/katex/katex.min.css">
+<style>
+:root{
+--logo: /assets/screenshot 2025-06-02 at 7.39.03 am.png;
+--darkaccent1color: #fff;
+--lightaccent1color: #fff;
+--accent2: #43aa8b;
+--accent3: #f9c74f;
+--accent4: #90be6d;
+--accent5: #f8961e;
+--accent6: #577590;
+--lighttitletextcolor: #fff;
+--darktitletextcolor: #000000;
+--lightbodytextcolor: #fff;
+--darkbodytextcolor: #2d2d2d;
+--lightbackgroundcolor: #fbffff;
+--darkbackgroundcolor: #2d2d2d;
+--bodyfont: helvetica;
+--titlefont: helvetica neue;
+--lightframecolor: #000000;
+--darkframecolor: #000000;
+} 
+
+</style>
+</head>
+<body class="responsive">
+<div class="reveal">
+<div class="slides">
+<section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h1 id="fairnessinmachinelearning">Fairness in Machine Learning</h1>
+
+<h3 id="asociotechnicalperpsectivewip">A Sociotechnical Perpsective (WIP)</h3>
+
+<p>Ngozi Harrison</p>
+
+<p>PhD Student, UCLA Information Studies</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">1</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.766rem;">
+        <div style=""><h3 id="aboutme">About Me</h3>
+
+<p>2nd year PhD Student in the Department of Information Studies, UCLA</p>
+
+<p>from Oakland, CA</p>
+
+<p><strong>Previously</strong> Creative Effectiveness Lead @ Google</p></div>
+        <div style=""><p><strong>Areas of Interest</strong> ML Fairness and Ethics, Social Aspects of Mathematical knowledge, Data Justice, Critical AI Studies</p>
+
+<p><strong>Research Interests</strong></p>
+
+<p>My research is focused on critically examining the mathematical and computational methods behind AI, Machine Learning, and sociotechnical systems</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">2</div></div>
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.766rem;">
+        <div style=""><h1 id="agenda">Agenda</h1></div>
+        <div style=""><ol>
+<li>Background and Motivation</li>
+<li>Bridging the Discipline Gap</li>
+<li>The (Unsolvable) Problem of Fairness</li>
+<li>Critical Technical Practice</li>
+<li>History of Algorithmic fairness</li>
+<li>Classifying Approaches to Fairness</li>
+<li>Discussion</li>
+</ol></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">3</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 1rem;">
+        <div style=""><h1 id="backgroundandmotivation">Background and Motivation</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">4</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.813rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>“Part of the challenge of understanding algorithmic oppression is to understand that mathematical formulations to drive automated decisions are made by human beings. While we often think of terms such as “big data” and “algorithms” as being benign, neutral, or objective, they are anything but.” (Noble, p. 19)</p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">5</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 1rem;">
+        <div style="">
+          <h3 id="techcompaniesandthealgorithmstheydeployhaveanoutsizedinfluenceonsociety.">Tech companies and the algorithms they deploy have an outsized influence on society.</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">6</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.578rem;">
+        <div style=""><h1 id="asociotechnicalperspectiveconsidersthehistoricalsocialculturalcontextsandpowerrelationsinwhichtechnologiesareembedded">A sociotechnical perspective considers the historical, social, cultural contexts and power relations in which technologies are embedded</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">7</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 1rem;">
+        <div style="">
+          <h3 id="thesealgorithmsinmanycasesremarkablyeffectivebuttheyoftenexacerbateissuesofbiassocialjusticeandfairness">These algorithms in many cases remarkably effective but they often exacerbate issues of bias, social justice, and fairness</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">8</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.859rem;">
+        <div style=""><h1 id="bridgingthedisciplinegap">Bridging The Discipline Gap</h1>
+
+<p>There is a gap between Machine Learning, Computer Science and Applied Math on one side and STS, Humanities, Information Science/Studies, Critical AI studies, and Critical Data Studies on another side</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">9</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split media-grid" style="width: 100%; font-size: 0.672rem;">
+        <div style=""><h1 id="atuclathisgapisgeographical">At UCLA this gap is geographical</h1></div>
+        <figure style=""><img src="images/Clipboard.png" class=" size-contain position-center-center"></figure>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">10</div></div>
+</section><section class="variable-size-headings has-header has-footer light full-image-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-full-image media-grid" style="width: 100%; font-size: 1rem;">
+        <figure style=""><img src="images/Clipboard%204.png" class=" size-contain position-center-center"></figure>
+        
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">11</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.625rem;">
+        <div style=""><h1 id="reasonsforthisgap">Reasons for this Gap</h1>
+
+<ul>
+<li>Differences in Knowledge Production Practices and language</li>
+<li>Similar use of terms very different meaning, not always obvious</li>
+<li>Difficult to translate technical topics for non-technical audiences</li>
+<li>Differences in methods</li>
+<li>Normative vs Reflexive approaches</li>
+<li>Pedagogy</li>
+<li>Lack of spaces and incentive for interdisciplinary collaboration</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">12</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><h6 id="howdowetranslatetransposetransformacrossthesedomains">How do we translate/transpose/transform across these domains</h6>
+
+<p>Mathematically, fairness is an optimization problem</p>
+
+<p>From a sociotechnical perspective fairness is a moral, ethical, and societal problem</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">13</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 1rem;">
+        <div style=""><h1 id="theunsolvableproblemoffairness">The (Unsolvable) Problem of Fairness</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">14</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default media-grid" style="width: 100%; font-size: 1rem;">
+        <div style=""><h6 id="themachinelearningloop">The Machine Learning Loop</h6>
+<div class="single-image-wrapper"><figure><img src="images/Pasted%20image%2020250509083059.png" class=" size-contain position-center-center"></figure></div></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">15</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.813rem;">
+        <div style=""><h4 id="therearefourproblemswhendoingfairnesswork">There are Four Problems when doing fairness work</h4>
+
+<ul>
+<li>Technocentric solutions</li>
+<li>Differences in the meaning of fairness</li>
+<li>Lack of contextual, historical, and societal understanding</li>
+<li>Failure to consider the legitimacy of certain applications</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">16</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light title-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-title" style="width: 100%; font-size: 1rem;">
+        <div style=""><h2 id="manyapproachestoethicsandfairnessaretechno-centric">Many approaches to ethics and fairness are techno-centric</h2></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">17</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.625rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>“The fact that machine learning is “evidence-based” by no means ensures that it will lead to accurate, reliable, or fair decisions. This is especially true when using machine learning to model human behavior and characteristics. Our historical examples of the relevant outcomes will almost always reflect historical prejudices against certain social groups, prevailing cultural stereotypes, and existing demographic inequalities. And finding patterns in these data will often mean replicating these very same dynamics.” (Barocas et al., p. 2)</p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">18</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 1rem;">
+        <div style="">
+          <h3 id="lackofcontextualunderstanding">Lack of Contextual Understanding</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">19</div></div>
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.953rem;">
+        <div style=""><h3 id="theframingtrap">The Framing Trap</h3>
+
+<p>Selbst et al. use the term The Framing Trap to a common problem in fair-ML work that results in ineffective and potentially dangerous solutions.</p></div>
+        <div style=""><p><strong>The Framing Trap</strong> is a failure to model the entire system over which fairness will be enforced</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">20</div></div>
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 0.953rem;">
+        <div style="">
+          <h3 id="fundamentallyfairnessisamoralandethicalconceptforexaminingthedecisionsmakebyinstitutionalandalgorithmicprocesses.">Fundamentally Fairness is a moral and ethical concept for examining the decisions make by institutional and algorithmic processes.</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">21</div></div>
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.766rem;">
+        <div style=""><h1 id="algorithmicfairnessandlegitimacy">Algorithmic Fairness and Legitimacy</h1></div>
+        <div style=""><p>Algorithmic fairness is not just about individual outcomes but also the overall legitimacy of algorithmic decision making and the legitimacy of the organizations and individuals deploying it</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">22</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 1rem;">
+        <div style=""><h1 id="criticaltechnicalpractice">Critical Technical Practice</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">23</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 1rem;">
+        <div style="">
+          <h3 id="criticaltechnicalpracticeisatermdevelopedbyphilagretodescribeawayofapproachingtechnologicalwork">Critical Technical Practice is a term developed by Phil Agre to describe a way of approaching technological work</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">24</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>A critical technical practice will, at least for the foreseeable future, require a split identity -- one foot planted in the craft work of design and the other foot planted in the reflexive work of critique. </p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">25</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.766rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>Successfully spanning these borderlands, bridging the disparate sites of practice that computer work brings uncomfortably together, will require a historical understanding of the institutions and methods of the field, and it will draw on this understanding as a resource in choosing problems, evaluating solutions, diagnosing difficulties, and motivating alternative proposals. (Agre, 1998)</p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">26</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 1rem;">
+        <div style=""><h3 id="reflexivity">Reflexivity</h3>
+
+<p>Calls for ML fairness data justice, quantitative justice, computational justice argue for the use of formal methods to pursue justice and reduce bias</p></div>
+        <div style=""><p>While doing this work, we must also examine the foundations of our methods, hidden epistemologies, and resist reducing social issues to purely technical problems</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">27</div></div>
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 1rem;">
+        <div style="">
+          <h3 id="historyofalgorithmicfairness">History of Algorithmic Fairness</h3>
+
+<p>Fairness work has significantly grown in prevelence within the ML research community. However algorithmic fairness as a topic has a much longer history</p>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">28</div></div>
+</section><section class="variable-size-headings has-header has-footer light full-image-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-full-image media-grid" style="width: 100%; font-size: 1rem;">
+        <figure style=""><img src="images/Clipboard%207.png" class=" size-contain position-center-center"></figure>
+        
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">29</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.485rem;">
+        <div style=""><h1 id="fairnessinmachinelearning">Fairness in Machine Learning</h1>
+
+<h3 id="asociotechnicalperpsectivewip">A Sociotechnical Perpsective (WIP)</h3>
+
+<p>Ngozi Harrison</p>
+
+<p>PhD Student, UCLA Information Studies</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">1</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present fitted has-light-background" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 0.813rem;">
+        <div style="">
+          <h3 id="insuranceindustryandrace">Insurance Industry and Race</h3>
+
+<p>During the Transatlantic slave trade, risk classification and racial classification were intimately linked. </p>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">31</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.766rem;">
+        <div style=""><p>During this time, fairness was primarily seen as a duty to fairly adjudicate between slave traders, their financiers, and insurance providers based on laws, actuarial tables, and risk assessment algorithms</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">32</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.485rem;">
+        <div style=""><blockquote class="is-single-quote"><div class="line"></div>
+<p>Statistics tell only half of the story, and, in doing so, they become part of the problem. How to correlate the number of lashes a person's ancestor received 190 years ago with their likelihood of being unemployed in July 2020? Or being in the criminal justice system? Or dying of COVID-19? (da Silva, Unpayable Debt 2022, 166) </p>
+<div class="line"></div></blockquote></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">33</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.391rem;">
+        <div style=""><h1 id="facctandthefair-mlcommunity">FAccT and the Fair-ML Community</h1>
+
+<p>ACM FAccT is the Conference on Fairness, Accountability, and Transparency sponsored by the Association of Computing Machinery (ACM). This conference has become the home for researchers who are interested in ethics, fairness, accountability, bias, and transparency from a multidisciplinary perspective</p>
+
+<p>The first FAccT conference was held in New York in 2018</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">34</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.625rem;">
+        <div style=""><h1 id="classifyingapproachestofairness">Classifying Approaches to Fairness</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">35</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 0.578rem;">
+        <div style="">
+          <h3 id="classificationwithininformationstudies">Classification within Information Studies</h3>
+
+<p>Knowledge organization is a subarea of information studies focused on the description of documents, indexing and classification in order to provide ways of representing and organizing information objects</p>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">36</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 1rem;">
+        <div style=""><p>Classification organizes information objects by considering them via a number of attributes</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">37</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light section-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-section" style="width: 100%; font-size: 0.625rem;">
+        <div style="">
+          <h3 id="criticalinformationstudiesarguesthatbuildingclassificationschemesandtheactofclassifyingisabothatechnicalandsocio-politicalprocess">Critical information studies argues that building classification schemes and the act of classifying is a both a technical and socio-political process</h3>
+        </div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">38</div></div>
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.906rem;">
+        <div style=""><h1 id="briefsurveyofrelevantwork">Brief Survey of Relevant Work</h1></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">39</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light full-image-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-full-image media-grid" style="width: 100%; font-size: 1rem;">
+        <figure style=""><img src="images/Clipboard%206.png" class=" size-contain position-center-center"></figure>
+        
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">40</div></div>
+</section><section class="variable-size-headings has-header has-footer light full-image-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-full-image media-grid" style="width: 100%; font-size: 1rem;">
+        <figure style=""><img src="images/Clipboard%205.png" class=" size-contain position-center-center"></figure>
+        
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">41</div></div>
+</section><section class="variable-size-headings has-header has-footer light full-image-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-full-image media-grid" style="width: 100%; font-size: 1rem;">
+        <figure style=""><img src="images/Clipboard%208.png" class=" position-center-center"></figure>
+        
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">42</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.391rem;">
+        <div style=""><p><strong>Abstract:</strong></p>
+
+<p>This project combines a machine learning and qualitative approach to analyze definitions and mathematical formalizations of fairness within machine learning research in order to identify the values enccoded in such research, classify different approaches, and identify the opportunities and limitations of fairness as a framework. My goal with this is to build a taxonomy for classifying different approaches to fairness, along with a critical analysis of machine learning methods that can inform future approaches to machine learning research and Critical AI studies</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">43</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.438rem;">
+        <div style=""><h1 id="researchquestions">Research Questions</h1></div>
+        <div style=""><ul>
+<li>What are the definitions of Fairness in the literature across the Mathematics of Machine Learning, Machine learning/FAccT community, and Critical AI studies?</li>
+<li>What are the gaps and limitations in current literature?</li>
+<li>What are the values expressed in research papers? How do these inform fairness work?</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">44</div></div>
+</section><section class="variable-size-headings has-header has-footer light v-split-container responsive present has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-v-split" style="width: 100%; font-size: 0.813rem;">
+        <div style=""><h3 id="mixedmethodsapproach">Mixed Methods Approach</h3></div>
+        <div style=""><p><strong>Qualitative</strong> Values Coding</p>
+
+<p><strong>Computational</strong> Topic Modelling via Non-negative Matrix Factorization</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">45</div></div>
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.438rem;">
+        <div style=""><h3 id="potentialkeycontributions">Potential Key Contributions</h3>
+
+<ul>
+<li>Development of annotation scheme for analyzing fairness in machine learning research papers</li>
+<li>Develop classifcation system for definitions and formalizations of fairness</li>
+<li>Present mixed methods approach incorporating qualtiatve and NMF approaches which could be leverages in future work</li>
+<li>Present framework for critically assessing in progress work on fairness</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">46</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light default-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-default" style="width: 100%; font-size: 0.391rem;">
+        <div style=""><h4 id="questionsfordiscussion">Questions for Discussion</h4>
+
+<ul>
+<li>What canonical papers about fairness, specifically as it relates to PCA and NMF, should I be looking at</li>
+<li>What would you like to know about fairness?</li>
+<li>Would this work be helpful?</li>
+<li>Recomendations for Implementing NMF</li>
+<li>Planning to take Math 115A next quarter and would love any tips on how to prepare this summer</li>
+</ul></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">47</div></div>
+      
+</section><section class="variable-size-headings has-header has-footer light cover-container responsive present fit-warning has-light-background fitted" data-updated="true" style="display: grid;">
+
+      <div class="header"><div class="leading"><img class="logo" src="images/Screenshot%202025-06-02%20at%207.39.03%E2%80%AFAM.png"></div><div class="middle"></div><div class="trailing">Ngozi Harrison</div></div>
+      <div class="layout-cover" style="width: 100%; font-size: 0.25rem;">
+        <div style=""><h1 id="references">References</h1>
+
+<p>Barocas, S., Hardt, M., &amp; Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. The MIT Press.</p>
+
+<p>Friedler, S. A., Scheidegger, C., &amp; Venkatasubramanian, S. (2016). On the (im)possibility of fairness (No. arXiv:1609.07236). arXiv. https://doi.org/10.48550/arXiv.1609.07236</p>
+
+<p>Jr, D. M., Prabhakaran, V., Kuhlberg, J., Smart, A., &amp; Isaac, W. S. (2020). Extending the Machine Learning Abstraction Boundary: A Complex Systems Approach to Incorporate Societal Context (No. arXiv:2006.09663). arXiv. https://doi.org/10.48550/arXiv.2006.09663</p>
+
+<p>Le Bui, M., &amp; Noble, S. U. (2020). We’re Missing a Moral Framework of Justice in Artificial Intelligence: On the Limits, Failings, and Ethics of Fairness. In M. D. Dubber, F. Pasquale, &amp; S. Das (Eds.), The Oxford Handbook of Ethics of AI (pp. 161–179). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780190067397.013.9</p>
+
+<p>Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. New York University Press.</p>
+
+<p>Ochigame, R. (2020, January 30). The Long History of Algorithmic Fairness. Phenomenal World. https://www.phenomenalworld.org/analysis/long-history-algorithmic-fairness/</p>
+
+<p>Selbst, A. D., Boyd, D., Friedler, S. A., Venkatasubramanian, S., &amp; Vertesi, J. (2019). Fairness and Abstraction in Sociotechnical Systems. Proceedings of the Conference on Fairness, Accountability, and Transparency, 59–68. https://doi.org/10.1145/3287560.3287598</p></div>
+      </div>
+      <div class="footnotes"></div>
+      <div class="footer"><div class="leading">6/3/25</div><div class="middle"></div><div class="trailing">48</div></div>
+      
+</section></div>
+</div>
+<script src="engine/index.js"></script>
+<script src="engine/pptxgen.min.js"></script>
+<script src="engine/pfill.js"></script>
+<script src="engine/published.js"></script>
+<script>
+Reveal.configure({
+progress:true,
+progress:true,
+dependencies: [
+  {
+    src: "engine/highlight.js",
+    sync: true,
+    callback: function () {
+      hljs.initHighlightingOnLoad();
+    },
+  },
+],
+});
+</script>
+</body>
+</html>

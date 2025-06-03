@@ -111,3 +111,4 @@ This will be helpful later for your autoethnography assignment
 # Further Customization and development
 - Can use Modelfiles to create custom models with parameters and a system message
 - Ollama exposes an API on localhost and you have write applications and scripts that use the local ollama models
+- Fine tuning 
