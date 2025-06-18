@@ -35,13 +35,13 @@ PhD Student, Information Studies
 ---
 # Generative AI is One Part of Many Different Approaches and Technologies under the Umbrella of Artificial Intelligence
 
-![bg right w: 80%](Files/Pasted%20image%2020250411091227.png)
+![bg right w: 80%](ngozi-presentations/images/Pasted%20image%2020250411091227.png)
 
 ---
 
 
 
-[![](Files/Pasted%20image%2020250411090812.png)](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025?ab=HP-hero-latest-2)
+[![](ngozi-presentations/images/Pasted%20image%2020250411090812.png)](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025?ab=HP-hero-latest-2)
 
 ---
 
@@ -76,7 +76,7 @@ After 15 min we will share back with the class
 # The term Artificial Intelligence was coined in 1956 by John McCarthy and a team of collaborators
 Today we will focus on the history before this moment
 
-![bg right](Files/Pasted%20image%2020250411092019.png)
+![bg right](ngozi-presentations/images/Pasted%20image%2020250411092019.png)
 
 ---
 # Prehistory of Computational Reason
@@ -93,7 +93,7 @@ Within the many attempts at automating reasoning, there are several recurring co
 - Learning
 
 ---
-![](Files/Pasted%20image%2020250411091827.png)
+![](ngozi-presentations/images/Pasted%20image%2020250411091827.png)
 
 ---
 # Meet the Author Meredith Whitaker
@@ -101,15 +101,15 @@ Within the many attempts at automating reasoning, there are several recurring co
 - Chief Advisor and co-founder of the AI Now Institute
 - Previously worked at Google for 13 years and was a core organizer of the 2018 Google Walkouts
 - Currently working on a dissertation
-![bg right:33% w:300](Files/Pasted%20image%2020250411082356.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250411082356.png)
 
 ---
 
-![](Files/Pasted%20image%2020250411082856.png)
+![](ngozi-presentations/images/Pasted%20image%2020250411082856.png)
 
 ---
 # Meet the Author Rodrigo Ochigame
 - Assistant professor in the Institute of Cultural Anthropology and Development Sociology at Leiden University.
 - Research examines unorthodox models of computational rationality, such as nonclassical logics from Brazil, nonbinary Turing machines from India, and frameworks of information science from Cuba.
 - Ochigame received a BA from the University of California, Berkeley, and a PhD from the Massachusetts Institute of Technology (MIT).
-![bg right:33% w:300](Files/Pasted%20image%2020250411083216.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250411083216.png)

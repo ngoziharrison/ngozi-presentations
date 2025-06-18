@@ -100,13 +100,13 @@ A lesson here is that as we investigate algorithms and begin to transition into 
 ---
 
 # Meet the Author Matt Bui
-![bg right:33% w:300](Files/Pasted%20image%2020250404080822.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250404080822.png)
 - Matt Bui is an Assistant Professor at the University of Michigan School of Information
 - Bui's research focuses on the local and racial politics of data driven technologies and platforms in order to identify community driven interventions for social and racial justice. 
 - Bui graduated from the University of Southern California with a PhD in Communication. He received his MSc in Media and Communication from the London School of Economics and graduated from UCLA with a BA in Communication
 ---
 # Meet the Author Safiya U. Noble
-![bg right:33% w:300](Files/Pasted%20image%2020250404081007.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250404081007.png)
 
 - Safiya U. Noble is the David O. Sears Presidential Endowed Chair of Social Sciences and Professor at the University of California, Los Angeles (UCLA)
 - Noble's academic research focuses on the internet, data, and its impact on society
@@ -114,14 +114,14 @@ A lesson here is that as we investigate algorithms and begin to transition into 
 
 ---
 
-![](Files/Pasted%20image%2020250404082916.png)
+![](ngozi-presentations/images/Pasted%20image%2020250404082916.png)
 
 ---
 # Technical $\to$ Sociotechnical 
 The goal of this class is to move from a purely technical understanding of AI systems to a sociatechnical perspective that considers the historical, social, and cultural contexts and power relations that inform these technologies
 
 ---
-![](Files/Pasted%20image%2020250404083219.png)
+![](ngozi-presentations/images/Pasted%20image%2020250404083219.png)
 
 ---
 # Writing Workshop Reading

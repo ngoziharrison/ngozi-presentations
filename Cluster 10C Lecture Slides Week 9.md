@@ -234,7 +234,7 @@ Break up into groups of 2. Using your assigned reading discuss within your group
 
 
 ---
-![](Pasted%20image%2020250523095611.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523095611.png)
 
 
 

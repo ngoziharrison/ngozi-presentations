@@ -26,18 +26,18 @@ PhD Student, Information Studies
 - Peer Review
 
 ---
-![](Pasted%20image%2020250523084115.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523084115.png)
 
 ---
-![](Pasted%20image%2020250523084212.png)
-
-
----
-![](Pasted%20image%2020250523084347.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523084212.png)
 
 
 ---
-![](Pasted%20image%2020250523084553.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523084347.png)
+
+
+---
+![](ngozi-presentations/images/Pasted%20image%2020250523084553.png)
 
 ---
 # Discussion Questions
@@ -48,14 +48,14 @@ PhD Student, Information Studies
 # **Lecture** AI Through the Lens of Race, Gender, Labor
 
 ---
-![](Pasted%20image%2020250523085029.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523085029.png)
 
 ---
 # Meet Brooklyne Gipson
 - Earned PhD, MA in Communication and MS in Digital Social Media from USC and BA in History and Afro-American Studies from UCLA
 - Assistant Professor of Journalism and Media Studies at Rutgers University
 - Current research takes an intersectional approach to analyzing how misinformation, disinformation, and anti-Black discourses manifest and circulate within Black social media spaces.
-![bg right:33% w:300](Pasted%20image%2020250523085248.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250523085248.png)
 
 ---
 # Meet Frances Corry
@@ -63,7 +63,7 @@ PhD Student, Information Studies
 - Earned my PhD in Communication at the University of Southern California
 - Current work employs critical-historical approaches to information, examining the prehistories and afterlives of data-intensive systems – from social media platforms to AI systems
 
-![bg right:33% w:300](Pasted%20image%2020250523085918.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250523085918.png)
 
 ---
  Intersectionality is a term coined by Kimberlé Crenshaw and describes approaches understanding social phenomena and systems by centering interlocking systems of oppression to make visible normative value systems that valorize heteronormativity, patriarchy, whiteness, etc. Intersectionality was originally developed within legal studies and has been leveraged as a wide variety of disciplines
@@ -73,7 +73,7 @@ PhD Student, Information Studies
 
 Another important critical scholar is Patricia Hill Collins who builds on the concept of intersectionality and introduces the matrix of domination. Matrix thinking provides a paradigm for us to understand the many dimensions of of how one might experience domination or oppression, particularly focused on Black women 
 
-![bg left:40%](Pasted%20image%2020250523092408.png)
+![bg left:40%](ngozi-presentations/images/Pasted%20image%2020250523092408.png)
 
 ---
 
@@ -81,7 +81,7 @@ Another important critical scholar is Patricia Hill Collins who builds on the co
 
 
 ---
-![](Pasted%20image%2020250523092852.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523092852.png)
 
 ---
 # Meet Jathan Sadowski
@@ -89,20 +89,20 @@ Another important critical scholar is Patricia Hill Collins who builds on the co
 - Studies political economy and social theory of information technology
 - Co-host of This Machine Kills Podcast
 
-![bg right:33% w:300](Pasted%20image%2020250523092555.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250523092555.png)
 
 ---
 # Meet the Author Adrienne Williams
 - Tech Labor Organizer, educator, and former amazon delivery driver
 - Research fellow with Distributed AI Research (DAIR) and Just Tech
 
-![bg right:33% w:300](Pasted%20image%2020250523093025.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250523093025.png)
 
 ---
 # Meet the Author Milagros Miceli
 - Sociologist and computer scientist investigating how ground-truth data for machin learning is produces. Also researches labor conditions and power dynamics in data work
 - Research lead at DAIR Institute and head of the Data, Algorithmic Systems, and Ethics research unit at Weizenbaum Institute
-![bg right:33% w:300](Pasted%20image%2020250523093553.png)
+![bg right:33% w:300](ngozi-presentations/images/Pasted%20image%2020250523093553.png)
 ---
 
 # Two important mental models for data work labor and AI
@@ -112,12 +112,12 @@ Another important critical scholar is Patricia Hill Collins who builds on the co
 ---
 Mechanical turk was an 18th century "chess playing Robot" which actually hid a person inside who operated the machine
 
-![bg right:60%](Pasted%20image%2020250523093719.png)
+![bg right:60%](ngozi-presentations/images/Pasted%20image%2020250523093719.png)
 
 ---
 Potemkin Village is a term used to refer to an fake external facade that attempts to make a situation look better or flashier then it truly is. The term comes from the story of fake villages made by Grigory Potemkin a field marshall of the Russian Empire in the 18th century to impress Catherine the Great when she visited Crimea after it's annexation from the Ottoman Empire
 
-![bg right:50%](Pasted%20image%2020250523094341.png)
+![bg right:50%](ngozi-presentations/images/Pasted%20image%2020250523094341.png)
 
 ---
 # Why focus on labor when discussing technology?
@@ -140,7 +140,7 @@ Break up into groups of 2. Using your assigned reading discuss within your group
 
 
 ---
-![](Pasted%20image%2020250523095611.png)
+![](ngozi-presentations/images/Pasted%20image%2020250523095611.png)
 
 
 ---

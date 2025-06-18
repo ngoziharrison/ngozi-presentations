@@ -31,7 +31,7 @@ PhD Student, Information Studies
 ---
 # Generative AI is One Part of Many Different Approaches and Technologies under the Umbrella of Artificial Intelligence
 
-![bg right w: 80%](Files/Pasted%20image%2020250411091227.png)
+![bg right w: 80%](ngozi-presentations/images/Pasted%20image%2020250411091227.png)
 
 
 ---
@@ -43,10 +43,10 @@ Often in seminar classes, the majority of your note-taking happens before class 
 # The term Artificial Intelligence was coined in 1956 by John McCarthy and a team of collaborators
 
 
-![bg right](Files/Pasted%20image%2020250411092019.png)
+![bg right](ngozi-presentations/images/Pasted%20image%2020250411092019.png)
 
 ---
-![](Files/Pasted%20image%2020250418071509.png)
+![](ngozi-presentations/images/Pasted%20image%2020250418071509.png)
 
 ---
 # Meet the Author Diane Forsythe 
