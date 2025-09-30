@@ -2,7 +2,7 @@
 marp: true
 theme: ucla
 class: invert
-style: "section.invert {  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/University_of_California%2C_Los_Angeles_logo.svg/2880px-University_of_California%2C_Los_Angeles_logo.svg.png');  background-position: right;  background-size: 45%;}"
+style:
 math: mathjax
 paginate: "true"
 footer: Week 1 | Ngozi Harrison | Cluster 10A
