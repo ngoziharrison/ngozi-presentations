@@ -88,6 +88,9 @@ We are interested in the history, social aspects, and ethics of data and how wha
 --- 
 # Hidden Curriculum
 - Norms, behaviors, and sets of expectations about academia
+	- When to reach out to professor vs TA
+	- How should you use office hours?
+	- How do participate in class vs discussion?
 
 ---
 # What is reading?
