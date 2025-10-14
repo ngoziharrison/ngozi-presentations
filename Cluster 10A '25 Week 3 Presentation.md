@@ -95,7 +95,7 @@ here Hacking illustrates how the avalanche of numbers and the enumeration of peo
 ---
 # The US Census and Computation
 
-![bg left 40%](images/DJS25W3-2.png)
+![bg left 60%](images/DJS25W3-2.png)
 
 Hacking argues that enumeration is hungry for categories, in addition enumeration is also hungry for computation
 
