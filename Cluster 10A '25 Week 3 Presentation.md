@@ -64,7 +64,7 @@ Write a discussion post of listing the names of the group members, the research 
 ---
 
 
-![bg left:45%](DJS25W2-1.png)
+![bg left:45%](images/DJS25W2-1.png)
 
 # Introduction to Foucault
 - French Theorist, Philosopher, Historian of Ideas
@@ -130,9 +130,9 @@ $$
 but an average can also be a knowledge claim based on data, a specific kind of norm and way to measure deviation. This is the epistemological aspect of data.
 
 ---
-#
+# Quetelet and the Homme type
 
-![bg right 33%](DJS25W3-1.png)
+![bg right 33%](images/DJS25W3-1.png)
 
 > “we thus arrive in inquiries of this kind, at the fundamental principle: that the greater the number of individuals observed, the more do individual particularities, whether physical or moral, become effaced, and leave in a prominent point of view the general facts, by virtue of which society exists and is preserved.”
 — Adolphe Quetelet, 1835
@@ -155,6 +155,6 @@ Activity Discussing our Annotations
 	- What do you still have questions about in the passage? Is there anything that seems unclear, complex, or confusing?
 
 ---
-![bg right 63%](DJS25W3.png)
+![bg right 63%](images/DJS25W3.png)
 # Upcoming Readings
 - Selections, Battle-Baptiste, Whitney, and Britt Rusert. W.E.B Du Bois’s Data Portraits: Visualizing Black America. Princeton Architectural Press, 2018.

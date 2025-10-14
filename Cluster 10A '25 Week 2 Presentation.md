@@ -153,7 +153,7 @@ Write  a discussion post of listing the names of the group members and roles, th
 ---
 
 # Introduction to Foucault
-![](DJS25W2-1.png)
+![](ngozi-presentations/images/DJS25W2-1.png)
 
 ---
 # What is Biopower?
