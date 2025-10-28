@@ -95,6 +95,7 @@ size: contain
 ---
 
 /assets/Clipboard 1.png
+size: contain
 
 # What is the work that visualization can do?
 
@@ -182,6 +183,7 @@ size: contain
 
 # This is where you explain your methods and methodology
 /assets/Clipboard 4.png
+size: contain
 
 
 
