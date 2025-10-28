@@ -38,7 +38,7 @@
 
 
 ---
-# Activity Breaking Down Complex Sentences (30min)
+# Activity Paraphrase Activity (30min)
 	- Break up into pairs and discuss The Archive of Empire by Sidique
 	- Identify one passage or sentence that you both highlighted
 	- Post a response to the discussion post containing the following
