@@ -42,6 +42,8 @@
 	- Break up into pairs and discuss The Archive of Empire by Sidique
 	- Identify one passage or sentence that you both highlighted
 	- Post a response to the discussion post containing the following
+	- Paste the quote from the reading with the page number
+	- Write the names of your group members
 		- Define any words that are confusing 
 		- Paraphrase this passage in your own words
 		- What do you still have questions about in the passage? Is there anything that seems unclear, complex, or confusing?
