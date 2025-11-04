@@ -18,6 +18,11 @@
 
 
 ---
+# Two Quick annoucements
+	- Next qtr I might be teaching 12-2 and 4-6, will email you all to let you know tomorrow
+	- No class next week because of veterans day, class during Thanksgiving week will be on zoom
+
+---
 # Current News
 	-  [America’s top companies keep talking about AI — but can’t explain the upsides | FT](https://archive.is/1T5vc) 
 	-  [An early AI pioneer shares how the ‘vibe coding’ revolution could reshape data journalism](https://centerforhealthjournalism.org/our-work/insights/early-ai-pioneer-shares-how-vibe-coding-revolution-could-reshape-data-journalism) 
