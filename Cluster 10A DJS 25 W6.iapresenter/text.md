@@ -104,7 +104,7 @@ size: contain
 	- Describe the dataset?
 	- Where did this data come from? 
 	- Who collected the data and why? What was the method?
-	- What does this data purport to represent?
+	 - What does this data purport to represent?
 	- What conclusions can be drawn from the data? What are the limitations? 
 	- What are the unaddressed assumptions or gaps?
 
