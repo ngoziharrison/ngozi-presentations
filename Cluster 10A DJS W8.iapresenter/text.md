@@ -58,7 +58,7 @@ size: contain
 ---
 # Keyword Brainstorm
 	What are some example keywords?
-
+---
 # Keywords Brainstorm Section 1C
 	- Contextualist
 	- Power 
@@ -70,6 +70,7 @@ size: contain
 	- Analysis
 	- Control
 	- Normality
+---
 
 
 	- Categorization 
@@ -91,7 +92,54 @@ size: contain
 
 ---
 # Keywords Brainstorm Section 1F
+	Controlled vocabulary
+	History/Historiography
+	Categorization
+	Epistemology
+	Decisions
+	Methodology
+	Present/Absent
+	Erasure
+	Quantification
+	Consciousness and Subconscioussness
+	Consequence
 
+	State and Society
+	Computation
+	Tractable
+	Computational Tractability
+	Biopolitcs
+	Judgements
+	Power
+	Visualization
+	Map
+	Interpretation
+	Panopticon
+	Governance
+	Enlightenment 
+	Perspective
+	Information
+
+---
+# More words from Section 1F
+	Objectivity
+	Bias
+	Utilitarianism
+	Eugenics
+	Anthropometry
+	Interrelationship
+	Aggregate
+	Individual
+	Structure
+	Heterogeneity
+	Heterogeneous
+	Complexity
+
+
+	 Ideology
+	Criminality 
+	Dehumanization
+	
 ---
 # Sample Keyword Essay
 
