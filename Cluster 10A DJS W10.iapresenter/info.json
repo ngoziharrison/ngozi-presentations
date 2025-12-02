@@ -1,0 +1,15 @@
+{
+  "creatorIdentifier" : "net.ia.presenter",
+  "net.ia.presenter" : {
+    "appearance" : "dark",
+    "darkbackgroundcolor" : "#004c6f",
+    "footertrailing" : "slideNumber",
+    "headertrailing" : "logo",
+    "localFileIdentifier" : "7451DBA4-10B5-4C74-A540-1ACA5062F9AF",
+    "logo" : "\/assets\/logo_UCLA_white_boxed.png",
+    "logo-size" : "8.0"
+  },
+  "transient" : false,
+  "type" : "net.daringfireball.markdown",
+  "version" : 2
+}
