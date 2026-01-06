@@ -93,8 +93,8 @@ size: contain
 	(Siddique, 2024)
 
 ---
-# Why pay atendion to the history of Data and Imperialism
-	> The history of the early modern information state offers no simple or straightforward answers to the questions that data raises for us today. But it does remind us of a crucial truth, all too readily obscured by the deluge of popular narratives glorifying technological innovation: ==that questions of data are inherently questions about politics==—about who gets to collect, control, and use information, and the ends to which information should be put. ==We should resist any effort to insulate data governance from democratic processes—and having an informed perspective on the politics of data requires that we attend not just to its present, but also to its past.==
+# Why pay attention to the history of Data and Imperialism
+> The history of the early modern information state offers no simple or straightforward answers to the questions that data raises for us today. But it does remind us of a crucial truth, all too readily obscured by the deluge of popular narratives glorifying technological innovation: ==that questions of data are inherently questions about politics==—about who gets to collect, control, and use information, and the ends to which information should be put. ==We should resist any effort to insulate data governance from democratic processes—and having an informed perspective on the politics of data requires that we attend not just to its present, but also to its past.==
 	(Siddique 2024)
 
 
