@@ -121,6 +121,7 @@ size: contain
 	Data is represented using vectors and matrices
 	Dot product, matrix manipulation, and matrix transformations are important to machine learning
 	Eigenvalues, Eigenvectors, and matrix decompositions are important for fundamental ML algorithms (PCA, SVD, Regression, NMF, Neural Networks)
+	Vector embeddings are a core way ML systems represent data as points in n-dimensional space, this is why the abstractness of linear algebra is important
 
 
 ---
