@@ -14,7 +14,7 @@
 ---
 # Exhibit
 	Generalized File Management Systems: Their Implication for a California Junior College Data Base System.
-	A Thesis paper submitted for an Information Science Minor at UCLA 
+	A  [Thesis paper](https://eric.ed.gov/?id=ED036295)  submitted for an Information Science Minor at UCLA 
 	completed in 1969
 	**Advisor** Professor Robert M. Hayes
 
