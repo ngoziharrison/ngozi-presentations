@@ -12,6 +12,11 @@
 
 
 ---
+### Research Question
+	How did Database managers and programmers define, interact with and query IMS using programming languages?
+	
+
+---
 # Exhibit
 	Generalized File Management Systems: Their Implication for a California Junior College Data Base System.
 	A  [Thesis paper](https://eric.ed.gov/?id=ED036295)  submitted for an Information Science Minor at UCLA 
