@@ -57,3 +57,4 @@ seems like data language I is not a programming language but what we would call 
 
 ---
 ### Question for the Class
+	Why is finding secondary literature, manuals, tutorials, and technical literature so difficult?
