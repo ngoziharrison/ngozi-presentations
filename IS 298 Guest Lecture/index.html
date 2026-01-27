@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
+<style>
+:root{
+--logo: ;
+--logo-size: ;
+--text-scale-intensity: ;
+--darkaccent1color: #A7987C;
+--lightaccent1color: #A7987C;
+--accent2: #43aa8b;
+--accent3: #f9c74f;
+--accent4: #90be6d;
+--accent5: #f8961e;
+--accent6: #577590;
+--lighttitletextcolor: #ffffffEE;
+--darktitletextcolor: #000000EE;
+--lightbodytextcolor: #ffffffEE;
+--darkbodytextcolor: #000000EE;
+--lightbackgroundcolor: transparent;
+--darkbackgroundcolor: transparent;
+--bodyfont: Montserrat;
+--titlefont: Montserrat;
+--lightframecolor: #FFFFFF;
+--darkframecolor: #000000;
+} 
+
+</style>
+<link rel="stylesheet" href="engine/main.css">
+<link rel="stylesheet" href="theme/vancouver.css">
+<link rel="stylesheet" href="engine/katex/katex.min.css">
+</head>
+<body class="responsive ">
+<div class="reveal">
+<div class="slides">
+<section class="variable-size-headings light default-container responsive"  data-background-color="#cfcac7"style="--lightbackgroundcolor: #cfcac7;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>IS 298B Winter 26</p> 
+  <p>Prof Gregory Leazer</p> 
+  <h5 id="researchmethodsanddesign">Research Methods and Design</h5> 
+  <h1 id="week4infrastructureandcriticalcodestudies">Week 4 Infrastructure and Critical Code Studies</h1> 
+  <p>Ngozi Harrison</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#cfc9c6"style="--lightbackgroundcolor: #cfc9c6;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h1 id="todaysdiscussion">Todays Discussion</h1>
+ </div> 
+ <div class="element-group">
+  <ul> 
+   <li>What is Infrastructure?</li> 
+   <li>What does it mean to study Infrastructure?</li> 
+   <li>Critical Code Studies</li> 
+   <li>Toward Black Computational Thought</li> 
+   <li>A Case Study of Critical Code Studies - Tracing Toxicity Through Code</li> 
+   <li>How Does Infrastructure Studies and Critical Code Studies inform my work?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#d0c9c6"style="--lightbackgroundcolor: #d0c9c6;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h3 id="ourreadings">Our readings</h3> 
+  <p>Star, Susan Leigh. 1999. “The Ethnography of Infrastructure.” American Behavioral Scientist 43(3):377–91.</p> 
+  <p>Morrison, R. R. (2022). Voluptuous Disintegration: A Future History of Black Computational Thought. Digital Humanities Quarterly, 016(3).</p> 
+  <p>Berry, D. M. (2023). Tracing Toxicity Through Code: Towards a Method of Explainability and Interpretability in Software. Digital Humanities Quarterly, 017(2).</p>
+ </div> 
+ <div class="element-group">
+  <p><strong>Optional</strong> </p> 
+  <p>Marino, M. and J. Douglass. Introduction: Situating Critical Code Studies in the Digital Humanities. DHQ: Digital Humanities Quarterly 16, no. 3.</p> 
+  <p>https://dhq.digitalhumanities.org/vol/17/2/000713/000713.html</p> 
+  <p>Pinch, T. 2010. On making infrastructure visible: putting the non-humans to rights. Cambridge Journal of Economics, 34, 77-89. https://doi.org/10.1093/cje/bep044</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d1c9c6"style="--lightbackgroundcolor: #d1c9c6;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“The things we call "technologies" are ways of building order in our world.” (Winner, 1980, p. 127)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#d2c8c5"style="--lightbackgroundcolor: #d2c8c5;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="iftechnicalartifactshavepoliticshowshouldwegoaboutstudyingthesepolitics">If technical artifacts have politics, how should we go about studying these politics?</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d2c8c5"style="--lightbackgroundcolor: #d2c8c5;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>Ethnography of Infrastructure Studies </p> 
+  <h3 id="whatdoesitmeantostudyinfrastructure">What does it mean to study Infrastructure?</h3> 
+  <p>Susan Leigh Star</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#d3c8c5"style="--lightbackgroundcolor: #d3c8c5;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="susanleighstar">Susan Leigh Star</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 1.png" class=" size-contain position-left-center" />
+   </figure>
+  </div>
+ </div> 
+ <div class="element-group">
+  <p>Key scholar in the development of Infrastructure Studies within Information Studies</p> 
+  <p>Trained as a sociologist, worked across discplines and specilized in the study of information, infrastructure, sociology of science, and science and technology studies</p> 
+  <p>Developed concept of boundary objects alongside James R. Griesemer</p> 
+  <p>One of her famous books is Sorting Things Out: Classification and it's consequences written with her husband Geoffrey Bowker</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d4c7c4"style="--lightbackgroundcolor: #d4c7c4;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h5 id="susanleighstarthesociologistandpoet">Susan Leigh Star the sociologist <em>and</em> poet</h5> 
+  <blockquote lang="en"> 
+   <p>Writing my [undergraduate] thesis in psychology, for example, meant days of linear, slow connections – “logical” by the male definition of the word. Poems come in an instant, for the most part; they “brew” for weeks or years in some section of my right brain and then burst forth in a very nonlinear fashion. But there is some sharing on each side (the creative flash in theory writing or the slow reworking of lines of poetry to make them “talk” right), which gives me a hope of integration someday. I cherish both modes for myself and would like to see them appear together in my work and in my world. – Leigh Star</p> 
+  </blockquote> 
+  <p>source <a href="https://www.sinisterwisdom.org/node/617">sinisterwisdom.org</a></p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light section-container responsive"  data-background-color="#d5c7c4"style="--lightbackgroundcolor: #d5c7c4;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-section slide-contents"> 
+ <div class="element-group"> 
+  <h3 id="infrastructurestudiesisthestudyofboringthings">Infrastructure studies is the study of boring things</h3> 
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d6c7c4"style="--lightbackgroundcolor: #d6c7c4;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“This article is in a way a call to study boring things. Many aspects of infrastructure are singularly unexciting. They appear as lists of numbers and technical specifications, or as hidden mechanisms subtending those processes more familiar to social scientists. It takes some digging to unearth the dramas inherent in system design creating, to restore narrative to what appears to be dead lists.” (Star, 1999, p. 377)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d6c7c4"style="--lightbackgroundcolor: #d6c7c4;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>Infrastructure Studies proceeds from the premise that infrastructure often is hidden and the goal of infrastructure studies is to <mark>make visible</mark> infrastructure by examinig the social and material aspect of infrastructure</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d4c7c3"style="--lightbackgroundcolor: #d4c7c3;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h6 id="discussionquestion">Discussion Question</h6> 
+  <ul> 
+   <li>How do we define infrastructure?</li> 
+   <li>How can we think about the visibility of infrastructure? Is Infrastructure always invisible? Is this a helpful or limiting way of defining Infrastructure Studies?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d1c7c3"style="--lightbackgroundcolor: #d1c7c3;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>Voluptuous Disintegration: A Future History of Black Computational Thought</p> 
+  <h3 id="towardblackcomputationalthought">Toward Black Computational Thought</h3> 
+  <p>Romi Ron Morrison</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#cfc7c3"style="--lightbackgroundcolor: #cfc7c3;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="romironmorrison">Romi Ron Morrison</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 10.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+ <div class="element-group">
+  <ul> 
+   <li>Romi Ron Morrison is an interdisciplinary artist, scholar, and writer.</li> 
+   <li>Assistant Professor in the Design Media Arts program at UCLA</li> 
+   <li>2024-2026 Just Tech Fellow</li> 
+   <li>Investigates the personal, political, ideological, and spatial boundaries of race, gender, and social infrastructures within digital technologies</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#ccc7c2"style="--lightbackgroundcolor: #ccc7c2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“Black Computational Thought engages Jessica Marie Johnson and Mark Anthony Neal’s call to “refute conceptions of the digital that remove Black diasporic people from engagement with technology, modernity, or the future” [Johnson and Neal 2017,&nbsp;1]. <mark>In doing so Black Computational Thought takes critical aim at the residues of Post-Enlightenment thought as it maps onto and subtends contemporary computational logics</mark>... </p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#c9c7c2"style="--lightbackgroundcolor: #c9c7c2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>Black Computational Thought <mark>denaturalizes</mark> these residues and <mark>situates them as spatial temporal onto-epistemologies[12]</mark> that are highly narrow and specific, rather than <mark>universal, axiomatic, or natural</mark>. Instead these residues are entangled with and are the basis for past and continued acts of subjection[13], expropriation, extraction, and the totalizing violence of enclosing land and labor. By placing computation within such genealogical bounds, <mark>we are free to ask the question, what other proximal places might we look to to recover computational practices that challenge colonial logics of coercion?</mark>” (Morrison, 2022)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#c6c7c2"style="--lightbackgroundcolor: #c6c7c2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h3 id="computation">Computation</h3> 
+  <p>Computation can be defined as any well defined process for calculation. Computation takes a series of inputs and within a finite amount of steps produces an output</p>
+ </div> 
+ <div class="element-group">
+  <h4 id="computationisa...">Computation is a...</h4> 
+  <ul> 
+   <li>Method</li> 
+   <li>Epistemology</li> 
+   <li>Metaphor</li> 
+   <li>Organizing frame for understanding reality</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#c3c7c2"style="--lightbackgroundcolor: #c3c7c2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h5 id="provocation">Provocation</h5> 
+  <blockquote lang="en"> 
+   <p>Why does anti-blackness seem to perpetually overdetermine and saturate the operating system regardless of who is programming it?” (Morrison, 2022)</p> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light section-container responsive"  data-background-color="#c0c7c1"style="--lightbackgroundcolor: #c0c7c1;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-section slide-contents"> 
+ <div class="element-group"> 
+  <h3 id="tothatprovocationianswer">To that provocation I answer</h3> 
+  <p>We must investigate the foundational concepts of logic, mathematics, information, and capital in order to illuminate the enlightenment and colonial epistemologies that undergird modern computational practice. </p> 
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light section-container responsive"  data-background-color="#bdc7c1"style="--lightbackgroundcolor: #bdc7c1;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-section slide-contents"> 
+ <div class="element-group"> 
+  <h3 id="inthisworkmypointofdepartureiscenteringmathematicsasasiteofinquiryandintervention">In this work, my point of departure is centering mathematics as a site of inquiry and intervention</h3> 
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#bbc7c1"style="--lightbackgroundcolor: #bbc7c1;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="discussionquestions">Discussion Questions</h1> 
+  <p>How does Morrison's work illuminate the underlying politics and epistemologies of computation?</p> 
+  <p>How might this critique be operationalized in a methodological approach to studying computation and algorithms?</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#bac8c0"style="--lightbackgroundcolor: #bac8c0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="acasestudyofcriticalcodestudies">A Case Study of Critical Code Studies</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#bcc9c0"style="--lightbackgroundcolor: #bcc9c0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="davidm.berry">David M. Berry</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 11.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+ <div class="element-group">
+  <ul> 
+   <li>University of Sussex, School of Media, Arts and Humanities</li> 
+   <li>Professor of Digital Humanities (Media and Film)</li> 
+   <li><p>Current Research Topics</p> <p>The History and Philosophy of the University</p> <p>Critical Reason under Computation</p> <p>Explainability, Explanation and Algorithms</p> <p>The Artificial Imaginary</p> ELIZA and the work of Joseph Weizenbaum</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#bdcac0"style="--lightbackgroundcolor: #bdcac0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“Critical code studies is the application of the hermeneutics of the humanities to the interpretation of the extra-functional significance of computer source code.” (Marino and Douglass, 2023)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#bfcbc0"style="--lightbackgroundcolor: #bfcbc0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="letscriticallyreadsomecode">Let's Critically Read Some Code</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 7.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light full-image-container responsive"  data-background-color="#c0ccc0"style="--lightbackgroundcolor: #c0ccc0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-full-image slide-contents media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 8.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#c2ccbf"style="--lightbackgroundcolor: #c2ccbf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“In other words, through coding into software, a poorly defined term (“toxicity”) becomes reinforced into a set of software functions, which through layering and the resultant obscuring of the action of the functions, becomes a definitional and categorical classifier which is then applied unreflexively to text.” (Berry, p. 7)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light title-and-columns-container responsive"  data-background-color="#c3cdbf"style="--lightbackgroundcolor: #c3cdbf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-title-and-columns slide-contents columns-items-2 "> 
+ <div class="title-part element-group">
+  <h1 id="keyconcepts">Key Concepts</h1>
+ </div> 
+ <div class="column-part element-group">
+  <p>Modularity and Abstraction</p> 
+  <p>Software development emphasized modularity which spreads implementations of concepts across a constellation of dependencies, libraries, and data structures</p>
+ </div>
+ <div class="column-part element-group">
+  <p>Concretization and Reification</p> 
+  <p>Social concepts become concretized into technical concepts which can render the formation and origination opaque. Current technical discussions around explainability do not necessarily account for this.</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#c5cebf"style="--lightbackgroundcolor: #c5cebf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="disussionquestions">Disussion Questions</h1> 
+  <ul> 
+   <li>Why should we <em>read</em> code?</li> 
+   <li>How do you read code critically?</li> 
+   <li>How does Berry's reading of the What-If Package reveal the logic of code practices and limits of explanability?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#c6cfbf"style="--lightbackgroundcolor: #c6cfbf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="howdoesinfrastructurestudiesandcriticalcodestudiesinformmywork">How Does Infrastructure Studies and Critical Code Studies inform my work?</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#c8d0bf"style="--lightbackgroundcolor: #c8d0bf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p><strong>Areas of Interest</strong> ML Fairness and Ethics, Social Aspects of Mathematical knowledge, Data Justice, Critical AI Studies</p> 
+  <p><strong>Research Interests</strong></p> 
+  <p>My research is focused on critically examining the mathematical and computational methods behind AI, Machine Learning, and sociotechnical systems</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#cad1bf"style="--lightbackgroundcolor: #cad1bf;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="mymethods">My Methods</h1> 
+  <ul> 
+   <li>Critical Code Studies</li> 
+   <li>History/Genealogy</li> 
+   <li>Reverse Engineering</li> 
+   <li>CTDA (Critical Technocultural Discourse Analysis)</li> 
+   <li>Critical Machine Learning Practice</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#cdd2c1"style="--lightbackgroundcolor: #cdd2c1;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="operationalizingreverseengineeringandcriticalcodestudies">Operationalizing Reverse Engineering and Critical Code Studies</h1> 
+  <p>In order to operationalize reverse engineering and critical code studies I seek to investigate topic modelling as a machine learning practice and the underlying mathematical techniques in order to reveal how machine learning functions as an epistemological frame and bundle of assumptions and abstractions</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#d0d4c2"style="--lightbackgroundcolor: #d0d4c2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="anextremelybriefoverviewofthemathematicsofmachinelearning">An Extremely Brief Overview of the Mathematics of Machine Learning</h1> 
+  <h4 id="mostlyfocusedonlinearalgebra">*Mostly focused on Linear Algebra</h4> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 14 1.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#d3d5c3"style="--lightbackgroundcolor: #d3d5c3;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="threewaysofdefininglinearalgebra">Three ways of defining Linear Algebra</h1> 
+  <table> 
+   <colgroup> 
+    <col /> 
+    <col /> 
+   </colgroup> 
+   <thead> 
+    <tr> 
+     <th>Classification</th> 
+     <th>Definition</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td>Elementary</td> 
+     <td>Linear Algebra is the study of vectors, matrices, systems of linear equations, and problems that can be solved using linear algebraic techniques</td> 
+    </tr> 
+    <tr> 
+     <td>Abstract</td> 
+     <td>Axler defines Linear Algebra as "the study of the study of linear maps on finite-dimensional spaces" (Axler, 2015)</td> 
+    </tr> 
+    <tr> 
+     <td>Computational</td> 
+     <td>"Linear Algebra is the study of vectors and ways of manipulating vectors" (Deisenroth, 2020)</td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#d7d7c5"style="--lightbackgroundcolor: #d7d7c5;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h1 id="therearethreecoreconceptsinlinearalgebra">There are three core concepts in linear algebra</h1> 
+  <p>Scalar <span class="math">\(\lambda \in \mathbb{R}\)</span> </p> 
+  <p>We can think of a scalar as a single value, usually a real number</p> 
+  <p>Vector </p> 
+  <p>Example Vector <span class="math">\(a = \begin{bmatrix} 1\\2\\3 \end{bmatrix} \in \mathbb{R}^3\)</span> Vectors are objects that we add together and multiply by a scalar to get another vector. </p>
+ </div> 
+ <div class="element-group">
+  <p>Matrix A <span class="math">\(m\times n\)</span> matrix is a collection of elements consisting of <span class="math">\(m\)</span> rows and <span class="math">\(n\)</span> columns. We can think of matrices as a collection of vectors or a linear transformation</p> 
+  <p>Example Matrix </p> 
+  <p><span class="math">\(A = \begin{bmatrix} 1 &amp; 3 &amp; 5 \\ 8 &amp; 2 &amp; 1 \\ 3 &amp; 3 &amp; 4 \end{bmatrix}\)</span></p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#dad8c6"style="--lightbackgroundcolor: #dad8c6;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h1 id="historyoflinearalgebra">History of Linear Algebra</h1> 
+  <p>Linear algebra encompasses many techniques that evolved over time and in several places including China, Europe, Greece, and Egypt</p>
+ </div> 
+ <div class="element-group">
+  <p>In the 19th century James Joseph Sylvester and Arthur Cayley introduced algebraic techniques for linear algebra and coined the term matrix, which comes from the Latin term for womb </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#ddd9c8"style="--lightbackgroundcolor: #ddd9c8;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h1 id="whatdoeslinearmean">What does Linear mean?</h1> 
+  <p>Linear transformations are functions that map one vector to another</p>
+ </div> 
+ <div class="element-group">
+  <p>Formal Definition</p> 
+  <p>A transformation <span class="math">\(L()\)</span> is called linear if the following properties hold</p> 
+  <p>Addition: <span class="math">\(L(v+w) = L(v) + L(w)\)</span></p> 
+  <p>Scalar Multiplication: <span class="math">\(L(\lambda v) = \lambda \cdot L(v)\)</span></p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e0dbc9"style="--lightbackgroundcolor: #e0dbc9;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="whatisalgebra">What is Algebra?</h1> 
+  <p>Algebra comes from the name the text Al-jabr (الجبر) written by polymath Muhammad ibn Musa al-Khwarizmi who worked in Baghdad in the 9th century</p> 
+  <p>Algebra broadly refers to the formal manipulation of abstract symbols</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 17.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#e4dccb"style="--lightbackgroundcolor: #e4dccb;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="linearalgebrainmachinelearning">Linear Algebra in Machine Learning</h1> 
+  <p>Linear algebra allows for optimization, efficient computation, data representation and manipulation</p> 
+  <p>Data is represented using vectors and matrices</p> 
+  <p>Dot product, matrix manipulation, and matrix transformations are important to machine learning</p> 
+  <p>Eigenvalues, Eigenvectors, and matrix decompositions are important for fundamental ML algorithms (PCA, SVD, Regression, NMF, Neural Networks)</p> 
+  <p>Vector embeddings are a core way ML systems represent data as points in n-dimensional space, this is why the abstractness of linear algebra is important</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e7ddcc"style="--lightbackgroundcolor: #e7ddcc;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="statisticsmachinelearningandblackness">Statistics, Machine Learning and Blackness</h1> 
+  <p>Amaro traces the history of machine learning techniques to the legacy of scientific racial classification. He challenges us to consider the limits of algorithmic interventions that do not account for the link between Black representation and the historical category of race</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 18.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#e9dfce"style="--lightbackgroundcolor: #e9dfce;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>"In terms of computation, following hooks, we are immediately drawn to the problematic of Black representation and algorithmic calculation. By regressing complex environmental data into a generalized pattern, the lived and multivalent specificities of Black lives are represented "as if" the visual matrix maintains no connections to historical category, stereotype, or moral imaginary." (Amaro pg 49)</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e9dfd0"style="--lightbackgroundcolor: #e9dfd0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h3 id="criticallyanalyzingtheroleofmathematicsinmachinelearning">Critically analyzing the role of Mathematics in Machine Learning</h3> 
+  <p>“Part of the challenge of understanding algorithmic oppression is to understand that mathematical formulations to drive automated decisions are made by human beings. While we often think of terms such as “big data” and “algorithms” as being benign, neutral, or objective, they are anything but.” (Noble, 2018, p. 19)</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 15.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e8dfd2"style="--lightbackgroundcolor: #e8dfd2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h3 id="criticallyanalyzingtheroleofmathematicsinmachinelearningcontd">Critically analyzing the role of Mathematics in Machine Learning cont'd</h3> 
+  <p>“The math-powered applications powering the data economy were based on choices made by fallible human beings. Some of these choices were no doubt made with the best intentions. Nevertheless, many of these models encoded human prejudice, misunderstanding, and bias into the software systems that increasingly managed our lives. Like gods, these mathematical models were opaque, their workings invisible to all but the highest priests in their domain: mathematicians and computer scientists. Their verdicts, even when wrong or harmful, were beyond dispute or appeal. And they tended to punish the poor and the oppressed in our society, while making the rich richer.” (O'Neil, 2016, p. 12)</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 16.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#e7dfd4"style="--lightbackgroundcolor: #e7dfd4;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="artifactsiamcriticallyreading">Artifacts I am Critically Reading</h1> 
+  <ul> 
+   <li>Coding packages</li> 
+   <li>Technical Documentation</li> 
+   <li>Historical Documents</li> 
+   <li>Mathematical definitions</li> 
+   <li>Technical Papers and Books</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#e6e0d6"style="--lightbackgroundcolor: #e6e0d6;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="themachinelearningloop">The Machine Learning Loop</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Pasted image 20250509083059.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e5e0d8"style="--lightbackgroundcolor: #e5e0d8;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 12.png" class=" size-contain position-center-center" />
+ </figure> 
+ <figure class="">
+  <img src="media/Clipboard 13.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light full-image-container responsive"  data-background-color="#e5e0da"style="--lightbackgroundcolor: #e5e0da;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-full-image slide-contents media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 14.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light v-split-container responsive"  data-background-color="#e4e1dc"style="--lightbackgroundcolor: #e4e1dc;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-v-split slide-contents"> 
+ <div class="element-group">
+  <h1 id="mathematicsdataandcomputationendowmachinelearningwithanopacityandepistemicauthority.">Mathematics, data, and computation endow machine learning with an opacity and epistemic authority.</h1>
+ </div> 
+ <div class="element-group">
+  <p><strong>Opacity</strong> because these systems are difficult to understand without technical expertise. </p> 
+  <p><strong>Unassailable epistemic authority</strong> because we think of mathematics and computers as unbiased. </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light default-container responsive"  data-background-color="#e3e1de"style="--lightbackgroundcolor: #e3e1de;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>However, norms, biases, values, and assumptions can be baked into the way we build and use technical systems. Mathematics is an important fundamental layer to how we build machine learning sytems </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#e2e1e0"style="--lightbackgroundcolor: #e2e1e0;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="twoquestionsivebeenworkingthrough">Two Questions I've been working through</h1> 
+  <p>Can I frame mathematics as Infrastructure?</p> 
+  <p>If so, how does this inform my methodological approach?</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+<section class="variable-size-headings light cover-container responsive"  data-background-color="#e2e2e2"style="--lightbackgroundcolor: #e2e2e2;">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="sources">Sources</h1> 
+  <p>Axler, S. (2015). Linear Algebra Done Right. Springer International Publishing. https://doi.org/10.1007/978-3-319-11080-6</p> 
+  <p>Deisenroth, M. P. (2020). Mathematics for Machine Learning (1st edition). Cambridge University Press.</p> 
+  <p>Linear algebra | Matrices, Vectors &amp; Equations | Britannica. (2025, April 17). https://www.britannica.com/science/linear-algebra</p> 
+  <p>Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. New York University Press.</p> 
+  <p>O’Neil, C. (2016). Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy (1st edition). Crown.</p> 
+  <p>Striphas, T. (2023). Algorithmic Culture Before the Internet. Columbia University Press. https://doi.org/10.7312/stri20668</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing"></div>
+</div>
+</section>
+</div>
+</div>
+<script src="engine/index.js"></script>
+<script src="engine/pptxgen.min.js"></script>
+<script src="engine/pfill.js"></script>
+<script src="engine/published.js"></script>
+<script>
+Reveal.configure({
+progress:true,
+progress:true,
+dependencies: [
+  {
+    src: "engine/highlight.js",
+    sync: true,
+    callback: function () {
+      hljs.initHighlightingOnLoad();
+    },
+  },
+],
+});
+</script>
+</body>
+</html>
