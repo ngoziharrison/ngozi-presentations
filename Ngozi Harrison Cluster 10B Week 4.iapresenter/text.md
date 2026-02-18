@@ -105,18 +105,18 @@ size: contain
 ---
 
 # Exhibit Sources
-Exhibit sources provide evidence and material for analysis or interpretation
+	Exhibit sources provide evidence and material for analysis or interpretation
 
 
 ---
 # Argument Sources
-Argument sources provide claims that you as the writer will engage with in some way. You may agree and use them to support your argument or diverge from or challenge these claims
+	Argument sources provide claims that you as the writer will engage with in some way. You may agree and use them to support your argument or diverge from or challenge these claims
 
 
 ---
 # Theory/Method Sources
-Theory sources provide concepts, theoretical frameworks, or vocabulary that will inform your approach
-Method sources provide the method that you will use in your analysis or build on
+	Theory sources provide concepts, theoretical frameworks, or vocabulary that will inform your approach
+	Method sources provide the method that you will use in your analysis or build on
 
 
 ---
@@ -125,10 +125,11 @@ Method sources provide the method that you will use in your analysis or build on
 ---
 # Activity Part 1 (10min)
 	Choose one source you have collected in your zotero folder and reply to the discussion post with an answer the following questions
+	- What is the name of the source?
 	- Who is the author? What are their creditials?
 	- What is the purpose of this source?
 	- What is the scope of the source
-	- Who published the source
+	- Who published the source (Journal or Publisher for Books)
 	- How current is the source
 
 
