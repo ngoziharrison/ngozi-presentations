@@ -1,0 +1,130 @@
+\documentclass{beamer}[aspectratio=1610]
+
+% Minimal packages
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+% Theme
+\usetheme{ucla}
+%\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[page number]
+%\showSlideNumber{}
+
+
+\setbeamercolor{background canvas}{bg=uclaBlueDark}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{palette primary}{fg=white}
+\setbeamercolor{palette secondary}{fg=uclaGold}
+\setbeamercolor{palette tertiary}{fg=uclaGold}
+\setbeamercolor{palette quaternary}{fg=uclaGold}
+
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{subtitle}{fg=white}
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{date}{fg=white}
+\setbeamercolor{institute}{fg=white}
+
+% Title
+\title{Introduction to Critical AI Studies \\ \small{Week 6: Deep Neural Networks, Large Language Models, and \\ Generative AI}}
+\subtitle{Week 5: Theory-Free Ideal and Values Encoded}
+
+\author{Ngozi Harrison \\ ngozih@g.ucla.edu}
+\date{Spring 2026 \\ Cluster 10C}
+\location{}
+
+% Image macro (kept but simple)
+\newcommand{\myimage}[1]{%
+    \begin{center}%
+        \includegraphics[width=0.6\textwidth, clip=true]{assets/#1}\par
+    \end{center}%
+}
+
+% Hyperref settings
+\hypersetup{
+    pdfauthor={Ngozi Harrison},
+    pdftitle={Critical AI Studies - Week 5},
+    colorlinks=false,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+
+% Title Slide
+
+    \insertTitleSlide
+
+
+\begin{frame}{Today}
+   \begin{itemize}
+    \item Check in about last week's writing activity (10min)
+    \item Presentations (2hrs)
+    \item Technical Workshop (45min)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Last Week's Writing Activity (10min)}
+\begin{itemize}
+    \item What did you learn about writing in your discipline?
+    \item What techniques did you notice authors use?
+    \item How can looking at model texts help you with your own writing?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Writing resource}
+    \begin{center}
+    \textbf{Academic Phrasebank} \\[1em]
+    %\includegraphics[width=\textwidth]{assets/Clipboard 71.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Presentations}
+\begin{itemize}
+    \item 22 presentations
+    \item 10min break after 11 presentations
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Our Readings for this Week}
+\begin{itemize}
+    \item Stephen Wolfram, \textit{"What Is ChatGPT Doing...and Why Does It Work?"}, Stephen Wolfram Writings, February 14, 2023.
+    \url{https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/}
+    
+    \item M. Mitchell et al. (2019). \textit{Model Cards for Model Reporting}. Proceedings of the Conference on Fairness, Accountability, and Transparency, 220--229.
+    \url{https://doi.org/10.1145/3287560.3287596}
+    
+    \item E. M. Bender et al. (2021). \textit{On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?} Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT '21, 610--623.
+    \url{https://doi.org/10.1145/3442188.3445922}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{In Class Technical Activity \#2}
+\begin{itemize}
+    \item \textbf{Prework}: Create a Hugging Face account and obtain your access token
+    \item 1. Open the Colab notebook \textit{GPT before Guardrails} and make a copy
+    \item 2. Follow the steps of the Colab notebook
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Technical Reflection and Observations (15min)}
+\begin{itemize}
+    \item What have you learned about how LLMs work?
+    \item What did you notice about the output?
+    \item How does an LLM choose output?
+    \item What connections can you make to our readings this week?
+    \item What questions do you have after completing this activity?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Next Week}
+\begin{itemize}
+    \item Discuss Fairness, Accountability, and Transparency
+    \item Final In class Technical Activity: Setting up a local LLM
+    \item Start working on the final project by breaking down the prompt
+\end{itemize}
+\end{frame}
+
+\end{document}

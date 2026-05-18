@@ -437,12 +437,6 @@ size: contain
 	5. We do not sink or swim in this class.
 
 
----
-# Technical Reflection and Observations (15min)
-	What decisions are made as part of the machine learning process?
-	How does this connect to material covered in fall and spring quarter?
-	What questions do you have after completing this activity?
-	What did you notice with this example
 
 
 ---
