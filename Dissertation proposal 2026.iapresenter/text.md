@@ -5,33 +5,34 @@
 	UCLA Information Studies
 	Spring 2026
 
+plan for this to be 15-30 min
 
 ---
 # Overview
 
 	- Background
+	- Problem Statement
 	- Proposed Dissertation Structure
+	- Definitions
 	- Article 1
 	- Article 2
 	- Article 3
 	- Timeline and Workplan
-	- Conclusion and Anticipated Contribution
+	- Conclusion 
 
 
 Structure
-- Problem Statement 1 slide
+- Background 1 slide
+- Research Questions
+- Definitions
 - Literature Review Themes 2-3 slides
-- Methodological approach 2 slides
-- Research Questions 1 slide
-- Target Journals 1 slide
+- Method 2 slide
+- Implementation
+
+
 ---
+# Background
 
-
-# **A Proposal for a Three-Article Dissertation**
-	
-	*   **Topic:** Critical analysis of the mathematical infrastructure of Machine Learning (ML).
-	*   **Goal:** To illuminate the politics, epistemologies, and abstractions within ML practices and paradigms
-*   **Focus:** Shifting focus from statistics to **Linear Algebra** and **Problem Formulation**.
 
 ---
 # Machine Learning as a Disciplinary Matrix
@@ -66,13 +67,37 @@ Next to the film we have the critical work by patricia hill collins where she in
 size: contain
 
 
+
 ---
 
-### Proposed Dissertation Structure
+
+# **A Proposal for a Three-Article Dissertation**
+	
+	*   **Topic:** Critical analysis of the mathematical infrastructure of Machine Learning (ML).
+	*   **Goal:** To illuminate the politics, epistemologies, and abstractions within ML practices and paradigms
+*   **Focus:** Shifting focus from statistics to **Linear Algebra** and **Problem Formulation**.
+
+---
+# Problem Statment
+---
+# Problem 
+
+	Machine Learning Paradigms operates based on a shared set of **assumptions**, **values**, and **problem framing practices**
+
+	These assumptions often go unquestioned specific epistemological and ontological commitments are encoded within mathematical formalisms
+
+
+---
+# Proposed Dissertation Structure
+
+---
+
+
 # A Three-Article Dissertation
 	**Article 1**  Machine Learning Hesitant: W.E.B. Du Bois, Problem Framing and the Politics of Abstraction 
 	**Article 2**  Reverse Engineering Hidden Markov Models: A Sociotechnical Inquiry into a Machine Learning and Quantitative Social Science Method
 	**Article 3** Does Fairness have Politics: Identifying and Analyzing the Values Encoded Within Machine Learning Fairness Research
+
 
 ---
 # Dissertation Structure and Topics
@@ -89,6 +114,21 @@ Comparative discourse analysis of the work of Du Bois alongside current machine 
 
 
 ---
+# My Interventions
+	**Critique of Foundational Assumptions:** The research addresses the need to critically analyze foundational assumptions, such as the independent and identically distributed (i.i.d.) assumption in machine learning through the lens of sociological critique 1.
+	**Critical Quantitative and Technical Practice:** The research seeks to move beyond descriptive analysis to call for a critical mathematical and computational practice that embraces hesitation and refusal to accept established algorithmic norms
+
+
+---
+# Definitions
+	Disciplinary Matrix
+	Paradigm
+	Exemplar
+	Abstraction
+	Hesitance
+	Critical technical practice
+
+---
 
 	Article 1: 
 # Machine Learning Hesitant
@@ -96,14 +136,7 @@ Comparative discourse analysis of the work of Du Bois alongside current machine 
 
 
 ---
-# Problem 
-
-	Machine Learning Paradigms operates based on a shared set of **assumptions**, **values**, and **problem framing practices**
-
-	These assumptions often go unquestioned specific epistemological and ontological commitments are encoded within mathematical formalisms
-
-
-
+# Background
 ---
 # Sociology Hesitant
 	- Sociology Hesitant was an unpublished manuscript written by Du Bois 1905
@@ -152,6 +185,9 @@ size: contain
 
 
 ---
+# What is the significance of i.i.d. in statistics and machine learning
+
+---
 # Research Questions
 	1. What is hesitance and how can Du Bois' hesitance provide a sociotechnical perspective to challenge current dominant machine learning paradigms and inform future machine learning practice?
 	
@@ -167,7 +203,6 @@ size: contain
 	**Object of Analysis** independent and identically distrubted assumption
 
 
----
 ### Method 
 # Critical Conceptual Analysis
 	Critical conceptual analysis combines conceptual analysis alongside geneology and critical theory to break down a concept to its constituate parts, identify the social meanings of a concept, locate it within a broader discursive history
@@ -176,8 +211,40 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 
 
 ---
+### Literature Review
+## **Machine Learning and Society**
+	- Critical Data Studies
+	- Fairness, Accountability, and Transparency
+	- Algorithmic Power Analysis
+
+
+### $\quad$
+## Du Bois and the Black Sociological Tradition
+	- Methodological approaches to the study of Black life
+	- Critique of western scientific practice
+	- Disciplinary Hesitance
+
+### **Exemplars**
+	Selbst et al: Critique of Abstraction
+	Noble: Algorithmic Power Analysis
+	Klein and Posner: Datafication
+
+### **Exemplars**
+	- Judy: Hesitance as a challenge to western thought
+	- Myers: Hesitance as refusal and imagination
+	- Lowe: History Hesitant
+	- Townes: Communication Hesitant
+
+
+---
 # Timeline
-	[ADD TIMELINE]
+# Phase 1: Literature Review (June 2026 – Nov 2026)
+	*How is the i.i.d. assumption used in contemporary machine learning practice, and when it is used, how is it framed?*
+# Phase 2: Historical Analysis (Dec 2026 – Mar 2027)
+	*What are the origins of the i.i.d assumption within the history of mathematics and statistics, and how did this come to be adopted in machine learning?*
+# Phase 3: Conceptual Mapping (Apr 2027 – Jul 2027)
+	*What is the interrelated web of concepts, epistemological assumptions, and social implications in which	the i.i.d. assumption is embedded? How does hesitance challenge these concepts and their corresponding assumptions and abstractions?*
+
 
 ---
 
@@ -187,7 +254,15 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 
 
 ---
-### Context & Motivation
+# Background
+
+
+---
+Markov Processes and the Markov Assumption
+
+
+---
+
 # What are Hidden Markov Models
 	Hidden Markov Models (HMMs) are a popular machine learning and statistical method for modeling complex time series and longitudinal data. HMMs are a way of relating a sequence of observations Y to a sequence of hidden states Z to explain the observations. 
 
@@ -198,7 +273,6 @@ size: contain
 
 
 ---
-### Context & Motivation
 # Applications of Hidden Markov Models
 	HMMs are used within computational biology, finance, neuroscience, psychometrics, sociology, education research, and many more areas where there is a need for time-series data analysis
 
@@ -216,7 +290,7 @@ size: contain
 
 
 ---
-ch	* **Method:** Reverse Engineering
+# **Method:** Reverse Engineering
 	*   **Object of Analysis:** Hidden Markov Models
 	* Method: Reverse Engineering
 	*   **Methodological Approach:**
@@ -225,8 +299,6 @@ ch	* **Method:** Reverse Engineering
 	    *   Identify necessary assumptions and where values and politics may be encoded
 	    *  Analyze contemporary applications
 
-
----
 ### Method
 # Reverse Engineering
 	Reverse engineering is a method for performing a situated analysis of a technology by breaking it down into components, uncovering how it was made, and revealing the epistemological frames and paradigms that inform its construction and use (Amaro, 2022; Stevens, 2022). 
@@ -234,14 +306,40 @@ ch	* **Method:** Reverse Engineering
 
 ---
 # Reverse Engineering Principles
-- Link mathematical abstraction to computational implementation
-- Situating artifacts within sociotechnical context
-- Locate and document mathematical practices that point to a paradigm and normal practice
-- Unfold layers of abstraction and mapping networks of dependencies, libraries, and modules in the computational implementation
-- Deconstruct technical artifacts and mathematical methods presented as whole or complete
-- Reverse engineering is a creative and speculative act that by looking inside objects opens new opportunities to rebuild alternative epistemologies and relations
-- Identify the social aspects of mathematical knowledge
-- The object of analysis as a technolocultural object is an assemblage of artifact, practice, and belief
+	- Link mathematical abstraction to computational implementation
+	- Situating artifacts within sociotechnical context
+	- Locate and document mathematical practices that point to a paradigm and normal practice
+	- Unfold layers of abstraction and mapping networks of dependencies, libraries, and modules in the computational implementation
+	- Deconstruct technical artifacts and mathematical methods presented as whole or complete
+	- Reverse engineering is a creative and speculative act that by looking inside objects opens new opportunities to rebuild alternative epistemologies and relations
+	- Identify the social aspects of mathematical knowledge
+	- The object of analysis as a technolocultural object is an assemblage of artifact, practice, and belief
+
+
+---
+### Literature Review
+## **Critical Data Studies and Critical Algorithm Studies**
+	- Critical Data Studies
+	- Fairness, Accountability, and Transparency
+	- Algorithmic Power Analysis
+
+
+### $\quad$
+## Critical Approaches to Quantitative and Computational Methods
+	- Methodological approaches to the study of Black life
+	- Critique of western scientific practice
+	- Disciplinary Hesitance
+
+### **Exemplars**
+	Gillepsie : Four senses of the word algorithm
+	Hacking: Geneology of Statistics and Probability
+	Bowker: Raw data is an oxymoron
+
+### **Exemplars**
+	- Velez et al : QuantCrit
+	Johnson Jr.: CritQCM
+	des Freitas, Dixon-Roman, Lather: Reconceptualizations of quantification, measurement, and numeracy
+
 
 
 ---
