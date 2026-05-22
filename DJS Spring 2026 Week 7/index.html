@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
+<style>
+:root{
+--logo: /assets/logo_ucla_white_boxed.png;
+--logo-size: 8.0;
+--text-scale-intensity: ;
+--darkaccent1color: ;
+--lightaccent1color: ;
+--accent2: #43aa8b;
+--accent3: #f9c74f;
+--accent4: #90be6d;
+--accent5: #f8961e;
+--accent6: #577590;
+--lighttitletextcolor: #FFF;
+--darktitletextcolor: #000;
+--lightbodytextcolor: #FFF;
+--darkbodytextcolor: #000;
+--lightbackgroundcolor: #FFF;
+--darkbackgroundcolor: #004c6f;
+--bodyfont: Helvetica;
+--titlefont: Helvetica;
+--lightframecolor: #FFFFFF;
+--darkframecolor: #000000;
+} 
+
+</style>
+<link rel="stylesheet" href="engine/main.css">
+<link rel="stylesheet" href="theme/helvetica.css">
+<link rel="stylesheet" href="engine/katex/katex.min.css">
+<link rel="stylesheet" href="engine/billboard.min.css">
+</head>
+<body class="responsive  ">
+<div class="reveal">
+<div class="slides">
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="introductiontocriticalaistudies-week7">Introduction to Critical AI Studies - Week 7</h1> 
+  <p>Ngozi Harrison</p> 
+  <p>ngozih@g.ucla.edu</p> 
+  <p>Spring 2026</p> 
+  <p><strong>Cluster 10C</strong> </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  1
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="today">Today</h1> 
+  <ul> 
+   <li>Final project in class work (30min)</li> 
+   <li><strong>Discussion</strong> Fairness, Accountability, and Transparency (20min)</li> 
+   <li>In class Technical Activity: Setting up a local LLM (45min)</li> 
+   <li>In Class Technical Activity: ChatGPT before Guardrails (45min)</li> 
+   <li>Reflection (15min)</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  2
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="readingswewillfocusontoday">Readings we will focus on today</h1> 
+  <p>Barocas, S., Hardt, M., &amp; Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. The MIT Press.</p> 
+  <p>Le Bui, M., &amp; Noble, S. U. (2020). We’re Missing a Moral Framework of Justice in Artificial Intelligence: On the Limits, Failings, and Ethics of Fairness. In M. Le Bui &amp; S. U. Noble, The Oxford Handbook of Ethics of AI (pp. 161–179). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780190067397.013.9</p> 
+  <p>Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., &amp; Gebru, T. (2019). Model Cards for Model Reporting. Proceedings of the Conference on Fairness, Accountability, and Transparency, 220–229. https://doi.org/10.1145/3287560.3287596</p> 
+  <p>Birhane, A., Steed, R., Ojewale, V., Vecchione, B., &amp; Raji, I. D. (2024). AI auditing: The Broken Bus on the Road to AI Accountability (No. arXiv:2401.14462). arXiv. http://arxiv.org/abs/2401.14462</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  3
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p><a href="https://docs.google.com/document/d/1_3OnD9yYwQMGm6yc3wXtKOtP6jDX8qStQ6ASFw-nKTY/edit?tab=t.0#heading=h.wxzz7t7xeoz">Final Project FAQ</a> </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  4
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="mappingyourresearchideas">Mapping your Research Ideas</h1> 
+  <p>Grab a sheet of paper or use excalidraw.com</p> 
+  <p>Follow tutorial on <a href="https://uclalibrary.github.io/research-tips/questions/">UCLA WI+RE site</a> </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  5
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="postaresponsetothediscussionboardcontainingthefollowing">Post a response to the discussion board containing the following</h1> 
+  <p>Choice of final project (AI Hype paper or Colab notebook)</p> 
+  <p>Photo of Research map</p> 
+  <p>Potential Research Topics</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  6
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>The use of AI in society has problems, how should we address this? There are many approaches and there is debate and disagreement about the right approach</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  7
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="fairnessaccountabilityandtransparency">Fairness Accountability and Transparency</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  8
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 77.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  9
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 79.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  10
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>Fundamentally Fairness is a moral concept for examining the decisions made by institutional and algorithmic processes. </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  11
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 75.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  12
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="fairnesshasamuchlongerhistorywithinwesternpoliticalphilosophyandethics">Fairness has a much longer history within western political philosophy and ethics</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  13
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>“The fact that machine learning is “evidence-based” by no means ensures that it will lead to accurate, reliable, or fair decisions. This is especially true when using machine learning to model human behavior and characteristics. Our historical examples of the relevant outcomes will almost always reflect historical prejudices against certain social groups, prevailing cultural stereotypes, and existing demographic inequalities. And finding patterns in these data will often mean replicating these very same dynamics.” (Barocas et al., p. 2)</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  14
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 74.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  15
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <figure class="">
+  <img src="media/Clipboard 73.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  16
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="modelcards">Model Cards</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 76.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  17
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="questions">Questions</h1> 
+  <ul> 
+   <li>What is fairness?</li> 
+   <li>How can bias be embedded in algorithms?</li> 
+   <li>How do we address bias and fairness?</li> 
+   <li>Is fairness the right goal?</li> 
+   <li>How do models cards address transparency?</li> 
+   <li>How do you determine if an algorithmic decision is fair?</li> 
+   <li>What does fairness mean? What is the difference between fairness and justice?</li> 
+   <li>What are the limitations of audits?</li> 
+   <li>How do we address the limits of auditing AI technologies?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  18
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <p>My argument is that fairness is limited because it often ignores power asymmetry and we need to put power over technology in the hands of the people and develop and deploy technologies that serve public good not capital</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  19
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="asamodelilooktotheresearchapproachofdair">As a model I look to the research approach of DAIR</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 80.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  20
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="upcomingassignment">Upcoming Assignment</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  21
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="anoteaboutautoethnography">A Note about Autoethnography</h1> 
+  <p>“Autoethnography is an approach to research and writing that seeks to describe and systematically analyze (graphy) personal experience (auto) in order to understand cultural experience (ethno) (ELLIS, 2004; HOLMAN JONES, 2005). This approach challenges canonical ways of doing research and representing others (SPRY, 2001) and treats research as a political, socially-just and socially conscious act (ADAMS &amp; HOLMAN JONES, 2008)(Ellis et al., 2011)</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  22
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="localllmactivity">Local LLM Activity</h1> 
+  <p>Step 0 Create a Hugging Face account </p> 
+  <p>Step 1 Install ollama</p> 
+  <p>Step 2 Find a model that you find interesting in the ollama library</p> 
+  <p>Step 3 Look up the model on hugging face and evaluate the model card</p> 
+  <p>Step 4 Once you have decided on a model download it and test out the model in the terminal or using the ollama UI</p> 
+  <p>Note: As you select a model note the model card and think about the model based on the questions for our upcoming assignment. Takes notes as you go.</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  23
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="chatgptbeforeguardrails">ChatGPT Before Guardrails</h1> 
+  <p><strong>Prework</strong> Obtain your access token</p> 
+  <ol> 
+   <li>Open the Colab notebook GPT before Guardrails and make a copy</li> 
+   <li>Follow the steps of the Colab notebook</li> 
+  </ol>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  24
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="technicalreflectionandobservations15min">Technical Reflection and Observations (15min)</h1> 
+  <p>What have you learned about how LLMs work?</p> 
+  <p>What did you notice about the output?</p> 
+  <p>How does an LLM choose output?</p> 
+  <p>What connections can you make to our readings this week?</p> 
+  <p>What questions do you have after completing this activity?</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  25
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="references">References</h1> 
+  <p>Barocas, S., Hardt, M., &amp; Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. The MIT Press.</p> 
+  <p>Birhane, A., Steed, R., Ojewale, V., Vecchione, B., &amp; Raji, I. D. (2024). AI auditing: The Broken Bus on the Road to AI Accountability (No. arXiv:2401.14462). arXiv. http://arxiv.org/abs/2401.14462</p> 
+  <p>Ellis, C., Adams, T. E., &amp; Bochner, A. P. (2011). Autoethnography: An Overview. Forum Qualitative Sozialforschung / Forum: Qualitative Social Research, 12(1), Article 1. https://doi.org/10.17169/fqs-12.1.1589</p> 
+  <p>Le Bui, M., &amp; Noble, S. U. (2020). We’re Missing a Moral Framework of Justice in Artificial Intelligence: On the Limits, Failings, and Ethics of Fairness. In M. Le Bui &amp; S. U. Noble, The Oxford Handbook of Ethics of AI (pp. 161–179). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780190067397.013.9</p> 
+  <p>Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., &amp; Gebru, T. (2019). Model Cards for Model Reporting. Proceedings of the Conference on Fairness, Accountability, and Transparency, 220–229. https://doi.org/10.1145/3287560.3287596</p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  26
+ </div>
+</div>
+</section>
+</div>
+</div>
+<script src="engine/index.js"></script>
+<script src="engine/d3v4.min.js"></script>
+<script src="engine/billboard.min.js"></script>
+<script src="engine/infographics.js"></script>
+<script src="engine/highlight.min.js"></script>
+<script src="engine/katex/katex.min.js"></script>
+<script src="engine/published.js"></script>
+<script>
+Reveal.configure({
+progress:true,
+progress:true,
+dependencies: [
+  {
+    src: "engine/highlight.js",
+    sync: true,
+    callback: function () {
+      hljs.initHighlightingOnLoad();
+    },
+  },
+],
+});
+</script>
+</body>
+</html>

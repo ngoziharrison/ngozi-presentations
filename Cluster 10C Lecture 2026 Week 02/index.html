@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
+<style>
+:root{
+--logo: /assets/logo_ucla_white_boxed.png;
+--logo-size: 8.0;
+--text-scale-intensity: ;
+--darkaccent1color: ;
+--lightaccent1color: ;
+--accent2: #43aa8b;
+--accent3: #f9c74f;
+--accent4: #90be6d;
+--accent5: #f8961e;
+--accent6: #577590;
+--lighttitletextcolor: #FFF;
+--darktitletextcolor: #000;
+--lightbodytextcolor: #FFF;
+--darkbodytextcolor: #000;
+--lightbackgroundcolor: #FFF;
+--darkbackgroundcolor: #004c6f;
+--bodyfont: Helvetica;
+--titlefont: Helvetica;
+--lightframecolor: #FFFFFF;
+--darkframecolor: #000000;
+} 
+
+</style>
+<link rel="stylesheet" href="engine/main.css">
+<link rel="stylesheet" href="theme/helvetica.css">
+<link rel="stylesheet" href="engine/katex/katex.min.css">
+</head>
+<body class="responsive ">
+<div class="reveal">
+<div class="slides">
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="introductiontocriticalaistudies-week2">Introduction to Critical AI Studies - Week 2</h1> 
+  <p>Ngozi Harrison</p> 
+  <p>ngozih@g.ucla.edu</p> 
+  <p>Spring 2026</p> 
+  <p><strong>Cluster 10C</strong> </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  1
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="today">Today</h1> 
+  <ul> 
+   <li>News (15min)</li> 
+   <li>Lecture (20min)</li> 
+   <li>Readings Activity (45min)</li> 
+   <li>Lecture (15min)</li> 
+   <li>Investigate that Tech Workshop (40min)</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  2
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="currentnews">Current News</h1> 
+  <ul> 
+   <li><a href="https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/">Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use</a></li> 
+   <li><a href="https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it">AI Doesn’t Reduce Work—It Intensifies It</a></li> 
+   <li><a href="https://archive.is/20260325014953/https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284">What Young Workers Are Doing to AI-Proof Themselves</a></li> 
+   <li><a href="https://archive.is/20260320044818/https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity#selection-683.0-683.50">AI-Generated “Workslop” Is Destroying Productivity</a></li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  3
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="ourreadingsforthisweekpt1">Our Readings for this week pt 1</h1> 
+  <ul> 
+   <li>McCarthy, J. (1955). A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence.</li> 
+   <li>Narayanan, A., &amp; Kapoor, S. (2024). AI snake oil: What artificial intelligence can do, what it can’t, and how to tell the difference. Princeton University Press.</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  4
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark v-split-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="whatisartificialintelligence">What is Artificial Intelligence?</h1>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 23.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  5
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="aiisshroudedinmysteryandhypethisclasshasthreemajorgoals">AI is shrouded in mystery and hype, this class has three major goals</h1> 
+  <ul> 
+   <li>Demystify AI and see through AI hype</li> 
+   <li>Explore material impacts of AI on society and examine assumptions, paradigms, and values that guide the ML/AI research and industry</li> 
+   <li>Explore alternative futures and explore strategies for resistence, refusal, and reimagining</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  6
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h3 id="questionstoaskwhenanalyzingbigtech">Questions to ask when analyzing Big Tech</h3> 
+  <h4 id="remembertoaskcuibono">Remember to ask Cui Bono</h4> 
+  <ol> 
+   <li>Whom does the technology most intimately affect?</li> 
+   <li>Whom does the technology most meaningfully benefit?</li> 
+   <li>Where do those interests diverge?</li> 
+  </ol>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  7
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark v-split-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="thetermartificialintelligencewascoinedin1956byjohnmccarthyandateamofcollaborators">The term Artificial Intelligence was coined in 1956 by John McCarthy and a team of collaborators</h1>
+ </div> 
+ <figure class="">
+  <img src="media/Pasted image 20250411092019.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  8
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark full-image-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-full-image slide-contents media-grid"> 
+ <figure class="">
+  <img src="media/Pasted image 20250418071509.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  9
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves.” (McCarthy, 1955, p. 12)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  10
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-footnotes has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="aisummersandwinters">AI Summers and Winters</h1> 
+  <p>There were two major "winters" approximately 1974–1980 and 1987–2000, and several smaller episodes, including the following <sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup> :</p> 
+  <p>1966: failure of machine translation</p> 
+  <p>1969: criticism of perceptrons (early, single-layer artificial neural networks)</p> 
+  <p>1971–75: DARPA's frustration with the Speech Understanding Research program at Carnegie Mellon University</p> 
+  <p>1973: large decrease in AI research in the United Kingdom in response to the Lighthill report</p> 
+  <p>1973–74: DARPA's cutbacks to academic AI research in general</p> 
+  <p>1987: collapse of the LISP machine market</p> 
+  <p>1988: cancellation of new spending on AI by the Strategic Computing Initiative</p> 
+  <p>1990s: many expert systems were abandoned</p> 
+  <p>1990s: end of the Fifth Generation computer project's original goals</p>
+ </div> 
+</div> 
+<div class="footnotes"> 
+ <ol> 
+  <li id="fn1"> <p>https://en.wikipedia.org/wiki/AI_winter <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p> </li> 
+ </ol> 
+</div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  11
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="whatareexpertsystems">What Are Expert Systems?</h1> 
+  <p>Expert systems is an approach within the field of AI that seeks to build computer systems that could perform as a human expert would. </p>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  12
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-footnotes has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="buildingexpertsystems">Building Expert Systems</h1> 
+  <p>Building an expert system involves three steps <sup><a href="#fn1" id="fnr1" title="see footnote" class="footnote">1</a></sup> :</p> 
+  <ol> 
+   <li>Collecting information from one or more human informants and/or from documentary sources;</li> 
+   <li>Ordering that information into procedures (such as rules and constraints) relevant to the operations that the prospective system is intended to perform</li> 
+   <li>Designing or adapting a computer program to apply these rules and constraints in performing the designated operations.</li> 
+  </ol> 
+  <h4 id="theserulesarethenencodedinaknowledgebaseusingsymboliclogic">These rules are then encoded in a knowledge base using symbolic logic</h4>
+ </div> 
+</div> 
+<div class="footnotes"> 
+ <ol> 
+  <li id="fn1"> <p>(Forsythe, 1993, p. 451) <a href="#fnr1" title="return to article" class="reversefootnote">↩︎</a></p> </li> 
+ </ol> 
+</div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  13
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="watchghostinthemachinetrailer">Watch Ghost in the Machine Trailer</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  14
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <p>Thomas Kuhn defines paradigms as "...universally recognized scientific achievements that for a time provide model problems and solutions to a community of practitioners.” (Kuhn, 1970, p. 8)</p> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 29.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  15
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark v-split-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="aisnakeoil">AI Snake Oil</h1> 
+  <p>What Artificial Intelligence Can do, What it Cant't, and How to Tell the Difference</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 24.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  16
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark v-split-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="meettheauthors">Meet the Authors</h1> 
+  <p>Arvind Narayanan</p> 
+  <p>Professor of Computer Science at Princeton University</p> 
+  <p>Director of the Center for Information Technology Policy</p>
+ </div> 
+ <figure class="">
+  <img src="media/Pasted image 20250509075401.png" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  17
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark v-split-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-v-split slide-contents media-grid"> 
+ <div class="element-group">
+  <h1 id="meettheauthorssayashkapoor">Meet the Authors Sayash Kapoor</h1> 
+  <p>Sayash Kapoor</p> 
+  <p>Computer Science PhD Candidate at Princeton University</p> 
+  <p>Research Focuses on the societal impact of AI</p>
+ </div> 
+ <figure class="">
+  <img src="media/Clipboard 25.png" class=" position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  18
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <blockquote class="is-single-quote" lang="en"> 
+   <div class="line"></div> 
+   <p>“This book is a guide to identifying AI snake oil and AI hype. In it, we’ll give you essential vocabulary to tease apart generative AI, predictive AI, and other types of AI.” (Kapoor and Narayanan, 2024, p. 3)</p> 
+   <div class="line"></div> 
+  </blockquote>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  19
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="vehicletech">Vehicle Tech</h1> 
+  <div class="layout-grid media-grid grid-items-6">
+   <figure class="">
+    <img src="media/Clipboard 33.png" class=" size-contain position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 34.png" class=" size-contain position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 39.png" class=" position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 36.png" class=" position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 35.png" class=" size-contain position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 38.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>     
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  20
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark title-and-columns-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-title-and-columns slide-contents columns-items-2 media-grid"> 
+ <div class="title-part element-group">
+  <h1 id="aiboostersandaidoomersaretwosidesofthesamecoin">AI Boosters and AI Doomers are two sides of the same coin</h1>
+ </div> 
+ <figure class="">
+  <img src="media/lrdie6f76whg1.png" class=" size-contain position-center-center" />
+ </figure>
+ <figure class="">
+  <img src="media/kj01y5xpcxb31.jpg" class=" size-contain position-center-center" />
+ </figure> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  21
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="mostaisystemscanbeclasifiedasgenerativeaiorpredictiveai">Most AI systems can be clasified as Generative AI or Predictive AI</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  22
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="narayananandkapoorscriteriafordeterminingwhenthetermaiisappropriate">Narayanan and Kapoor's Criteria for Determining When the Term AI is Appropriate</h1> 
+  <ol> 
+   <li>Does the task require creative effort or training for a human to perform? If yes, and the computer can perform it, it might be AI.</li> 
+   <li>Was the behavior of the system directly specified in code by the developer, or did it indirectly emerge, say by learning from examples or searching through a database?</li> 
+   <li>Does the system makes decisions more or less autonomously and possesses some degree of flexibility and adaptability to the environment</li> 
+  </ol>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  23
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="keytakeaways">Key Takeaways</h1> 
+  <ul> 
+   <li>Everything that purports to be "AI" isn't really what it claims to be?</li> 
+   <li>AI Boosters often overstate claims</li> 
+   <li>Even if something does qualify as what we may consider to be AI we should still question and be critical of the technology and it's role/impact in society?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  24
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="discussionquestions">Discussion Questions</h1> 
+  <ul> 
+   <li>What some examples of AI hype that you have observed?</li> 
+   <li>What is the danger of AI Snake Oil and AI hype?</li> 
+   <li>Why do researchers, founders, and boosters lie, misrepresent, obsfucate, or obscure how these technologies work and their social impacts?</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  25
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h3 class="kicker" id="readingactivity">Reading Activity</h3>
+  <h1 id="contemporarytrendsandsocietalharmsofai">Contemporary Trends and Societal Harms of AI</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  26
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="ourreadingsforthisweekcontd">Our Readings for This Week Cont'd</h1> 
+  <ul> 
+   <li>Li, P., Yang, J., Islam, M. A., &amp; Ren, S. (2025). Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models</li> 
+   <li>Exposing The Dark Side of America’s AI Data Center Explosion | View From Above | Business Insider.</li> 
+   <li>Challapally, A., Pease, C., Raskar, R., &amp; Chari, P. (2025). STATE OF AI IN BUSINESS 2025.</li> 
+   <li>State of Open Source on Hugging Face: Spring 2026.</li> 
+   <li>Raschka, S. (2025, July 19). The State Of LLMs 2025: Progress, Progress, and Predictions.</li> 
+   <li>Labor market impacts of AI: A new measure and early evidence. (n.d.). Anthropic.</li> 
+   <li>Lee, H.-P. (Hank), Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., &amp; Wilson, N. (2025, April 1). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. CHI 2025.</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  27
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents"> 
+ <div class="element-group">
+  <h1 id="readingsactivity20min">Readings Activity (20min)</h1> 
+  <p>Break into groups of 4 and read your assigned reading</p> 
+  <ul> 
+   <li>Discuss the reading and then come up with 
+    <ul> 
+     <li>3 Key Takeaways</li> 
+     <li>2 things you found interesting or surprising</li> 
+     <li>1 question that you have based on the reading</li> 
+    </ul></li> 
+   <li>Post response to bruinlearn discussion board</li> 
+   <li>nominate someone to present</li> 
+  </ul>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  28
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="reportbackanddiscussion20min">Report Back and Discussion (20min)</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  29
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark cover-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-cover slide-contents"> 
+ <div class="element-group">
+  <h1 id="investigatethattechworkshop">Investigate that Tech Workshop</h1>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  30
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark default-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-default slide-contents media-grid"> 
+ <div class="element-group has-media has-media-last">
+  <h1 id="detroitcommunitytechnologyproject">Detroit Community Technology Project</h1> 
+  <div class="single-image-wrapper">
+   <figure class="">
+    <img src="media/Clipboard 30.png" class=" size-contain position-center-center" />
+   </figure>
+  </div>
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  31
+ </div>
+</div>
+</section>
+<section class="variable-size-headings has-header has-footer dark grid-container responsive" style="">
+<div class="header">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing has-logo">
+  <img class="logo" src="media/logo_UCLA_white_boxed.png" />
+ </div>
+</div> 
+<div class="layout-grid {@{HAS_MEDIA_CLASSES}@} slide-contents grid-items-1 has-only-media media-grid"> 
+ <div class="element-group has-media has-media-first has-media-last">
+  <div class="layout-grid media-grid grid-items-2">
+   <figure class="">
+    <img src="media/Clipboard 31.png" class=" size-contain position-center-center" />
+   </figure>
+   <figure class="">
+    <img src="media/Clipboard 32.png" class=" size-contain position-center-center" />
+   </figure>
+  </div> 
+ </div> 
+</div> 
+<div class="footnotes"></div> 
+<div class="footer">
+ <div class="leading"></div>
+ <div class="middle"></div>
+ <div class="trailing">
+  32
+ </div>
+</div>
+</section>
+</div>
+</div>
+<script src="engine/index.js"></script>
+<script src="engine/pptxgen.min.js"></script>
+<script src="engine/pfill.js"></script>
+<script src="engine/published.js"></script>
+<script>
+Reveal.configure({
+progress:true,
+progress:true,
+dependencies: [
+  {
+    src: "engine/highlight.js",
+    sync: true,
+    callback: function () {
+      hljs.initHighlightingOnLoad();
+    },
+  },
+],
+});
+</script>
+</body>
+</html>

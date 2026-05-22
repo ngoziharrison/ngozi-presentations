@@ -290,10 +290,10 @@ size: contain
 
 
 ---
-# **Method:** Reverse Engineering
+# Methodological Approach
 	*   **Object of Analysis:** Hidden Markov Models
 	* Method: Reverse Engineering
-	*   **Methodological Approach:**
+	*   **Process**
 	    *  Trace history and geneology of the method
 	    *   Break down model into it’s components 
 	    *   Identify necessary assumptions and where values and politics may be encoded
@@ -306,14 +306,13 @@ size: contain
 
 ---
 # Reverse Engineering Principles
-	- Link mathematical abstraction to computational implementation
-	- Situating artifacts within sociotechnical context
-	- Locate and document mathematical practices that point to a paradigm and normal practice
-	- Unfold layers of abstraction and mapping networks of dependencies, libraries, and modules in the computational implementation
-	- Deconstruct technical artifacts and mathematical methods presented as whole or complete
-	- Reverse engineering is a creative and speculative act that by looking inside objects opens new opportunities to rebuild alternative epistemologies and relations
-	- Identify the social aspects of mathematical knowledge
-	- The object of analysis as a technolocultural object is an assemblage of artifact, practice, and belief
+	1. Link mathematical abstraction to computational implementation. 
+	2. Situate artifacts within a sociotechnical context. 
+	3. Locate and document mathematical practices that point to paradigms and normative practices. 
+	4. Unfold layers of abstraction andmap networks of dependencies, libraries, and modules in the computational implementation. 
+	5. Deconstruct technical artifacts and mathematical methods presented as a whole or complete. 
+	6. Identify the social aspects of mathematical knowledge. 
+	7. Analyze the object of analysis as a technocultural object.
 
 
 ---
@@ -326,9 +325,9 @@ size: contain
 
 ### $\quad$
 ## Critical Approaches to Quantitative and Computational Methods
-	- Methodological approaches to the study of Black life
-	- Critique of western scientific practice
-	- Disciplinary Hesitance
+	- QuantCrit
+	- CritQCM
+	- Reconceptualizations of quantification, measurement, and numeracy
 
 ### **Exemplars**
 	Gillepsie : Four senses of the word algorithm
@@ -336,9 +335,9 @@ size: contain
 	Bowker: Raw data is an oxymoron
 
 ### **Exemplars**
-	- Velez et al : QuantCrit
-	Johnson Jr.: CritQCM
-	des Freitas, Dixon-Roman, Lather: Reconceptualizations of quantification, measurement, and numeracy
+	Velez et al : QuantCrit applied to spatial analysis
+	Johnson Jr.: CritQCM as a longer tradition of methodological innovation
+	des Freitas, Dixon-Roman, Lather: New materialism, cybernetics, Black epistemology
 
 
 
@@ -358,9 +357,9 @@ size: contain
 
 
 ---
-### Context and Motivation
+
 # What is a value
-	Within philosophy of science literature a value is a property that is considered desirable
+	Within philosophy of science literature a *value* is a property that is considered desirable
 
 
 
@@ -382,6 +381,33 @@ size: contain
 
 ---
 
+### Literature Review
+## **Politics and Values Within Technical Artifacts**
+	- Science and Technology Studies
+	- Philosophy of Science
+	- Algorithmic Power Analysis
+
+
+### $\quad$
+## Machine Learning Fairness
+	- Fairness Definitions and Measures
+	- Critique of Fairness Implementations
+	- Critique of Fairness as a Target
+
+### **Exemplars**
+	Winner : Politics of Technical Artifacts
+	Nissenbaum: Values of Computer Systems
+	Scheuerman et al: Values in Datasets
+	Birhane et al: Values in ML research
+
+### **Exemplars**
+	Narayanan : Definitions and Methods for Fairness
+	Selbst et al. : Algorithmic Frame Limits Fairness Implementations 
+	Bui and Noble: Fairness as artifact of Liberalism
+
+
+---
+
 # Methodology
 ## A Mixed-Methods Approach 
 	(Qualitative + Computational + Intepretive)
@@ -399,9 +425,9 @@ size: contain
 ---
 # Data Collection
 	Collect papers published in the ACM FAAcT proceedings between the years of 2019-2026 based on the following criteria:
-	1. Fairness is one of the tags and/or included within the paper title
-	2. TBD
-	3. Include a mathematical formalization and measurement of fairness
+	1. Fairness is one of the keywords and/or is included in the paper title
+	2. The paper includes some quantitative approach or mathematical formalization for the measurement of fairness
+	3. The paper includes a definition of fairness, either defined in the paper or outsourced via citation to another paper
 	These articles will be collected using Zotero
 
 
@@ -411,8 +437,16 @@ size: contain
 	Through CTDA I operationalize the Fairness discourse as a technocultural discourse and use multiple methods to quantify the presence of dominant values and then read their discursive significance
 
 
+/assets/Clipboard 7.png
+size: contain
+
+
+
 ---
-# Using this framework I understand the fairness discourse as a thorugh the triad fairness-as-artifact, fairness-as-practice, and fairness-as-belief
+# Using this framework I understand the fairness discourse as a through the triad fairness-as-artifact, fairness-as-practice, and fairness-as-belief
+
+
+---
 
 ---
 # The Analysis Will Consist of Three Phases
