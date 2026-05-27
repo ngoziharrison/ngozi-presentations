@@ -1,4 +1,3 @@
- An inquiry into the Mathematics of Machine Learning and Algorithmic Power
 # Machine Learning, Data, and the Social Dimensions of Mathematical Knowledge
 	Presented in consideration of Oral Qualifying Exam
 	Ngozi Harrison
@@ -77,6 +76,18 @@ size: contain
 	*   **Goal:** To illuminate the politics, epistemologies, and abstractions within ML practices and paradigms
 *   **Focus:** Shifting focus from statistics to **Linear Algebra** and **Problem Formulation**.
 
+
+---
+# Literature Review Process
+
+Obsidian and Zotero
+	For my literature review I am using a combination of Zotero and Obsidian to organize sources, write and organize notes, and identify themes
+
+Zotero
+Contains sources and pdfs for reading, highlighting, and annotating
+Obsidian
+Contains Notes and annotations 
+
 ---
 # Problem Statment
 ---
@@ -91,7 +102,6 @@ size: contain
 # Proposed Dissertation Structure
 
 ---
-
 
 # A Three-Article Dissertation
 	**Article 1**  Machine Learning Hesitant: W.E.B. Du Bois, Problem Framing and the Politics of Abstraction 
@@ -225,9 +235,9 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 	- Disciplinary Hesitance
 
 ### **Exemplars**
-	Selbst et al: Critique of Abstraction
-	Noble: Algorithmic Power Analysis
-	Klein and Posner: Datafication
+	- Selbst et al: Critique of Abstraction
+	- Noble: Algorithmic Power Analysis
+	- Klein and Posner: Datafication
 
 ### **Exemplars**
 	- Judy: Hesitance as a challenge to western thought
@@ -238,11 +248,11 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 
 ---
 # Timeline
-# Phase 1: Literature Review (June 2026 – Nov 2026)
+## Phase 1: Literature Review (June 2026 – Nov 2026)
 	*How is the i.i.d. assumption used in contemporary machine learning practice, and when it is used, how is it framed?*
-# Phase 2: Historical Analysis (Dec 2026 – Mar 2027)
+## Phase 2: Historical Analysis (Dec 2026 – Mar 2027)
 	*What are the origins of the i.i.d assumption within the history of mathematics and statistics, and how did this come to be adopted in machine learning?*
-# Phase 3: Conceptual Mapping (Apr 2027 – Jul 2027)
+## Phase 3: Conceptual Mapping (Apr 2027 – Jul 2027)
 	*What is the interrelated web of concepts, epistemological assumptions, and social implications in which	the i.i.d. assumption is embedded? How does hesitance challenge these concepts and their corresponding assumptions and abstractions?*
 
 
@@ -343,7 +353,12 @@ size: contain
 
 ---
 # Timeline
-	[ADD TIMELINE]
+## Phase 1: Identify and analyze contemporary applications (June 2026 – December 2026)
+	*How are Hidden Markov Models (HMMs) used in contemporary machine learning and quantitative social science methods?*
+## Phase 2: Trace history and genealogy of HMMs (December 2026 – January 2027)
+	*What is the historical genealogy of Hidden Markov Models (HMMs) and how does it inform current mathematical formalizations?*
+## Phase 3: Construct Classification scheme (January 2027 – March 2027)
+	*What characteristics and properties can we use to classify HMM types and architectures?*
 
 ---
 
