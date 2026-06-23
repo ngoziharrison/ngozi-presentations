@@ -4,6 +4,10 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{fontspec}
+\setsansfont{Helvetica} 
+
+
 
 % Theme
 \usetheme{ucla}
@@ -26,12 +30,32 @@
 \setbeamercolor{date}{fg=white}
 \setbeamercolor{institute}{fg=white}
 
+% 1. Change TOC style to plain Arabic numbers (1., 2., etc.)
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+% 2. Force the text and numbering colors to black
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+\setbeamercolor{section number projected}{fg=uclaBlueDark, bg=white}
+
+% custom section page
+\setbeamertemplate{section page}{
+    % A mini-page box set to the exact height of the slide text box
+    \begin{minipage}[c][\textheight]{\textwidth}
+        \raggedright
+        {\LARGE\bfseries\color{uclaBlueDark}\insertsectionhead\par}
+    \end{minipage}
+}
+
+\apptocmd{\frame}{\raggedright}{}{}
+
 % Title
-\title{Introduction to Critical AI Studies \\ \small{Week 6: Deep Neural Networks, Large Language Models, and \\ Generative AI}}
-\subtitle{Week 5: Theory-Free Ideal and Values Encoded}
+\title{ Machine Learning, Data, and The Social \\ Dimensions of Mathematical Knowledge }
+\subtitle{Oral Qualifying Examination}
 
 \author{Ngozi Harrison \\ ngozih@g.ucla.edu}
-\date{Spring 2026 \\ Cluster 10C}
+\date{Summer 2026 \\  \small {Presented in Satisfation of Oral Qualifying Exam}}
 \location{}
 
 % Image macro (kept but simple)
@@ -57,74 +81,33 @@
     \insertTitleSlide
 
 
-\begin{frame}{Today}
-   \begin{itemize}
-    \item Check in about last week's writing activity (10min)
-    \item Presentations (2hrs)
-    \item Technical Workshop (45min)
-\end{itemize}
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
 \end{frame}
 
-\begin{frame}{Last Week's Writing Activity (10min)}
+\section{Background}
+\sectionpage
+
+\begin{frame}
+\frametitle{Machine Learning as a Disciplinary Matrix}
+\begin{columns}
+\column{0.5\textwidth}
+This is a text in first column.
+$$E=mc^2$$
 \begin{itemize}
-    \item What did you learn about writing in your discipline?
-    \item What techniques did you notice authors use?
-    \item How can looking at model texts help you with your own writing?
+\item First item
+\item Second item
 \end{itemize}
-\end{frame}
 
-\begin{frame}{Writing resource}
-    \begin{center}
-    \textbf{Academic Phrasebank} \\[1em]
-    %\includegraphics[width=\textwidth]{assets/Clipboard 71.png}
-    \end{center}
-\end{frame}
-
-\begin{frame}{Presentations}
-\begin{itemize}
-    \item 22 presentations
-    \item 10min break after 11 presentations
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Our Readings for this Week}
-\begin{itemize}
-    \item Stephen Wolfram, \textit{"What Is ChatGPT Doing...and Why Does It Work?"}, Stephen Wolfram Writings, February 14, 2023.
-    \url{https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/}
-    
-    \item M. Mitchell et al. (2019). \textit{Model Cards for Model Reporting}. Proceedings of the Conference on Fairness, Accountability, and Transparency, 220--229.
-    \url{https://doi.org/10.1145/3287560.3287596}
-    
-    \item E. M. Bender et al. (2021). \textit{On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?} Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT '21, 610--623.
-    \url{https://doi.org/10.1145/3442188.3445922}
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{In Class Technical Activity \#2}
-\begin{itemize}
-    \item \textbf{Prework}: Create a Hugging Face account and obtain your access token
-    \item 1. Open the Colab notebook \textit{GPT before Guardrails} and make a copy
-    \item 2. Follow the steps of the Colab notebook
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Technical Reflection and Observations (15min)}
-\begin{itemize}
-    \item What have you learned about how LLMs work?
-    \item What did you notice about the output?
-    \item How does an LLM choose output?
-    \item What connections can you make to our readings this week?
-    \item What questions do you have after completing this activity?
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Next Week}
-\begin{itemize}
-    \item Discuss Fairness, Accountability, and Transparency
-    \item Final In class Technical Activity: Setting up a local LLM
-    \item Start working on the final project by breaking down the prompt
-\end{itemize}
+\column{0.5\textwidth}
+\small{
+	A disciplinary matrix consists of four major components which I outline below: \\
+Symbolic generalizations are formal expressions that are deployed without question or dissent by group members which can be written in logical forms \\
+Shared Commitments to particular models shared commitments and beliefs in particular mental models and heuristics \\
+Values are properties that are considered to be a desirable attribute for some theory, result, or other entity in scientific practice \\
+Exemplars refers to a canonical set of problems and solutions that often play a pedagogical role in the training of scientists or practitioners in a particular disciplinary formation.}
+\end{columns}
 \end{frame}
 
 \end{document}

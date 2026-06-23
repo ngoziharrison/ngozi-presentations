@@ -1,0 +1,57 @@
+% !TEX root = example/example.tex
+
+\RequirePackage[no-math]{fontspec}
+\RequirePackage{iffont}
+
+
+%---------------------------------------------------------------------------------------------------
+% Function to print current font
+%---------------------------------------------------------------------------------------------------
+\makeatletter
+\newcommand{\printcurrentfont}{%
+    \expandafter\format@externalcurrentfont\fontname\font:\@nil
+    }
+\def\format@externalcurrentfont#1:#2\@nil{%
+    {\@ifnextchar"{\@gobble}{}#1}%
+    }
+\makeatother
+
+
+
+%---------------------------------------------------------------------------------------------------
+% Check for font
+%--------------------------------------------------------------------------------------------------
+\iffontsexist{Open Sans, 
+			  Open Sans Italic, 
+			  Open Sans Bold, 
+			  Open Sans Bold Italic}{%
+	%\setsansfont[ItalicFont={Open Sans Italic},%
+	%             BoldFont={Open Sans Bold},%
+	%             BoldItalicFont={Open Sans Bold Italic}]%
+	%             {Open Sans}
+	\setsansfont[ItalicFont={Open Sans Light Italic},%
+		             BoldFont={Open Sans},%
+		             BoldItalicFont={Open Sans Italic}]%
+		             {Open Sans Light}
+	}{
+	\PackageWarning{beamerthememeucla}{Open Sans fonts not found.}
+	\PackageWarning{beamerthememeucla}{Using default fonts.}
+	\renewcommand{\printcurrentfont}{default}
+	}
+
+
+
+
+%---------------------------------------------------------------------------------------------------
+% Function to print current font
+%--------------------------------------------------------------------------------------------------
+% Title page font:
+\setbeamerfont*{title}{size=\Large, series=\bfseries}
+\setbeamerfont*{location}{size=\scriptsize}
+\setbeamerfont*{author}{size=\small}
+\setbeamerfont*{date}{size=\footnotesize}
+
+% Slide font:
+\setbeamerfont*{frametitle}{size=\Large, series=\bfseries}
+\setbeamerfont*{framesubtitle}{size=\normalsize, series=\normalfont}
+\setbeamerfont*{slide number}{size=\tiny}

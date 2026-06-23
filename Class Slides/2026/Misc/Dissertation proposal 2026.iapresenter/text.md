@@ -1,105 +1,50 @@
 # Machine Learning, Data, and the Social Dimensions of Mathematical Knowledge
-	Presented in consideration of Oral Qualifying Exam
+	Oral Qualifying Examination
 	Ngozi Harrison
 	UCLA Information Studies
-	Spring 2026
-
-plan for this to be 15-30 min
+	Summer 2026
 
 ---
 # Overview
-
-	- Background
-	- Problem Statement
-	- Proposed Dissertation Structure
-	- Definitions
-	- Article 1
-	- Article 2
-	- Article 3
-	- Timeline and Workplan
-	- Conclusion 
+	**1** Background and Problem Statement
+	**2** Proposed Dissertation Structure
+	**3** Article 1
+	**4** Article 2
+	**5** Article 3
+	**6** Conclusion 
 
 
-Structure
-- Background 1 slide
-- Research Questions
-- Definitions
-- Literature Review Themes 2-3 slides
-- Method 2 slide
-- Implementation
-
+Here is the structure for the presentationm, first I’ll provide a brief overview of some my framing for the proposal, next I’ll discuss the structure of the proposed dissertation, then I will discuss ehach article and finally I will my timeline and workplan
 
 ---
-# Background
-
-
----
-# Machine Learning as a Disciplinary Matrix
-
-/assets/Clipboard 3.png
-size: contain
-
-—
-	A disciplinary matrix consists of four major components which I outline below:
-	• Symbolic generalizations Formal expressions that are deployed without question or dissent by group
-	members which can be written in logical forms
-	• Shared Commitments to particular models shared commitments and beliefs in particular mental models
-	and heuristics
-	• Values Properties that are considered to be a desirable attribute for some theory, result, or other entity in
-	scientific practice
-	• Exemplars A canonical set of problems and solutions that often play a pedagogical role in the training of
-	scientists or practitioners in a particular disciplinary formation.
-
-
----
-
-Building on the work of Kuhn and Collins we can consider machine learning as more than just a discipline or set of tools but as a disciplinary matrix. 
-	Considering machine learning as a disciplinary matrix moves us from simply seeking to document harms to considering investigating how the components of the matrix structure normative machine learning practices.
-
-
----
-# This Disciplinary Matrix is further situated within a Matrix of Domination
-
-Next to the film we have the critical work by patricia hill collins where she introduces the matrix of domination. Matrix thinking provides a paradigm for us to understand the many dimensions of of how one might experience domination or oppression. Particularly focues on Black women 
+### Background
+# Machine Learning as a Disciplinary Matrix is further situated within a Matrix of Domination 
+	Considering machine learning as a disciplinary matrix moves us from primarily documenting harms to investigating how the components both matrices interact and structure normative machine learning practices.
 
 /assets/Clipboard 4.png
 size: contain
 
+/assets/Clipboard 3.png
+size: contain
 
-
----
-
-
-# **A Proposal for a Three-Article Dissertation**
-	
-	*   **Topic:** Critical analysis of the mathematical infrastructure of Machine Learning (ML).
-	*   **Goal:** To illuminate the politics, epistemologies, and abstractions within ML practices and paradigms
-*   **Focus:** Shifting focus from statistics to **Linear Algebra** and **Problem Formulation**.
-
+how did I get started in recognizing that this is a problem?
+- How did I get here? Narrate how I ended up with this iteration of the project
+- why is this tea?
+- how this connected?
 
 ---
-# Literature Review Process
-
-Obsidian and Zotero
-	For my literature review I am using a combination of Zotero and Obsidian to organize sources, write and organize notes, and identify themes
-
-Zotero
-Contains sources and pdfs for reading, highlighting, and annotating
-Obsidian
-Contains Notes and annotations 
-
----
-# Problem Statment
----
-# Problem 
-
+# Problem Statement
 	Machine Learning Paradigms operates based on a shared set of **assumptions**, **values**, and **problem framing practices**
-
-	These assumptions often go unquestioned specific epistemological and ontological commitments are encoded within mathematical formalisms
+	These assumptions often go unquestioned and specific epistemological and ontological commitments are encoded within mathematical formalisms
 
 
 ---
-# Proposed Dissertation Structure
+# Centering Mathematics as a Site of Inquiry and Intervention
+	- Interrogation of Mathematics as the Infrastructure of Modernity
+	- Inquiry into the social aspects of mathematical knowledge
+	- Development of new methodologies and approaches to machine learning and quantification
+
+
 
 ---
 
@@ -108,35 +53,50 @@ Contains Notes and annotations
 	**Article 2**  Reverse Engineering Hidden Markov Models: A Sociotechnical Inquiry into a Machine Learning and Quantitative Social Science Method
 	**Article 3** Does Fairness have Politics: Identifying and Analyzing the Values Encoded Within Machine Learning Fairness Research
 
+For this dissertation I propose three articles each that addresses the core problem of investigating the paradigm of machine learning
 
 ---
+
+
 # Dissertation Structure and Topics
 **Article 1.**  **Theoretical Challenge:** Connecting historical social science critique from the Black Sociological Tradition to contemporary machine learning paradigms.
 Comparative discourse analysis of the work of Du Bois alongside current machine learning paradigms
-2.  **Reverse Engineering:** Analyzing the history, geneology, and contemporary practice of a particular machine learning method
+2.  **Reverse Engineering:** Analyzing the history, genealogy, and contemporary practice of a particular machine learning method
 3.  **Mixed Methods:** Quantitative and qualitative analysis of fairness literature to identify values and normative frameworks.
-| Article # | Approach                               | Summary                                                                                                                                              |
-| :-------- | :------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | **Critical Conceptual Analysis**       | Critical analysis of the i.i.d. assumption within machine learning and quantitative methods through the lens of Du Bois’ essay "Sociology Hesitant". |
-| 2         | **Reverse Engineering**                | Situated analysis of the history, genealogy, and contemporary practices of Hidden Markov Models (HMMs).                                              |
-| 3         | **CTDA** (Computational + Qualitative) | Quantitative, qualitative, and computational analysis of fairness literature to identify values and normative frameworks.                            |
+| Article #  | Approach                                                   | Summary                                                                                                                                              |
+| :--------- | :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Article 1  | **Critical Conceptual Analysis**                           | Critical analysis of the i.i.d. assumption within machine learning and quantitative methods through the lens of Du Bois’ essay "Sociology Hesitant". |
+| Arcticle 2 | **Reverse Engineering**                                    | Situated analysis of the history, genealogy, and contemporary practices of Hidden Markov Models (HMMs).                                              |
+| Article 3  | **CTDA** <br> (Computational + Qualitative + Interpretive) | Quantitative, qualitative, and computational analysis of fairness literature to identify values and normative frameworks.                            |
 
-
+For article 1 I propose to conduct a critical conceptual analysis of the i.i.d. assumption through the lens of Du Bois’ essay sociology hesitant
+For the second article I propose to conduct a reverse engineering analysis of hidden markov models
+for the final article I will conduct an analysis of a corpus of machine learning fairness research papers in order to identify the latent values that inform approaches to defining fairness
 
 ---
 # My Interventions
-	**Critique of Foundational Assumptions:** The research addresses the need to critically analyze foundational assumptions, such as the independent and identically distributed (i.i.d.) assumption in machine learning through the lens of sociological critique 1.
-	**Critical Quantitative and Technical Practice:** The research seeks to move beyond descriptive analysis to call for a critical mathematical and computational practice that embraces hesitation and refusal to accept established algorithmic norms
+	**Critique of Foundational Assumptions:** 
+	addresses foundational assumptions in machine learning through the lens of sociological critique.
+	**Critical Quantitative and Technical Practice:** 
+	critical mathematical and computational practice that embraces hesitation and refusal to accept established algorithmic norms
+
 
 
 ---
-# Definitions
-	Disciplinary Matrix
-	Paradigm
-	Exemplar
-	Abstraction
-	Hesitance
-	Critical technical practice
+# Additional Literature
+Authors and Readings That Didn’t Make it into the Proposal but I have been Reading as I prepare
+	Bowker, G. C., & Star, S. L. (2008). Sorting things out: Classification and its consequences (1. paperback ed., 8. print). MIT Press.
+	Borgman, C. L. (2015). Big Data, Little Data, No Data: Scholarship in the Networked World. The MIT Press. https://doi.org/10.7551/mitpress/9963.001.0001
+	Daniels, J. (2013). Race and racism in Internet Studies: A review and critique. New Media & Society, 15(5), 695–719. https://doi.org/10.1177/1461444812462849
+	Du Bois, W. E. B., Green, D. S., & Driver, E. D. (1980). W.E.B. Du Bois on sociology and the black community (Paperback ed). Univ. of Chicago Press.
+	Gossett, C., & Nyong’o, T. (2026). Unsettling the Question of Technology: Sylvia Wynter Now. Social Text, 44(2 (167)), 1–9. https://doi.org/10.1215/01642472-12286339
+	Halpern, O. (2016). Circuits of Amnesia: Cybernetic Memory and Real-Time Analytics. Cultural Studies ↔ Critical Methodologies, 16(5), 442–451. https://doi.org/10.1177/1532708616655762
+	Harris, K. A. (2021). Du Bois and Hegelian Idealism. Idealistic Studies, 51(2), 149–167. https://doi.org/10.5840/idstudies2021624130
+	Hald, A. (1999). On the History of Maximum Likelihood in Relation to Inverse Probability and Least Squares. Statistical Science, 14(2), 214–222.
+	McKittrick, K. (Ed.). (2015). Sylvia Wynter: On being human as praxis. Duke University Press.
+	Nelson, A. (n.d.). Field Theory: AI as Social Science Question, Object & Tool. Field Theory.
+	Noble, S. U. (2026). A Manifesto for Data in Society, Not Data as Society. In T. E. Barber (Ed.), Data Consciousness. Hirmer.
+	Pasquinelli, M. (2026). Machine, organism and language: A comparative epistemology of AI models. AI & SOCIETY. https://doi.org/10.1007/s00146-026-03094-7
 
 ---
 
@@ -146,83 +106,117 @@ Comparative discourse analysis of the work of Du Bois alongside current machine 
 
 
 ---
-# Background
----
 # Sociology Hesitant
 	- Sociology Hesitant was an unpublished manuscript written by Du Bois 1905
 	- A critical engagement with positivist sociology, western modernity, and abstraction
+	- 	Eventually published in a special issue of boundary 2 edited by R. A. Judy in 2000
+
 
 /assets/Clipboard 5.png
 size: contain
 
 
-	Was eventually published in a special issue of boundary 2 edited by R. A. Judy in 2000
-
 
 ---
 # Du Bois' Critique
+	In this short article, Du Bois critiques positivist sociology and expresses a skepticism about current methodologies and abstractions in sociological work
+	
+	$\quad$
+
 
 /assets/Clipboard 2.png
+size: contain
 
-	In this short article, Du Bois critiques positivist sociology and expresses a skepticism about the application of abstractions in sociological work
-	I argue that this hesitance is increasingly relevant to work within machine learning and quantitative methods
+I argue that this hesitance is increasingly relevant to work to machine learning and quantitative methods
 
+Hesitance is not the end point but a mode of constant reflective techno-skepticism and critical inquiry into the abstractions, methods, and tools for the study of and engagement with society.[^(Myers 2023)] 
 
----
-
-
-# Hesitance is a creative force, it is a moment of both "refusal and imagination" . 
-	Hesitance is not the end point but a mode of constant reflection and critical inquiry into the abstractions, methods, and tools for the study of and engagement with society.[^(Myers 2023)] 
-
+From Sociology Hesitant to Machine Learning Hesitant
+How do we apply Duboisian hesitance to modern machine learning practice?
 
 
 ---
-
-
-### From Sociology Hesitant to Machine Learning Hesitant
-# How do we apply Dubois hesitance to modern machine learning practice?
-
+# Hesitance is a creative force, it is a moment of both "refusal and imagination” 
 
 ---
 # Critically examining the i.i.d. assumption 
 	*independently and identically distributed random variables*
-	The i.i.d. assumption is a foundational assumption in machine learning and quantitative methods
-	* Identically distributed meaning all variables are taken from the same probability distribution
-	* Independent meaning no variables depend on one another or have causal relationships
+	* **Identically distributed** all variables are taken from the same probability distribution 
+	* **Independent** no variables depend on one another or have causal relationships
 
 /assets/2E9EF6CA-A21E-4666-B695-66A4B5DAE3FC.jpeg
 size: contain
 
+Statistical properties such as mean, variance, etc. remain consistent across the dataset
+
+The i.i.d. assumption is a foundational assumption in machine learning and quantitative methods
+critical, fragile, how much rests upon it
 
 ---
-# What is the significance of i.i.d. in statistics and machine learning
+# Historical Context 
+	- Published by Kolmogorov in 1933 
+	- Provides the axiomatic foundation for Modern Probability Theory
+	- Kolmogorov precisely defines independence and identical distribution using **measure theory**
+
+/assets/Clipboard 8.png
+size: contain
+
+
+---
+# What is the significance of i.i.d. in statistics and machine learning?
+	- **Training and Generalizability**
+The goal of machine learning is to build a model that performs well on unseen data given a limited training set, assuming data is i.i.d. means that **limited training data** can be assumed to be **representative of the real world** and it is likely that the model will **generalize** well
+	- **Simple and Computationally Tractable Calculations**
+When iid is assumed, the overall joint probability of a dataset can be calculated as the simple multiplication of all individual probabilities
+	- **Optimization and Loss Function**
+During training the model optimizes parameters by minimizing the overall error across the dataset. iid allows for the error to be calculated as the average error for each datapoint. 
+	- **Maximum Likelihood Estimation**
+MLE computation is more straightforward and computationally tractable when i.i.d. is assumed. 
+
+
+The likelihood function that is being maximized is the product of the joint probabilities of the samples given a set of   parameters 
+
+
+here I am only focusing on the role of iid in training for the sake of time but iid is also important in preprocessing and evaluation
+
+iid in the real world
+
+Often data is not exactly iid, it is a modelling assumption and there are data preprocessing techniques to make the data more iid
+
+## Cases when i.i.d. is violated
+	- Time Series Data
+	- Deep causal relationships in underlying structure
+	- Concept Drift, data changes in unforeseen ways that invalidate the model
+
 
 ---
 # Research Questions
 	1. What is hesitance and how can Du Bois' hesitance provide a sociotechnical perspective to challenge current dominant machine learning paradigms and inform future machine learning practice?
-	
-	2. How does Western science and philosophy inform modern machine learning practice and in what ways does this flatten or reduce the kinds of knowledge that machine learning can create/discover?
-	
-	3. What are the social implications of the iid assumption and how does hesitance challenge the epistemolgical aspects of this assumption?
-
+	2. What are the social implications of the iid assumption? How does hesitance challenge the epistemological aspects of this assumption?
+	3. How does Western science and philosophy inform modern machine learning practice and in what ways does this flatten or reduce the kinds of knowledge that machine learning can create or discover?
 ---
 
 # Methodological Approach
 	**Method:** Critical Conceptual Analysis
-	**Theoretical lens** Sociology Hesitant
-	**Object of Analysis** independent and identically distrubted assumption
+	**Theoretical lens:** Sociology Hesitant
+	**Object of Analysis:** independent and identically distributed assumption
 
 
 ### Method 
 # Critical Conceptual Analysis
-	Critical conceptual analysis combines conceptual analysis alongside geneology and critical theory to break down a concept to its constituate parts, identify the social meanings of a concept, locate it within a broader discursive history
+	- Combines conceptual analysis alongside genealogy and critical theory 
+	- Breaks down a concept 
+	- Identifies the sociological meanings of a concept
+	- Situates within a broader discursive history
 
 Conceptual analysis involves precisely defining the meaning of a concept by identifying the conditions under which any entity or phenomenon can be classified as falling under that concept.
 
 
 ---
+how is my intervention tied to the literature review
 ### Literature Review
 ## **Machine Learning and Society**
+	**Research Areas**
 	- Critical Data Studies
 	- Fairness, Accountability, and Transparency
 	- Algorithmic Power Analysis
@@ -230,30 +224,25 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 
 ### $\quad$
 ## Du Bois and the Black Sociological Tradition
+	**Research Areas**
 	- Methodological approaches to the study of Black life
 	- Critique of western scientific practice
 	- Disciplinary Hesitance
 
-### **Exemplars**
+### **Examples**
 	- Selbst et al: Critique of Abstraction
-	- Noble: Algorithmic Power Analysis
 	- Klein and Posner: Datafication
+	- Noble: Data double conscioussness
 
-### **Exemplars**
+
+### **Examples**
 	- Judy: Hesitance as a challenge to western thought
 	- Myers: Hesitance as refusal and imagination
+	- Harris: Hesitance as critical departure from Hegel
 	- Lowe: History Hesitant
 	- Townes: Communication Hesitant
 
 
----
-# Timeline
-## Phase 1: Literature Review (June 2026 – Nov 2026)
-	*How is the i.i.d. assumption used in contemporary machine learning practice, and when it is used, how is it framed?*
-## Phase 2: Historical Analysis (Dec 2026 – Mar 2027)
-	*What are the origins of the i.i.d assumption within the history of mathematics and statistics, and how did this come to be adopted in machine learning?*
-## Phase 3: Conceptual Mapping (Apr 2027 – Jul 2027)
-	*What is the interrelated web of concepts, epistemological assumptions, and social implications in which	the i.i.d. assumption is embedded? How does hesitance challenge these concepts and their corresponding assumptions and abstractions?*
 
 
 ---
@@ -262,64 +251,56 @@ Conceptual analysis involves precisely defining the meaning of a concept by iden
 # Reverse Engineering Hidden Markov Models: 
 ### A Sociotechnical Inquiry into a Machine Learning and Quantitative Social Science Method
 
-
----
-# Background
-
-
----
-Markov Processes and the Markov Assumption
-
-
 ---
 
 # What are Hidden Markov Models
-	Hidden Markov Models (HMMs) are a popular machine learning and statistical method for modeling complex time series and longitudinal data. HMMs are a way of relating a sequence of observations Y to a sequence of hidden states Z to explain the observations. 
-
-
-
-/assets/Clipboard 6.png
+	Hidden Markov Models (HMMs) are machine learning and statistical method for modeling complex time series and longitudinal data. 
+	A hidden markov model is defined as $\lambda = (A, B, \pi)$
+/assets/Clipboard 16.png
 size: contain
 
+HMMs are used within computational biology, finance, neuroscience, psychometrics, sociology, education research, and many more areas where there is a need for time-series data analysis
 
 ---
-# Applications of Hidden Markov Models
-	HMMs are used within computational biology, finance, neuroscience, psychometrics, sociology, education research, and many more areas where there is a need for time-series data analysis
+### Key Definitions
+| Concept             | Definition                                                                                                                                                                                                                                                                               |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Markov Process      | A stochastic process that describes a sequence of events in which the probability of one event depends only upon the state attained in the previous event.                                                                                                                               |
+| Markov Property     | A process is said to be markovian or possess the markov property if the probability of a future event solely depends on the result of the directly previous event.                                                                                                                       |
+| Markov Assumption   | A modelling assumption made when developing a probabilistic model based on observed data. This modelling assumption holds that the process being modelling possesses the markov property.                                                                                                |
+| Hidden Markov Model | A probabilistic model that models a stochastic process by assuming that observed behavior is driven by a sequence of hidden latent states. This sequence of states is assumed to possess the markov property. HMMs are used to predict latent internal states based on observed behavior. |
 
----
-### The Hidden Markov Assumption
-	There is a set of layered assumptions that undergird HMMs. First is the assumption that behavior is being driven by hidden states, second is the Markov assumption that this sequence of states is a Markov process.
 
 
 ---
 # Research Questions
-	* **Primary Question** How do reverse engineering techniques expose the normative assumptions, historical genealogies, and social values embedded within the 'hidden states' of Hidden Markov Models?
-	* What is the history and genealogy of hidden markov models and how does it inform current mathematical formalizations?
-	*   How does the mathematical assumptions of the Markov property reflect or simplify complex social and historical context?
-
-
+	1. How do reverse engineering techniques expose the necessary assumptions, historical genealogies, and social values embedded within the ’hidden states’ of Hidden Markov Models?
+	2. What is the historical genealogy of Hidden Markov Models and how does it inform current mathematical
+	formalizations?
+	3. How does the mathematical assumption of the Markov property reflect or simplify complex social and historical
+	context?
+	4. What theories of cognition and information underly the application of Hidden Markov Models, how does these theories reflect social or material factors?
+	5. What notion of the human underlies the application of Hidden Markov Models within psychometrics?
 
 ---
 # Methodological Approach
-	*   **Object of Analysis:** Hidden Markov Models
-	* Method: Reverse Engineering
-	*   **Process**
-	    *  Trace history and geneology of the method
-	    *   Break down model into it’s components 
-	    *   Identify necessary assumptions and where values and politics may be encoded
-	    *  Analyze contemporary applications
+	 **Method:** Reverse Engineering
+	 **Object of Analysis:** Hidden Markov Models
+
 
 ### Method
 # Reverse Engineering
-	Reverse engineering is a method for performing a situated analysis of a technology by breaking it down into components, uncovering how it was made, and revealing the epistemological frames and paradigms that inform its construction and use (Amaro, 2022; Stevens, 2022). 
-
+	- Trace history and genealogy of the method
+	- Break down model into it’s components 
+	- Identify necessary assumptions and where values and politics may be encoded
+	- Analyze contemporary applications
 
 ---
 # Reverse Engineering Principles
 	1. Link mathematical abstraction to computational implementation. 
 	2. Situate artifacts within a sociotechnical context. 
 	3. Locate and document mathematical practices that point to paradigms and normative practices. 
-	4. Unfold layers of abstraction andmap networks of dependencies, libraries, and modules in the computational implementation. 
+	4. Unfold layers of abstraction and map networks of dependencies, libraries, and modules in the computational implementation. 
 	5. Deconstruct technical artifacts and mathematical methods presented as a whole or complete. 
 	6. Identify the social aspects of mathematical knowledge. 
 	7. Analyze the object of analysis as a technocultural object.
@@ -339,26 +320,16 @@ size: contain
 	- CritQCM
 	- Reconceptualizations of quantification, measurement, and numeracy
 
-### **Exemplars**
-	Gillepsie : Four senses of the word algorithm
-	Hacking: Geneology of Statistics and Probability
+### **Examples**
+	Gillepsie: Four senses of the word algorithm
+	Hacking: genealogy of Statistics and Probability
 	Bowker: Raw data is an oxymoron
 
-### **Exemplars**
-	Velez et al : QuantCrit applied to spatial analysis
-	Johnson Jr.: CritQCM as a longer tradition of methodological innovation
+### **Examples**
+	Velez et al: QuantCrit applied to spatial analysis
+	Johnson Jr: CritQCM as a longer tradition of methodological innovation
 	des Freitas, Dixon-Roman, Lather: New materialism, cybernetics, Black epistemology
 
-
-
----
-# Timeline
-## Phase 1: Identify and analyze contemporary applications (June 2026 – December 2026)
-	*How are Hidden Markov Models (HMMs) used in contemporary machine learning and quantitative social science methods?*
-## Phase 2: Trace history and genealogy of HMMs (December 2026 – January 2027)
-	*What is the historical genealogy of Hidden Markov Models (HMMs) and how does it inform current mathematical formalizations?*
-## Phase 3: Construct Classification scheme (January 2027 – March 2027)
-	*What characteristics and properties can we use to classify HMM types and architectures?*
 
 ---
 
@@ -367,31 +338,35 @@ size: contain
 ### Identifying and Analyzing the Values Encoded Within Machine Learning Fairness Research
 
 
+
+
+
 ---
-# Context & Motivation
 
+# Whither Machine Learning Fairness
+	- ML systems shape high-stakes decisions in hiring, loans, medicine, and public life.
+	- Fairness has become a major research area across FAccT, ICML, and NeurIPS.
+	- But “fairness” is not a settled concept; it carries ethical, political, and philosophical assumptions.
+
+/assets/Clipboard 10.png
+size: contain
+
+ The Fairness Paradigm
+- Fairness research turns a complex social concept into a technical definition and metrics
+
+before I get started I am working ways to narrate the story of faact, in order to highlight the ways that this paradigm has marginalized and erased the work of Black women scholars and critical race scholars particularly in the social sciences and the humanities and represents the dominant but not only perspective on 
 
 ---
-
-# What is a value
-	Within philosophy of science literature a *value* is a property that is considered desirable
-
-
+# The Problems with Fairness Formalization
+	- Fairness research often turns a complex social concept into technical definitions and metrics.
+	- Formalization creates an abstraction boundary that removes important social context and systemic factors from problem formulation
+	- Encodes latent values and normative assumptions in formal representation
 
 
 ---
 # Research Questions
-	1. What are the values encoded in machine learning fairness research published in the ACM FAccT proceedings from its founding in 2018 until 2025? How do these values shape definitions, measures, and assessments of fairness within the literature and what does this indicate wider trends and normative frameworks in machine learning fairness research?
-	2. What are the limitations of a normative approach to fairness in machine learning fairness work?
-	3. What kind of abstractions do researchers and practitioners make when doing fairness work? How do these abstractions limit the efficacy of fairness interventions?
-
-
----
-
-	*   **Object of Analysis:** Corpus of Machine Learning Fairness articles.
-	*   **Approach:** Mixed methods (Computational + Qualitative coding).
-	*   **Goal:** Uncover normative frameworks and values encoded in the research itself.
-	*   **Finding:** What does the literature on "fairness" implicitly prioritize or exclude?
+	1. What latent values are encoded in machine learning fairness research published in the ACM FAccT, NeurIPS, and ICML proceedings from 2018-2026?
+	2. How do these values shape definitions, measures, and assessments of fairness within the literature, and what does this indicate about wider trends and normative frameworks in machine learning fairness research?
 
 
 ---
@@ -409,24 +384,33 @@ size: contain
 	- Critique of Fairness Implementations
 	- Critique of Fairness as a Target
 
-### **Exemplars**
-	Winner : Politics of Technical Artifacts
+### **Examples**
+	Winner: Politics of Technical Artifacts
 	Nissenbaum: Values of Computer Systems
 	Scheuerman et al: Values in Datasets
 	Birhane et al: Values in ML research
 
-### **Exemplars**
-	Narayanan : Definitions and Methods for Fairness
-	Selbst et al. : Algorithmic Frame Limits Fairness Implementations 
+### **Examples**
+	Narayanan: Definitions and Methods for Fairness
+	Selbst et al: Algorithmic Frame Limits Fairness Implementations 
 	Bui and Noble: Fairness as artifact of Liberalism
 
 
 ---
 
-# Methodology
-## A Mixed-Methods Approach 
-	(Qualitative + Computational + Intepretive)
+# A Mixed-Methods Approach 
+/assets/Clipboard 15.png
+size: contain
 
+(Qualitative + Computational + Interpretive)
+**Overarching Approach** Critical Technocultural Discourse Analysis
+**Qualitative** Content Analysis of Random Sample
+**Computational** Topic Modelling
+**Interpretive** Interpretive analysis of the Content analysis and Topic modelling results
+
+
+
+Incorporates qualitative, computational, and interpretive dimensions
 *   **Machine Learning (NMF):**
     *   Use **Non-negative Matrix Factorization (NMF)** to analyze large sets of visual and textual data.
     *   Uncover relationships and generate meaningful topics (Budahazy et al., 2021; Guo et al., 2024).
@@ -438,49 +422,42 @@ size: contain
 
 
 ---
+# Critical Technocultural Discourse Analysis
+	CTDA is the methodological and conceptual framework 
+	CTDA uses critical discourse analysis and interface analysis to analyze technoculture via critical cultural frameworks and multimodal Interpretive research methods
+Through CTDA I operationalize the Fairness discourse as a technocultural discourse and use multiple methods to extract and quantify the presence of dominant yet latent values and then read their discursive significance
+
+Three part framework
+fairness-as-artifact 
+fairness-as-practice 
+fairness-as-belief
+
+/assets/Clipboard 14.png
+size: contain
+
+modernity/liberalism is the operating system
+fairness is a system program
+people are building libraries that use fairness which then will go on to be implemented in applications
+
+---
 # Data Collection
-	Collect papers published in the ACM FAAcT proceedings between the years of 2019-2026 based on the following criteria:
+	Published in FAccT, ICML, and NeuIPS proceedings between the years of 2018-2026 based on the following criteria:
 	1. Fairness is one of the keywords and/or is included in the paper title
 	2. The paper includes some quantitative approach or mathematical formalization for the measurement of fairness
 	3. The paper includes a definition of fairness, either defined in the paper or outsourced via citation to another paper
-	These articles will be collected using Zotero
-
 
 ---
-# Critical Technocultural Discourse Anlysis
-	CTDA is the overarching methodological and conceptual framework for this project
-	Through CTDA I operationalize the Fairness discourse as a technocultural discourse and use multiple methods to quantify the presence of dominant values and then read their discursive significance
-
-
-/assets/Clipboard 7.png
-size: contain
-
-
-
----
-# Using this framework I understand the fairness discourse as a through the triad fairness-as-artifact, fairness-as-practice, and fairness-as-belief
-
-
----
-
----
-# The Analysis Will Consist of Three Phases
-Phase 1 Qualitative Content Analysis of a Random Sample of the corpus
-Phase 2 Computational Topic Modelling 
-Phase 3 Intepretive Interpreting the Topic Representations and Clusters
-|         | Mode of Analysis             | Method                  |
-| :------ | :--------------------------- | :---------------------- |
-| Phase 1 | Qualitative and Quantitative | Content Analysis        |
-| Phase 2 | Computational                | Topic Modelling         |
-| Phase 3 | Intepretive                  | Labelling and Anotating |
-
+# Data Pre-Processing
+	**Extract Metadata** Extract Authors, publication date, DOI, etc. using the Zotero API
+	**Optical Character Recognition**  
+	Use pdf2image to images using the python package pdf2image $\to$ use pytesseract to convert to text
 
 
 ---
 ### Qualitative and Quantitative
 # Content Analysis
-	Line-by-line analysis and annotation of a random sample of the corpus. Thematic coding will be completed based on a scheme developed by Birhane et al (2022) for identifying the values in machine learning research papers. 
-	After coding there will be an analysis step to identify patterns.
+	- Line-by-line analysis and annotation of a random sample of the corpus 
+	- based on annotation scheme developed by Birhane et al (2022) 
 
 
 ---
@@ -508,45 +485,28 @@ size: contain
 	Identifying limitations
 	…
 
----
-# Data Pre-Processing
-	**Extract Metadata** Extract Authors, publication date, DOI, etc. using the Zotero API
-	**Optical Character Recognition** Topic models require raw text as input. First the pdfs must be converted to images using the python package pdf2image, then use pytesseract to convert to text
 
 ---
 ### Computational
-# Topic Modelling
-	Topic modelling is a machine learning technique for identifying latent themes within text. Topic modeling methods such as BERTopic, Non-Negative Matrix Factorization, and Latent Dirichlet Allocation will be used to generate clusters of topics
- 
+# Topic Modelling:
+	a machine learning technique for identifying latent themes within text
+	**Topic modeling methods**
+	- BERTopic
+	 - Non-Negative Matrix Factorization
+	- Latent Dirichlet Allocation  
 
 
 ---
-### Intepretive
+### Interpretive
 # Writing Cluster Labels and Annotations
-	This step will consist of a close reading analysis of the topics returned from the topic modelling phase to make meaning of the topic clusters and using the lens of critical scholarship at the intersection of machine learning and racesurveyed in the literature review
+	Close reading and annotation of the topic clusters using an inductive and iterative process
+	1. Label topics
+	2. Look for patterns
+	3. Adjust parameters
+
+Topic models do not speak for themselves; this phase interprets clusters through the article’s critical framework based on the approach described by prof. posner
 
 
----
-
-
-# Timeline
-	[INSERT TIMELINE]
-
-Outcomes & Impact
-Developing Taxonomy and Informing Practice
-
-*   **Classification Scheme:**
-    *   Develop a taxonomy for definitions of fairness.
-    *   Identify pitfalls, limits, and reductive approaches in current research.
-*   **Broader Goal:**
-    *   Inform machine learning researchers and critical scholars.
-    *   Support the development of **fair and justice-oriented** approaches to algorithmic systems.
-*   **Significance:**
-    *   Leverages ML as a method alongside qualitative coding.
-    *   Ensures continued critical engagement with fairness as a normative framework.
-
-
-Anticipated Contributions
 
 
 ---
@@ -554,12 +514,24 @@ Anticipated Contributions
 
 ### Conclusion & Impact
 # Illuminating Algorithmic Power
-	*   **Summary:** This project seeks to critically engage with the mathematics, assumptions, and practices underling machine learning.
-	*   **Contribution:**
-	    *   Reveals the politics of machine learning methods and their underlying assumptions
-	    *   Highlights hidden values that guide machine learning practices and fairness discourse
-	    *   Propose Machine Learning hesitance as a DuBoisian framework for an alternative Quantitiative and Machine Learning Practice
+	This project critically engage with the mathematics, assumptions, and practices underling machine learning.
+	**Anticipated Contributions:**
+	*   Excavate the sociotechnical, historical, and epistemological aspects of Hidden Markov Models
+	-  Propose Machine Learning Hesitance as a DuBoisian framework for future Quantitative and machine learning practice
+	- Highlight hidden values that guide machine learning practices and fairness discourse
 *   **Next Steps:** Finalizing methodology for Article 1.
+
+How does this project open up different kinds of machine learning, mathematical, and computational practice
+possibility/futurity?
+---
+##### Timeline 
+/assets/gantt-1.pdf
+
+
+---
+
+/assets/gantt-2.pdf
+
 
 ---
 
@@ -570,93 +542,104 @@ Anticipated Contributions
 
 
 ---
-# Slide Archive
+
+# Appendix
+
+
+---
+| Period               | Milestones                                                                                                                                                                                                |
+| :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jun 2026             | Dissertation Proposal Oral Exam<br>Article 1 - Begin Literature Review<br>Article 2 - Identify and analyze contemporary applications of HMMs<br>Article 3 - Begin data collection and preprocessing phase |
+| July 2026 - Aug 2026 | Present Article 1 poster at the International Meeting of the Psychometric Society                                                                                                                         |
+| Sept 2026            | Article 3 - Begin content analysis of a random sample of the corpus                                                                                                                                       |
+| Oct 2026 - Nov 2026  | Participate in the Association of Internet Researchers Doctoral Colloquium                                                                                                                                |
+| Dec 2026             | Article 1 - Begin historical analysis phase of the iid assumption<br>Article 2 - Trace history and genealogy of HMMs                                                                                      |
 
 
 
 ---
-
-Disciplinary matrix and matrix of domination
-
----
-	I am investigating the values, practices, and norms of machine learning and the effect they have on society
-
-
----
-### Context & Motivation
-# Why Machine Learning
-
----
-
-### Context & Motivation
-# Why Critique the Mathematics?
-
-*   **Ubiquity:** ML drives decisions in institutions, corporations, and governments.
-- Mathematics operates as the hidden infrastructure of machine learning
-* 
-*   **Impact:** Algorithms affect society on a daily basis.
-*   **The Shift:** We must move beyond application to examine **how** knowledge claims are produced.
-*   **The Risk:** ML encodes values, norms, and beliefs that create downstream societal effects.
-
----
-
-### The Research Gap
-# What is Missing in Critical Data Studies?
-
-*   **Current Focus:** Prior scholarship largely prioritizes **Statistics**.
-*   **Historical Context:** Existing work explores the link between statistics and racial classification.
-*   **The Blind Spot:** **Linear Algebra** is critically underanalyzed.
-*   **The Infrastructure:** Math acts as the unseen infrastructure enabling algorithmic power.
-
-> **Thesis:** We must investigate the underlying mathematical methods to reveal the abstractions informing algorithms.
-
----
-
-### Theoretical Framework
-# Core Concepts: Abstraction & Infrastructure
-
-*   **Abstraction:** The problem formulation step that turns social problems into computational ones.
-*   **Topic Modelling:** Relies on latent semantic features within unstructured text.
-*   **Critical Lens:** Investigate the assumptions guiding the formulation of social problems into math problems.
-*   **Objective:** To expose the hidden role mathematics plays in social regulation.
-
----
-*   **Lens:** W.E.B. Du Bois' 1908 article, *Sociology Hesitant*.
-*   **Action:** Challenge existing abstraction and problem formulation paradigms.
-*   **Argument:** Connect Du Bois' social science critique to current ML abstraction techniques.
-*   **Outcome:** Expose how mathematical formalism shapes social problem definitions.
+| Period              | Milestones                                                                                                                                                                                      |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jan 2027 - Mar 2027 | Article 3 Begin topic modelling analysis of corpus                                                                                                                                              |
+| Apr 2027 - Jun 2027 | Article 1 - Begin conceptual mapping phase<br>Article 2 - Synthesize analysis and begin developing classification scheme<br>Article 3 - Begin interpretive analysis and integration of findings |
+| Jul 2027 - Oct 2027 | Begin organizing writing and drafting chapters<br>Article 3 - begin organizing GitHub repository and start preparing Colab notebook to present findings                                         |
+| Nov 2027 - Dec 2027 | Submit draft of dissertation to chair for review                                                                                                                                                |
+| Jan 2028            | Receive feedback from chair and incorporate feedback into next draft                                                                                                                            |
+| Feb 2028 - Mar 2028 | Submit draft to committee for review                                                                                                                                                            |
+| April 2028          | Incorporate feedback from committee and schedule defense                                                                                                                                        |
+| May 2028            | Dissertation defense                                                                                                                                                                            |
+| Jun 2028            | Submit Dissertation via ProQuest and Graduate                                                                                                                                                   |
 
 
 ---
+# Machine Learning as a Disciplinary Matrix
+
+/assets/Clipboard 3.png
+size: contain
+
+	A **disciplinary matrix** consists of four major components which I outline below:
+	 **Symbolic generalizations** are formal expressions that are deployed without question or dissent by group members which can be written in logical forms
+	 **Shared Commitments** to particular models shared commitments and beliefs in particular mental models and heuristics
+	**Values** are properties that are considered to be a desirable attribute for some theory, result, or other entity in scientific practice
+	 **Exemplars** refers to a canonical set of problems and solutions that often play a pedagogical role in the training of scientists or practitioners in a particular disciplinary formation.
+
+paradigm is a term that you commonly encounter in machine learning spaces and scholarship. One of the primary texts that has influenced perspective on paradigms within philosophy of science and STS is Kuhn’s famour work. In this book Kuhn seeks to understand scientific progress and innovation. In the main text Kuhn uses the term paradigm however, years later in a postscript he outlines a concept called a disciplinary matrix as an alternative definition of paradigm. 
+
+Building upon Kuhn I conceptualize of machine learning with four main components. 
+
+---
+#  Matrix of Domination
+	Patricia Hill Collins develops the concept of the matrix of domination and matrix thinking to analyze how society’s interlocking systems oppression differentially affect individuals
+	
+	
+	Individuals are located within this matrix by their racial, sex, gender classifications.  
+
+Next to the film we have the critical work by patricia hill collins where she introduces the matrix of domination. Matrix thinking provides a paradigm for us to understand the many dimensions of of how one might experience domination or oppression. Particularly focuses on Black women 
+
+/assets/Clipboard 4.png
+size: contain
+
+
+---
+# Assumptions and Limitations
+- theory, values, and politics mediate ml research and application
+
+
+
+
+
+---
+# Timeline
+## Phase 1: Identify and analyze contemporary applications (June 2026 – December 2026)
+	*How are Hidden Markov Models (HMMs) used in contemporary machine learning and quantitative social science methods?*
+## Phase 2: Trace history and genealogy of HMMs (December 2026 – January 2027)
+	*What is the historical genealogy of Hidden Markov Models (HMMs) and how does it inform current mathematical formalizations?*
+## Phase 3: Construct Classification scheme (January 2027 – March 2027)
+	*What characteristics and properties can we use to classify HMM types and architectures?*
+
+
+---
+# Timeline
+## Phase 1: Literature Review (June 2026 – Nov 2026)
+	*How is the i.i.d. assumption used in contemporary machine learning practice, and when it is used, how is it framed?*
+## Phase 2: Historical Analysis (Dec 2026 – Mar 2027)
+	*What are the origins of the i.i.d assumption within the history of mathematics and statistics, and how did this come to be adopted in machine learning?*
+## Phase 3: Conceptual Mapping (Apr 2027 – Jul 2027)
+	*What is the interrelated web of concepts, epistemological assumptions, and social implications in which	the i.i.d. assumption is embedded? How does hesitance challenge these concepts and their corresponding assumptions and abstractions?*
+	
+	
 
 
 ---
 
-## Critical Technocultural Discourse Analysis
-	CTDA is a method developed by Andre Brock to…
 
-## Dialectical Parallelism
-Dialectical Parallelism is a method developed by Philosophers Biko Mandela Gray and Ryan J. Johnson to..
- 
-
----
-
----
-	* **Method:** Reverse Engineering
-	*   **Object of Analysis:** Non-negative Matrix Factorization (NMF).
-	*   **Methodological Approach:**
-	    *  Trace history and geneology of the method
-	    *   Break down model into it’s components 
-	    *   Identify necessary assumptions and where values and politics may be encoded
-	    *  Analyze contemporary applications
-
-
----
----
-# Research Objective
-## Analyzing Fairness in Machine Learning Research
-
-*   **Goal:** Analyze definitions and mathematical formalizations of fairness within ML research.
-*   **Aim:** Classify different approaches to fairness and identify opportunities and limitations.
-*   **Focus:** Examining fairness as a normative framework within computational systems.
+# Timeline
+## Phase 1: Data Collection and Preprocessing (June 2026 - September 2026)
+	Assemble and preprocess corpus of fairness research papers from ACM FAccT, ICML, and NeurIPS proceedings (2018-2026)
+## Phase 2: Content Analysis (September 2026 - March 2027)
+	Conduct line-by-line analysis and annotation of a random sample 
+## Phase 3: Topic Modelling (March 2027 - June 2027)
+	Apply LDA, NMF, and BERTopic to the entire corpus to generate topic clusters
+## Phase 4: Interpretive Analysis and Integration of Findings (June 2027 - Dec 2027)
+	Interpret the results of the topic models obtained in the previous phase, compare and synthesize findings from the qualitative and computational phases
 
