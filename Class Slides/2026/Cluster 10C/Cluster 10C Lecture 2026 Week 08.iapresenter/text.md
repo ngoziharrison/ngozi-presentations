@@ -15,6 +15,10 @@
 		- Complete at home: ChatGPT before Guardrails (30min)
 
 
+
+https://www.youtube.com/watch?v=QO3nY_u6hos
+
+
 ---
 # Readings we will focus on today
 	Sadowski, J. (n.d.). Potemkin AI. Real Life. Retrieved January 8, 2025, from https://reallifemag.com/potemkin-ai/
