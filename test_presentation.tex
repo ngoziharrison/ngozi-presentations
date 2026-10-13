@@ -7,6 +7,8 @@
 \usepackage{fontspec}
 \setsansfont{Helvetica} 
 
+\usepackage{tikz-cd}
+\usepackage{quiver}
 
 
 % Theme
@@ -94,7 +96,17 @@
 
 \section{Ologs}
 \begin{frame}
-	content
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJQIl0sWzIsMCwiWSJdLFswLDIsIlgiXSxbMiwyLCJaIl0sWzAsMSwicF8xIl0sWzIsMywiZiJdLFswLDIsInBfMiIsMV0sWzEsMywiZyIsMV1d
+\[\begin{tikzcd}[ampersand replacement=\&]
+	P \&\& Y \\
+	\\
+	X \&\& Z
+	\arrow["{p_1}", from=1-1, to=1-3]
+	\arrow["{p_2}"{description}, from=1-1, to=3-1]
+	\arrow["g"{description}, from=1-3, to=3-3]
+	\arrow["f", from=3-1, to=3-3]
+\end{tikzcd}\]
+
 \end{frame}
 
 \section{Sheaves, Topoi, and Modeling Behavior}
