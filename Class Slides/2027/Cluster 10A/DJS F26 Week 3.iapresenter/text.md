@@ -65,7 +65,8 @@ https://www.youtube.com/watch?v=B9favqicBQQ
 /assets/Clipboard 12.png
 size: contain
 
-	The slavevoyages project uses data collection and visualization to provide a way to get a sense of how to process the vast amount of data collected and the scope of the transatlantic slave trade
+	The **SlaveVoyages** project uses data collection and visualization to help users understand the scope and scale of the transatlantic slave trade. The data collected here can be used to support further research and questions.
+	
 ---
 # What does data make in/visible?
 
@@ -116,11 +117,11 @@ https://www.youtube.com/watch?v=MrsJNmwoX6g
 
 ---
 # Sources
-Philip, M. N. (with McKittrick, K., & Hartman, S. V.). (2024). Zong! (Fifteenth-anniversary edition). Graywolf Press.
-Foucault, M., & Macey, D. (2003). Society must be defended: Lectures at the Collège de France, 1975-76 (M. Bertani, Ed.). Picador.
-Sharpe, C. E. (2016). In the wake: On Blackness and being. Duke University Press.
-McKittrick, K. (2014). Mathematics Black Life. The Black Scholar, 44(2), 16–28. https://doi.org/10.1080/00064246.2014.11413684
-Ferreira Da Silva, D. (2022). Unpayable Debt. Sternberg Press.
-Onuoha, Mimi. "The Point of Collection." Points. Data & Society, February 10, 2016. https://datasociety.net/points/the-point-of-collection/
+	Philip, M. N. (with McKittrick, K., & Hartman, S. V.). (2024). Zong! (Fifteenth-anniversary edition). Graywolf Press.
+	Foucault, M., & Macey, D. (2003). Society must be defended: Lectures at the Collège de France, 1975-76 (M. Bertani, Ed.). Picador.
+	Sharpe, C. E. (2016). In the wake: On Blackness and being. Duke University Press.
+	McKittrick, K. (2014). Mathematics Black Life. The Black Scholar, 44(2), 16–28. https://doi.org/10.1080/00064246.2014.11413684
+	Ferreira Da Silva, D. (2022). Unpayable Debt. Sternberg Press.
+	Onuoha, Mimi. "The Point of Collection." Points. Data & Society, February 10, 2016. https://datasociety.net/points/the-point-of-collection/
 
 
