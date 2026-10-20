@@ -53,7 +53,6 @@ Fall 2025
 ---
 # W.E.B. Du Bois 
 
-
 - Father of American Sociology
 - Sociologist, Philosopher, Pan African organizer, Civil Rights Activist, Science fiction writer
 - One of the founders of NAACP (National Association for the Advancement of Colored People)
