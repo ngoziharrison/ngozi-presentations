@@ -1,2 +1,10 @@
-\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Ologs}{4}{0}{2}
+\beamer@sectionintoc {1}{Motivation}{6}{0}{1}
+\beamer@sectionintoc {2}{Philosophical Preliminaries}{9}{0}{2}
+\beamer@sectionintoc {3}{The Categorical Paradigm}{11}{0}{3}
+\beamer@sectionintoc {4}{What is Category Theory?}{13}{0}{4}
+\beamer@sectionintoc {5}{Applied Category Theory}{16}{0}{5}
+\beamer@sectionintoc {6}{Knowledge Representation using Ologs}{18}{0}{6}
+\beamer@sectionintoc {7}{Functorial Data Migration and Categorical Databases}{19}{0}{7}
+\beamer@sectionintoc {8}{Categorical cybernetics}{20}{0}{8}
+\beamer@sectionintoc {9}{Socialism???}{21}{0}{9}
+\beamer@sectionintoc {10}{Appendix}{26}{1}{10}

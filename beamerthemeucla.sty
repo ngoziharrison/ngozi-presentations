@@ -103,7 +103,12 @@
 			  anchor=south, 
 			  above=0.0 of titleBar, 
 			  font={\usebeamercolor[fg]{title}\usebeamerfont{title}}] 
-			(title) {\inserttitle\par};
+			(title) {%
+    \inserttitle\par
+    \vspace{0.5em}
+    {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}%
+     \insertsubtitle\par}%
+};
 			
 		% Author:
 		\node[align=left, 
