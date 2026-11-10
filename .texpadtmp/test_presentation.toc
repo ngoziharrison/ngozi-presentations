@@ -1,10 +1,11 @@
 \beamer@sectionintoc {1}{Motivation}{6}{0}{1}
-\beamer@sectionintoc {2}{Philosophical Preliminaries}{9}{0}{2}
-\beamer@sectionintoc {3}{The Categorical Paradigm}{11}{0}{3}
-\beamer@sectionintoc {4}{What is Category Theory?}{13}{0}{4}
-\beamer@sectionintoc {5}{Applied Category Theory}{16}{0}{5}
-\beamer@sectionintoc {6}{Knowledge Representation using Ologs}{18}{0}{6}
-\beamer@sectionintoc {7}{Functorial Data Migration and Categorical Databases}{19}{0}{7}
-\beamer@sectionintoc {8}{Categorical cybernetics}{20}{0}{8}
-\beamer@sectionintoc {9}{Socialism???}{21}{0}{9}
-\beamer@sectionintoc {10}{Appendix}{26}{1}{10}
+\beamer@sectionintoc {2}{Philosophical Preliminaries}{10}{0}{2}
+\beamer@sectionintoc {3}{The Categorical Paradigm}{14}{0}{3}
+\beamer@sectionintoc {4}{What is Category Theory?}{16}{0}{4}
+\beamer@sectionintoc {5}{Applied Category Theory}{19}{0}{5}
+\beamer@sectionintoc {6}{Knowledge Representation using Ologs}{21}{0}{6}
+\beamer@sectionintoc {7}{Sheafification and Comparative Epistemology}{22}{0}{7}
+\beamer@sectionintoc {8}{Sheaffification and Comparative Epistemology}{26}{0}{8}
+\beamer@sectionintoc {9}{Categorical cybernetics}{26}{0}{9}
+\beamer@sectionintoc {10}{Socialism???}{27}{0}{10}
+\beamer@sectionintoc {11}{Appendix}{32}{1}{11}
