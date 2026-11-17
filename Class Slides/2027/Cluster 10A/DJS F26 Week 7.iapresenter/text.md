@@ -1,4 +1,4 @@
-# Data, Justice, and Society - Week 6
+# Data, Justice, and Society - Week 7
 	Ngozi Harrison
 	ngozih@g.ucla.edu
 	Fall 2026
@@ -80,11 +80,11 @@ size: contain
 
 ---
 # Brainstorming Keywords (5min)
-	Go to menti.com and enter code 9373 8751
+	Go to menti.com and enter code 9890 6188
 
 ---
 
-# Breaking down the promp activity (20min)
+# Breaking down the prompt activity (20min)
 	Open the breaking down the prompt document listed under week 7 on bruin learn
 	Make a copy and fill out this doc based on the assignment prompt
 
@@ -100,7 +100,7 @@ https://www.youtube.com/watch?v=jj-F6YVtsxI
 	- Link to Breaking Down a Prompt activity
 	- Questions you have about the assignment
 	- Photo of Research map
-	- Potential Research Topics
+	- Potential Research Topics/Research Questions
 
 
 
