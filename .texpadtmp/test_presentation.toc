@@ -1,6 +1,6 @@
-\beamer@sectionintoc {1}{Motivation}{6}{0}{1}
-\beamer@sectionintoc {2}{Philosophical Preliminaries}{10}{0}{2}
-\beamer@sectionintoc {3}{The Categorical Paradigm}{14}{0}{3}
+\beamer@sectionintoc {1}{Motivation}{5}{0}{1}
+\beamer@sectionintoc {2}{Philosophical Preliminaries}{9}{0}{2}
+\beamer@sectionintoc {3}{The Categorical Paradigm}{13}{0}{3}
 \beamer@sectionintoc {4}{What is Category Theory?}{16}{0}{4}
 \beamer@sectionintoc {5}{Applied Category Theory}{19}{0}{5}
 \beamer@sectionintoc {6}{Knowledge Representation using Ologs}{21}{0}{6}

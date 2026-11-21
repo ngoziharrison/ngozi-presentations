@@ -1,0 +1,87 @@
+---
+title: Hesitance, Social Ontology, and Concepts
+author: "Ngozi Harrison"
+date: 2026-06-05
+format: revealjs
+---
+
+### Outline 
+1. Motivation
+2. Philosophical Preliminaries
+3. The Categorical Paradigm
+4. What is Category Theory
+5. Basic Concepts of Category Theory
+6. Applied Category Theory
+7. Knowledge Representation using Ologs
+
+
+
+# {.center}
+::: {style="text-align: center;"}
+> To us power is, first of all, the ability to define phenomena, and secondly the ability to make these phenomena act in a desired manner. – Huey P. Newton
+:::
+
+# Motivation
+The motivation behind this work is to explore the interplay between hesitance, social ontology, and conceptual frameworks, and how these elements influence our understanding of power and social dynamics.
+
+
+# Philosophical Preliminaries
+
+## Concepts – Three Philosophical Perspectives {.smaller}
+- **Kant** Kantian philosophy emphasizes the role of concepts in structuring our experience of the world. Our ability to grasp experience is mediated by a priori concepts called the categories that structure the conditions of possibility for experience itself and reason.
+- **Hegel** Hegelian philosophy views concepts as dynamic and evolving within the context of historical and social development. The Concept (Begriff) is central to understanding the development of thought and reality in Hegel's system.
+- **Brandom** In *A Spirit of Trust*, Brandom focuses on the inferential role of concepts in our discursive practices, highlighting the social dimension of conceptual understanding and the role of norms in guiding our use of concepts.
+
+
+# Pedagogy of the Concept
+Deleuze and Guattari: Conceptual Personae and the Rhizome
+
+## Conceptual Desedimentation 
+ 
+:::: {.columns}
+
+::: {.column}
+contents...
+:::
+
+::: {.column}
+```{mermaid}
+flowchart LR
+  X([Derrida]) --> Y([Chandler])
+  W([Du Bois]) --> Y([Chandler])
+  Y([Chandler]) --> Z([Moten])
+```
+:::
+
+::::
+
+
+
+# What is Category Theory
+
+Category theory is a branch of mathematics that deals with abstract structures and relationships between them. It provides a unifying framework for understanding different mathematical concepts and their interconnections. In the context of social ontology and conceptual frameworks, category theory can help formalize and analyze the relationships between various social entities and concepts.
+
+
+## Basic Concepts of Category Theory
+
+::: {.callout-note title="Definition" icon="false"}
+
+**Category** A category $C$ consists of a collection of
+
+- Objects $X, Y, Z, \dots$.
+- Morphisms $f: X \to Y$ between objects, satisfying composition and identity properties.
+:::
+
+- For each object $X$ in a category $C$, there exists an identity morphism $\text{id}_X: X \to X$ 
+
+- For any two morphisms $f: X \to Y$ and $g: Y \to Z$ in a category $C$, there exists a composition morphism $g \circ f: X \to Z$ satisfying associativity and identity properties.
+
+# test 
+- **Object** An entity within a category.
+- **Morphism** A directed relationship (arrow) between two objects in a category.
+- **Composition** The process of combining two morphisms to form a new morphism.
+
+
+
+# contd
+- **Identity Morphism** A morphism that acts as a neutral element for composition, associated with each object in a category.

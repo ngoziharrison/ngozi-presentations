@@ -127,9 +127,9 @@ size: contain
 ---
 # The Contradictions of Technology
 	Technology simultaneously has repressive and emancipatory potentials
-
+	
 	- When we analyze the complex relationship between technology and society, we find that technology impacts society not in one way but many complex ways that contradict each other
-	We can analyze technology based on a dialectic of liberation and exploitation 
+	- We can analyze technology based on a dialectic of liberation and exploitation 
 	- We should pay attention to these contractions and follow them to identify the power relations and opposing forces that constrain the possibilities for technology and freedom
 
 
